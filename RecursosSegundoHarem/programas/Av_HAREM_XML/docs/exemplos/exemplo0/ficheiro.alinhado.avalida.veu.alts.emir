@@ -1,0 +1,32 @@
+#ABSTRACCAO(DISCIPLINA{OUTRO},ESTADO{OUTRO},IDEIA{OUTRO},NOME{OUTRO},OUTRO{OUTRO})::ACONTECIMENTO(EFEMERIDE{OUTRO},EVENTO{OUTRO},ORGANIZADO{OUTRO},OUTRO{OUTRO})::COISA(CLASSE{OUTRO},MEMBROCLASSE{OUTRO},OBJECTO{OUTRO},OUTRO{OUTRO},SUBSTANCIA{OUTRO})::ESPURIO::LOCAL(FISICO{ILHA;AGUACURSO;PLANETA;REGIAO;OUTRO;RELEVO;AGUAMASSA},HUMANO{RUA;PAIS;DIVISAO;REGIAO;CONSTRUCAO;OUTRO},OUTRO{OUTRO},VIRTUAL{COMSOCIAL;OUTRO;SITIO;OBRA})::OBRA(ARTE{OUTRO},OUTRO{OUTRO},PLANO{OUTRO},REPRODUZIDA{OUTRO})::OMITIDO::ORGANIZACAO(ADMINISTRACAO{OUTRO},EMPRESA{OUTRO},INSTITUICAO{OUTRO},OUTRO{OUTRO})::OUTRO(OUTRO{OUTRO})::PESSOA(CARGO{OUTRO},GRUPOCARGO{OUTRO},GRUPOIND{OUTRO},GRUPOMEMBRO{OUTRO},INDIVIDUAL{OUTRO},MEMBRO{OUTRO},OUTRO{OUTRO},POVO{OUTRO})::TEMPO(DURACAO{OUTRO},FREQUENCIA{OUTRO},GENERICO{OUTRO},OUTRO{OUTRO},TEMPO_CALEND{HORA;INTERVALO;OUTRO;DATA})::VALOR(CLASSIFICACAO{OUTRO},MOEDA{OUTRO},OUTRO{OUTRO},QUANTIDADE{OUTRO})
+DOC teste1
+<ALT>
+<ALT1>
+<EM ID="cdAlt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>]::[{Categoria(Correcto::[PESSOA] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[CARGO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.7916666666666665) Peso(1.0)}]
+</ALT1>
+<ALT2>
+<EM ID="cdAlt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM> ---> [<EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>]::[{Categoria(Correcto::[PESSOA] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[CARGO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.7916666666666665) Peso(1.0)}]
+<EM ID="cdAlt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[{Categoria(Correcto::[ORGANIZACAO] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[INSTITUICAO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.6666666666666665) Peso(1.0)}]
+</ALT2>
+<ALT3>
+<EM ID="cdAlt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM> ---> [<EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>]::[{Categoria(Correcto::[ORGANIZACAO] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[INSTITUICAO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.6666666666666665) Peso(1.0)}]
+</ALT3>
+<ALT4>
+<EM ID="cdAlt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras</EM> ---> [null]::[{Categoria(Correcto::[] Espurio::[] Em_Falta::[ORGANIZACAO] ) Tipo(Correcto::[] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(1.0) Peso(0.0)}]
+<EM ID="cdAlt4b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[{Categoria(Correcto::[ORGANIZACAO] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[INSTITUICAO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.6666666666666665) Peso(1.0)}]
+</ALT4>
+<EM CATEG="ESPURIO">Faculdade</EM> ---> [<EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>]::[{Categoria(Correcto::[] Espurio::[ORGANIZACAO] Em_Falta::[] ) Tipo(Correcto::[] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(0.9166666666666666) Peso(0.0)}]
+<EM CATEG="ESPURIO">Letras</EM> ---> [<EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>]::[{Categoria(Correcto::[] Espurio::[ABSTRACCAO] Em_Falta::[] ) Tipo(Correcto::[] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(0.9166666666666666) Peso(0.0)}]
+</ALT>
+<EM ID="cd2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM> ---> [<EM ID="sub2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM>]::[{Categoria(Correcto::[PESSOA] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[CARGO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.7916666666666665) Peso(1.0)}]
+<EM ID="cd3" CATEG="TEMPO" TIPO="TEMPO_CALEND">1999</EM> ---> [null]::[{Categoria(Correcto::[] Espurio::[] Em_Falta::[TEMPO] ) Tipo(Correcto::[] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(1.0) Peso(0.0)}]
+<EM ID="cd4" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM> ---> [<EM ID="sub3" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM>]::[{Categoria(Correcto::[LOCAL] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[HUMANO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[DIVISAO] Espurio::[] Em_Falta::[] ) CSC(3.5) Peso(1.0)}]
+<EM CATEG="ESPURIO">Ele</EM> ---> [<EM ID="sub0" CATEG="OUTRO">Ele</EM>]::[{Categoria(Correcto::[] Espurio::[OUTRO] Em_Falta::[] ) Tipo(Correcto::[] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(0.9166666666666666) Peso(0.0)}]
+
+
+DOC teste2
+<EM ID="cd5" CATEG="ACONTECIMENTO|ACONTECIMENTO|OBRA" TIPO="ORGANIZADO|EVENTO|PLANO" SUBTIPO="||">HAREM</EM> ---> [<EM ID="sub4" CATEG="ACONTECIMENTO" TIPO="EVENTO">HAREM</EM>]::[{Categoria(Correcto::[ACONTECIMENTO] Espurio::[] Em_Falta::[ACONTECIMENTO|OBRA] ) Tipo(Correcto::[EVENTO] Espurio::[] Em_Falta::[] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(2.6666666666666665) Peso(1.0)}]
+<EM ID="cd6" CATEG="COISA" TIPO="OBJECTO">Alinhador</EM> ---> [<EM ID="sub5" CATEG="COISA" TIPO="CLASSE">Alinhador</EM>]::[{Categoria(Correcto::[COISA] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[] Espurio::[CLASSE] Em_Falta::[OBJECTO] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(1.7166666666666666) Peso(1.0)}]
+<EM ID="cd7" CATEG="COISA" TIPO="OBJECTO">Ida</EM> ---> [<EM ID="sub6" CATEG="COISA" TIPO="CLASSE">Ida</EM>]::[{Categoria(Correcto::[COISA] Espurio::[] Em_Falta::[] ) Tipo(Correcto::[] Espurio::[CLASSE] Em_Falta::[OBJECTO] ) Subtipo(Correcto::[] Espurio::[] Em_Falta::[] ) CSC(1.7166666666666666) Peso(1.0)}]
+
+

@@ -1,0 +1,27 @@
+#Unigraph
+SIZE 1253 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+7
+"<E>" 70 200 1 5 
+"" 1162 174 0 
+"FADEUP+FAUP+FBAUP+FCNAUP+FCUP+FDUP+FEP+FEUP+FFUP+FLUP+FMDUP+FMUP+FPCEUP+ICBAS+Reitoria+SPUP+UP" 360 161 2 4 6 
+"Faculdade de Desporto+Faculdade de Arquitectura+Faculdade de Belas Artes+Faculdade de Ciências da Nutrição e Alimentaçao+Faculade de Ciências+Faculdade de Letras+Faculade de Economia+Faculdade de Engenharia+Faculdade de Farmácia+Faculdade de Ciências Sociais e Humanas+Faculdade de Medicina Dentária+Faculdade de Medicina+Faculdade de Psicologia e de Ciências da Educaçao+Faculdade de Ciências Médicas+Faculdade de Ciencias e Tecnologia+Faculdade de Ciências do Desporto e de Educaçao Física" 435 401 2 4 6 
+"da Universidade do Porto+da U.Porto+da UP+da Universidade da Beira Interior+da Universidade de Coimbra+da Universidade Nova de Lisboa" 780 76 1 6 
+"<E>/{" 149 199 2 2 3 
+"<E>/,.UNIDADE_ORGANICA}" 1012 174 1 1 

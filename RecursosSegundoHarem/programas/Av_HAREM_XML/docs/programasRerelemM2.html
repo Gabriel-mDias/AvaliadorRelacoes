@@ -1,0 +1,545 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>
+      Programas Segundo HAREM
+    </title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+<style type="text/css">
+<!--
+.codigo {font-family: "Courier New", Courier, mono; font-size:12px;}
+.bold {font-weight: bold}
+.modulo {margin: 10px; border: 2px solid; padding: 15px; background-color: #CCCCCC;}
+div.modulo a.titulo {font-weight: bold; font-size:20px; padding:15px 0px 15px 0px;}
+-->
+</style>
+  </head>
+  <body>
+    <h2>
+      Programas de avalia&ccedil;&atilde;o do ReRelEM
+    </h2>Hugo Gon&ccedil;alo Oliveira e Cristina Mota
+    <hr>
+    <ol>
+      <li>
+        <a href="#haremconf">O ficheiro harem.conf</a>
+      </li>
+      <li>
+        <a href="#notacao">Conversor da nota&ccedil;&atilde;o da
+        CD</a>
+      </li>
+      <li>
+        <a href="#classicos">Utiliza&ccedil;&atilde;o dos
+        programas cl&aacute;ssicos</a>
+</li>
+      <li> <a href="#expansao">Expandidor de rela&ccedil;&otilde;es</a> </li>
+      <li>
+        <a href="#seleccao">Seleccionador de alinhamentos</a>
+      </li>
+      <li>
+        <a href="#normalizacao">Normalizador de IDs</a>
+      </li>
+      <li><a href="#triplas">Alinhamentos para triplas </a></li>
+	  <li>
+        <a href="#veus">V&eacute;us ReRelEM</a>
+      </li>
+      <li>
+        <a href="#avaliacao">Avalia&ccedil;&atilde;o de
+        rela&ccedil;&otilde;es</a>
+      </li>
+      <li>
+        <a href="#resumo">Resumidor dos resultados</a>
+      </li>
+	  <li>
+        <a href="#resumo">Gerador de resultados</a>
+      </li>
+      <li>
+        <a href="#outros">Visualizador de rela&ccedil;&otilde;es </a></li>
+      <li>
+        <a href="#nota">Notas para utiliza&ccedil;&atilde;o </a></li>
+      <li><a href="#licen&#231;a">Licen&ccedil;a</a></li>
+    </ol>
+    <hr>
+    <p>
+      Neste documento descrevem-se de forma muito resumida os
+      programas utilizados na avalia&ccedil;&atilde;o da pista
+      do ReRelEM, integrada no Segundo HAREM.
+    </p>
+    <p>
+      Tendo como ponto de partida a CD do ReRelEM e uma
+      participa&ccedil;&atilde;o, a sequ&ecirc;ncia de
+      invoca&ccedil;&otilde;es &eacute; feita de acordo com a
+      ordem apresentada, sendo que a sa&iacute;da de cada
+    programa &eacute; a entrada do seguinte.</p>
+    <p>A avalia&ccedil;&atilde;o tem como ponto de partida a colec&ccedil;&atilde;o dourada do ReRelEM (CD) e as participa&ccedil;&otilde;es no HAREM e &eacute; feita atrav&eacute;s da invoca&ccedil;&atilde;o sequencial de m&oacute;dulos, pela ordem aqui apresentada. Cada m&oacute;dulo tem como entrada um (ou mais) ficheiros de texto, que s&atilde;o processados de forma a produzir um resultado pronto a ser tratado pelo m&oacute;dulo seguinte.<br>
+    </p>
+    <div class="modulo">
+      <a name="haremconf" id="haremconf" class="titulo">0. O ficheiro harem.conf</a>
+    <p>
+      Este <a href="harem.conf">ficheiro</a> &eacute; o mesmo
+      utilizado na avalia&ccedil;&atilde;o do HAREM
+      cl&aacute;ssico.
+    </p>
+    <p>
+      Para indicar o nome de uma rela&ccedil;&atilde;o &eacute;
+      necess&aacute;rio iniciar a linha com "R:" seguida do nome
+      da rela&ccedil;&atilde;o. Se a rela&ccedil;&atilde;o tiver
+      inversa, a &uacute;ltima deve ser colocada em frente, da
+      seguinte forma:<br>
+      <span class="codigo">R:relacao;inversa</span>
+    </p>
+    <p>
+      A primeira rela&ccedil;&atilde;o indicada deve ser a
+      identidade ("ident") sendo a ordem das restantes
+      rela&ccedil;&otilde;es irrelevante. H&aacute; no entanto
+      que dizer que o nome das rela&ccedil;&otilde;es base do
+      ReRelEM ("ident", "inclui", "incluido", "ocorre_em",
+      "sede_de") se deve manter inalterado devido &agrave; forma
+      como est&atilde;o implementadas as <a href=
+      "http://acdc.linguateca.pt/aval_conjunta/HAREM/ExpansaoReRelEM.html">
+      regras de transitividade</a>.
+    </p>
+  </div>
+
+<div class="modulo">
+      <a name="notacao" id="notacao" class="titulo">1. Conversor da nota&ccedil;&atilde;o da CD</a>
+    <p>
+      De forma a facilitar a identifica&ccedil;&atilde;o e
+      leitura de rela&ccedil;&otilde;es entre diferentes facetas
+      de EMs vagas foi criada uma nova nota&ccedil;&atilde;o para
+      esses casos. A CD foi modificada de acordo com essa
+      nota&ccedil;&atilde;o.
+    </p>
+    <p>
+      No entanto, como a nova nota&ccedil;&atilde;o n&atilde;o
+      &eacute; completamente compat&iacute;vel com programas
+      que j&aacute; tinham sido desenvolvidos nem com as
+      participa&ccedil;&otilde;es, foi criado um programa para
+      transformar a nova nota&ccedil;&atilde;o (a que chamamos
+      tipo 2) numa nota&ccedil;&atilde;o muito semelhante e
+      compat&iacute;vel com a nota&ccedil;&atilde;o original,
+      descrita nas <a href=
+      "http://acdc.linguateca.pt/aval_conjunta/HAREM/ReRelEM.html">
+      directivas do ReRelEM</a> (a que chamamos tipo 1).
+    </p>
+    <h4>
+      Exemplos dos tipos de nota&ccedil;&atilde;o:
+    </h4>
+    <p>
+      A diferen&ccedil;a na nota&ccedil;&atilde;o no tipo 2
+      encontra-se no preenchimento do campo TIPOREL:
+    </p>
+    <ul>
+      <li>
+        <strong>Tipo 1</strong> (sem especifica&ccedil;&atilde;o
+        de facetas relacionadas): <span class="codigo">&lt;EM
+        ID="X" CATEG="CATORIGEM1|CATORIGEM2" COREL="ID1 ID1 ID2"
+        TIPOREL="rel1 rel2 rel3"&gt;</span>;
+      </li>
+      <li>
+        <strong>Tipo 2</strong>: <span class="codigo">&lt;EM
+        ID="X" CATEG="CATORIGEM1|CATORIGEM2"
+        TIPOREL="CATORIGEM1**rel1**ID1**CATALVO1
+        CATORIGEM2**rel2**ID1**CATALVO1
+        CATORIGEM1**rel3**ID2**CATALVO1"&gt;</span>;
+      </li>
+      <li>
+        <strong>Tipo 1</strong> (com especifica&ccedil;&atilde;o
+        de facetas relacionadas): <span class="codigo">&lt;EM
+        ID="X" CATEG="CATORIGEM1|CATORIGEM2" COREL="ID1 ID2 ID2"
+        TIPOREL="rel1 rel2 rel3" FAC_ORIGEM="CATORIGEM1
+        CATORIGEM2 CATORIGEM1" FAC_ALVO="CATALVO1 CATALVO1
+        CATALVO1"&gt;</span>.
+      </li>
+    </ul>
+    <p>
+      No tipo 2, o atributo TIPOREL cont&eacute;m
+      respectivamente: a faceta da pr&oacute;pria EM (CATORIGEM)
+      que entra na rela&ccedil;&atilde;o, o tipo da
+      rela&ccedil;&atilde;o (TIPOREF), o ID da EM relacionada
+      (COREL) e a faceta da EM relacionada (CATALVO). Esta
+      nota&ccedil;&atilde;o &eacute; transformada no tipo 1
+      criando dois novos atributos (FAC_ORIGEM e FAC_ALVO).
+    </p>
+    <p>
+      A convers&atilde;o &eacute; aplicada na CD e tamb&eacute;m
+      nas participa&ccedil;&otilde;es. Quando se tratam de
+      rela&ccedil;&otilde;es entre EMs vagas e existe a
+      informa&ccedil;&atilde;o das facetas
+      relaciondas, FAC_ORIGEM e FAC_ALVO s&atilde;o preenchidos
+      com essas mesmas facetas. Quando essa
+      informa&ccedil;&atilde;o n&atilde;o existe (EMs simples ou
+      EMs na participa&ccedil;&atilde;o, onde essa
+      informa&ccedil;&atilde;o n&atilde;o existe) os atributos
+      s&atilde;o preenchidos com a categoria das EMs
+      relacionadas.
+    </p>
+    <p>
+      Exemplo concreto:
+    </p>
+    <p>
+      Tipo1:
+    </p>
+    <ul>
+      <li>
+        <span class="codigo">&lt;EM ID="X"
+        CATEG="LOCAL"&gt;Europa&lt;/EM&gt;</span>
+      </li>
+      <li>
+        <span class="codigo">&lt;EM ID="Y"
+        CATEG="LOCAL|ORGANIZACAO"&gt;UE&lt;/EM&gt;</span>
+      </li>
+      <li>
+        <span class="codigo">&lt;EM ID="Z"
+        CATEG="LOCAL|ORGANIZACAO" COREL= "X Y Y" TIPOREL=
+        "incluido incluido incluido" FAC_ORIGEM= "LOCAL LOCAL
+        ORGANIZACAO" FAC_ALVO= "LOCAL LOCAL
+        ORGANIZACAO"&gt;Portugal&lt;/EM&gt;</span>
+      </li>
+    </ul>
+    <p>
+      Tipo2:
+    </p>
+    <ul>
+      <li>
+        <span class="codigo">&lt;EM ID="X"
+        CATEG="LOCAL"&gt;Europa&lt;/EM&gt;</span>
+      </li>
+      <li>
+        <span class="codigo">&lt;EM ID="Y"
+        CATEG="LOCAL|ORGANIZACAO"&gt;UE&lt;/EM&gt;</span>
+      </li>
+      <li><span class="codigo">&lt;EM ID="Z" CATEG="LOCAL|ORGANIZACAO" COREL=
+      "X Y Y" TIPOREL= "LOCAL**incluido**X**LOCAL
+      LOCAL**incluido**Y**LOCAL
+      ORGANIZACAO**incluido**Y**ORGANIZACAO&gt;Portugal&lt;/EM&gt;</span>
+      </li>
+    </ul>
+    <p>
+      A nota&ccedil;&atilde;o tipo 2 &eacute; apenas utilizada
+      quando existem rela&ccedil;&otilde;es entre facetas de EMs
+      vagas. Quando isso n&atilde;o acontece, deve continuar a
+      utilizar-se o tipo 1, podendo nesse caso encontrar-se ambos
+      no mesmo TIPOREL. Por exemplo:
+    </p>
+    <ul>
+      <li>
+        <span class="codigo">&lt;EM ID="A"
+        CATEG="ORGANIZACAO"&gt;PSE&lt;/EM&gt;</span>
+      </li>
+      <li>
+        <span class="codigo">&lt;EM ID="B"
+        CATEG="ABSTRACCAO|ORGANIZACAO|LOCAL"&gt;Estrasburgo&lt;/EM&gt;</span>
+      </li>
+      <li>
+        <span class="codigo">&lt;EM ID="C" CATEG="ORGANIZACAO"
+        COREL="A B" TIPOREL="inclui
+        ORGANIZACAO**ocorre_em**B**LOCAL"&gt;Parlamento
+        Europeu&lt;/EM&gt;</span>
+      </li>
+    </ul>
+    <p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+      .;lib/jdom.jar pt.linguateca.harem.RerelemChangeNotationM2      &lt;coleccao.xml&gt; &gt;
+      coleccao_convertida.xml</span>
+    </p>
+  </div>
+<div class="modulo">
+  <a name="classicos" id="classicos" class="titulo">2. Utiliza&ccedil;&atilde;o dos programas cl&aacute;ssicos</a>
+<p>
+      Nos quatro passos seguintes da avalia&ccedil;&atilde;o ReRelEM s&atilde;o utilizados os
+      <a href="programas.html">programas de
+      avalia&ccedil;&atilde;o do HAREM cl&aacute;ssico</a>:
+  </p>
+    <ul>
+      <li>
+        <a href="programas.html#alinhador">Alinhador</a>:
+        utilizado para alinhar as EMs da
+        participa&ccedil;&atilde;o com as EMs na CD do ReRelEM (a
+        CD do ReRelEM &eacute; um sub-conjunto do textos da CD
+        HAREM, anotados de acordo com as <a href=
+        "http://acdc.linguateca.pt/aval_conjunta/HAREM/ReRelEM.html">
+        directivas do ReRelEM</a>);
+      </li>
+      <li>
+        <a href="programas.html#avalida">Avaliador</a>:
+        avalia&ccedil;&atilde;o dos alinhamentos;
+      </li>
+      <li>
+        <a href="programas.html#veus">V&eacute;us</a>:
+        elimina&ccedil;&atilde;o de alinhamentos fora do
+        cen&aacute;rio especificado (se for o caso) e tratamento
+        de alinhamentos parcialmente correctos;
+      </li>
+      <li>
+        <a href="programas.html#alts">Organizador de ALTs</a>:
+        organiza&ccedil;&atilde;o das alternativas na
+        segmenta&ccedil;&atilde;o (ALTs).
+      </li>
+    </ul>
+    Para mais detalhes sobre a utiliza&ccedil;&atilde;o
+    destes programas, consulte <a href="programas.html">estas</a>
+    instru&ccedil;&otilde;es.
+  </div>
+  <div class="modulo">
+        <a name="expansao" id="expansao" class="titulo">
+		3. Expandidor de rela&ccedil;&otilde;es</a>
+    <p>
+      O m&oacute;dulo Expandidor tem como miss&atilde;o aplicar regras para a
+    explicita&ccedil;&atilde;o de rela&ccedil;&otilde;es.</p>
+    <p>Nessas regras a aplicar encontra-se o c&aacute;lculo da inversa (de
+      acordo com o que estiver definido no ficheiro harem.conf)
+      e <a href="http://acdc.linguateca.pt/aval_conjunta/HAREM/ExpansaoReRelEM.html">outras regras</a>. </p>
+    <p class="bold">
+      <strong>Procedimento:</strong>
+    </p>
+    <ol>
+      <li>Explicitar todas as rela&ccedil;&otilde;es inversas
+      impl&iacute;citas;
+      </li>
+      <li>Enquanto a aplica&ccedil;&atilde;o das regras de
+      transitividade a todos os pares de rela&ccedil;&otilde;es
+      existentes der origem a novas rela&ccedil;&otilde;es,
+      explicitar as inversas impl&iacute;citas
+      </li>
+    </ol>
+    <p><strong>Op&ccedil;&otilde;es</strong>:  </p>
+    <ul>
+        <li><span class="codigo">-exptudo</span>: <span class="codigo">sim</span> ou sem a op&ccedil;&atilde;o se se pretender expandir as rela&ccedil;&otilde;es
+        na CD e participa&ccedil;&atilde;o; <span class="codigo">nao</span></li> para expandir apenas as rela&ccedil;&otilde;es na CD.
+        <li><span class="codigo">-normaliza_tipos</span>: passa todos os tipos de rela&ccedil;&otilde;es n&atilde;o b&aacute;sicos para "outra",
+        antes de uma eventual explicita&ccedil;&atilde;o de inversa. De acordo com o harem.conf utilizado, alguns tipos n&atilde;o b&aacute;sicos t&ecirc;m inversa</li>
+        <li><span class="codigo">-part_tipo_cd</span>: indica que a participa&ccedil;&atilde;o est&aacute; no tipo da CD. Quer isto dizer que todas as
+        rela&ccedil;&otilde;es anotadas s&atilde;o entre facetas definidas e nunca categorias vagas.</li>
+        <li><span class="codigo">-depurar</span>: A sa&iacute;da apresenta tamb&eacute;m as rela&ccedil;oes combinadas para obter novas.</li>
+  </ul>
+  <p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+      .;lib/jdom.jar pt.linguateca.harem.RelationExpanderM2
+      -alinhamento ficheiro.alinhado.alts [-exptudo
+      &lt;sim|nao&gt;] &gt;
+      ficheiro.alinhado.alts.expandido</span>
+</p>
+    <p><span class="bold">Sa&iacute;da:</span><br>
+    Alinhamentos com as rela&ccedil;&otilde;es expandidas. </p>
+</div>
+  <div class="modulo">
+      <a name="seleccao" id="seleccao" class="titulo">
+	  4. Seleccionador de alinhamentos</a>
+    <p>Aplicado para restringir o conjunto de alinhamentos &agrave;s respostas correctas do sistema. Alinhamentos esp&uacute;rios, em falta ou com a categoria errada s&atilde;o eliminados. Nos restantes alinhamentos mant&ecirc;m-se apenas as categorias comuns na EM do lado da CD e do participa&ccedil;&atilde;o.</p>
+    <p><strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp .;lib/jdom.jar pt.linguateca.harem.AlignmentSelector -alinhamento ficheiro.alinhado.alts.expandido &gt; ficheiro.alinhado.alts.expandido.seleccionado</span></p>
+    <p><span class="bold">Sa&iacute;da:</span><br>
+    Alinhamentos correctos e com categorias iguais do lado da CD e participa&ccedil;&atilde;o. </p>
+</div>
+<div class="modulo">
+      <a name="normalizacao" id="normalizacao" class="titulo">5. Normalizador de IDs</a>
+	<p>Utilizado para normalizar os IDs das EMs nos
+    alinhamentos de forma a possibilitar a
+    compara&ccedil;&atilde;o das rela&ccedil;&otilde;es do lado
+    da CD com as rela&ccedil;&otilde;es do lado da
+    participa&ccedil;&atilde;o.
+	As entradas dos atributos COREL, TIPOREL, FAC_ORIGEM e FAC_ALVO s&atilde;o tamb&eacute;m normalizadas. Os IDs em COREL s&atilde;o adaptados aos novos IDs e as rela&ccedil;&otilde;es com pelo menos um ID ou conjunto ID+faceta inexistente s&atilde;o removidas.</p>
+    <p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+      .;lib/jdom.jar pt.linguateca.harem.IDNormalizer
+      -alinhamento ficheiro.alinhado.alts.expandido.seleccionado &gt;
+      ficheiro.alinhado.alts.expandido.seleccionado.normalizado</span>
+</p>
+    <p><span class="bold">Sa&iacute;da:</span><br>
+Alinhamentos onde as EMs do lado participa&ccedil;&atilde;o t&ecirc;m o ID igual ao da EM do lado da CD com que est&atilde;o alinhadas e os IDs no campo COREL seguem tamb&eacute;m essa normaliza&ccedil;&atilde;o. </p>
+</div>
+<div class="modulo">
+  <p><a name="triplas" id="triplas" class="titulo">6. Alinhamentos para Triplas</a>
+</p>
+  <p>Este m&oacute;dulo tem como objectivo alterar a nota&ccedil;&atilde;o utilizada pelos m&oacute;dulos anteriores, transformando a nota&ccedil;&atilde;o de alinhamentos numa nota&ccedil;&atilde;o de triplas.</p>
+  <p>Uma tripla &eacute; constitu&iacute;da pelo ID da categoria origem (ou ID+faceta), o tipo da rela&ccedil;&atilde;o e o ID da categoria alvo (ou ID+faceta), por exemplo:<br>
+    <span class="codigo">ABC LOCAL inclui XYZ LOCAL</span></p>
+  <p>Op&ccedil;&otilde;es:
+  <ul>
+  	<li><span class="codigo">-normaliza_tipos</span> para  passa todos os tipos de rela&ccedil;&otilde;es n&atilde;o b&aacute;sicos para tipo "outra".</li>
+  	<li><span class="codigo">-part_tipo_cd</span>: indica que a participa&ccedil;&atilde;o est&aacute; no tipo da CD. Quer isto dizer que todas as
+        rela&ccedil;&otilde;es anotadas s&atilde;o entre facetas definidas e nunca categorias vagas.</li>
+   </ul></p>
+  <p><strong>Invoca&ccedil;&atilde;o:</strong><br>
+    <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp .;lib/jdom.jar pt.linguateca.harem.RelationExpanderM2 -alinhamento ficheiro.alinhado.alts.expandido.seleccionado.normalizado [-exptudo &lt;sim|nao&gt;] &gt; ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas</span></p>
+  <p><span class="bold">Sa&iacute;da:</span><br>
+  Conjuntos de rela&ccedil;&otilde;es (representadas por triplas) do lado da CD e do lado da participa&ccedil;&atilde;o.</p>
+</div>
+
+<div class="modulo">
+    	<a name="veus" id="veus" class="titulo">7. V&eacute;us ReRelEM</a>
+    	<p>Semelhante aos filtros do HAREM cl&aacute;ssico, mas para o tipo de rela&ccedil;&otilde;es. Aos conjuntos de rela&ccedil;&otilde;es do lado da CD e do lado da participa&ccedil;&atilde;o s&atilde;o removidas aquelas que cujo tipo n&atilde;o se encontra no conjunto de tipos pretendidos.</p>
+    	<p><strong>Op&ccedil;&atilde;o</strong>:<br>
+    	  O filtro &eacute; especificado atrav&eacute;s da op&ccedil;&atilde;o -filtro seguida de uma lista de tipos de rela&ccedil;&atilde;o, separados por &quot;;&quot;. N&atilde;o especificando um filtro, nenhuma rela&ccedil;&atilde;o &eacute; removida.</p>
+	    <p> <strong>Invoca&ccedil;&atilde;o:</strong><br>
+            <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp .;lib/jdom.jar pt.linguateca.harem.RelationsFilter -alinhamento ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas [-filtro tiporel1;tiporel2] &gt; ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas.filtrado</span></p>
+	    <p><span class="bold">Sa&iacute;da:</span><br>
+Conjuntos de rela&ccedil;&otilde;es do lado da CD e do lado da participa&ccedil;&atilde;o, filtrados de acordo com o cen&aacute;rio </p>
+</div>
+	<div class="modulo">
+      <a name="avaliacao" id="avaliacao" class="titulo">8. Avaliador de rela&ccedil;&otilde;es</a>
+      <p>Avalia&ccedil;&atilde;o das rela&ccedil;&otilde;es
+    marcadas na participa&ccedil;&atilde;o, comparando com o que
+    est&aacute; marcado na CD. A sa&iacute;da desta etapa consiste numa lista de rela&ccedil;&otilde;es  completamente correctas, com os argumentos certos e tipo errado (COREL correcto), esp&uacute;rias e em falta. Em frente a cada rela&ccedil;&atilde;o &eacute; colocada a sua avalia&ccedil;&atilde;o (Avalia&ccedil;&atilde;o) e a sua pontua&ccedil;&atilde;o de acordo com a <a href="http://acdc.linguateca.pt/aval_conjunta/HAREM/AvalReRelEM.html">f&oacute;rmula de avalia&ccedil;&atilde;o do ReRelEM</a>. Uma rela&ccedil;&atilde;o pode ser classificada como Correcta, COREL Correcto, Esp&uacute;ria, Em Falta.</p>
+    <p><span class="bold"> Compara&ccedil;&atilde;o de rela&ccedil;&otilde;es: </span><br>
+    Uma rela&ccedil;&atilde;o <span class="codigo">A relacao1 B</span> &eacute; igual
+    a uma <span class="codigo">X relacao2 Y</span> apenas se forem do mesmo tipo (<span class="codigo">relacao1
+    = relacao2</span>) e se os seus argumentos forem iguais e estiverem
+    na mesma ordem (<span class="codigo">A=X </span>e<span class="codigo"> B=Y</span>).
+</p>
+    <p><span class="bold">C&aacute;lculos adicionais:</span><br>
+      Al&eacute;m da avalia&ccedil;&atilde;o das rela&ccedil;&otilde;es s&atilde;o calculados, alguns valores para facilitar o c&aacute;lculo das medidas finais na pr&oacute;xima fase. Para cada documento s&atilde;o marcados os seguintes valores: </p>
+    <ul>
+      <li><span class="codigo">Rels_CD</span>: total de rela&ccedil;&otilde;es do lado da CD;</li>
+      <li><span class="codigo">Rels_Part</span>: total de rela&ccedil;&otilde;es do lado da participa&ccedil;&atilde;o;</li>
+      <li><span class="codigo">Corels_CD</span>: total de pares &uacute;nicos de argumentos do lado da CD (utilizado apenas pelos tipos de avalia&ccedil;&atilde;o desaconselhados);</li>
+      <li><span class="codigo">Corels_Part</span>: total de pares &uacute;nicos de argumentos do lado da participa&ccedil;&atilde;o (utilizado apenas para os tipos de avalia&ccedil;&atilde;o desaconselhados);</li>
+      <li><span class="codigo">CorelsCorrectos</span>: total de rela&ccedil;&otilde;es com os argumentos correctos (utilizado apenas pelos tipos de avalia&ccedil;&atilde;o desaconselhados).</li>
+    </ul>
+    <p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+      .;lib/jdom.jar pt.linguateca.harem.RelationsEvaluatorM2
+      -alinhamento ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas.filtrado &gt;
+      ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas.filtrado.avaliado</span>
+</p>
+    <p><span class="bold">Sa&iacute;da:</span><br>
+      Conjuntos de rela&ccedil;&otilde;es avaliadas. </p>
+	</div>
+	<div class="modulo">
+      <a name="resumidor" id="resumidor" class="titulo">9. Resumidor dos resultados</a>
+
+	<p>Resume os v&aacute;rios resultados que se podem retirar
+    da avalia&ccedil;&atilde;o das rela&ccedil;&otilde;es,
+    separados em tr&ecirc;s partes:
+	<ul>
+      <li><span class="codigo">Avalia&ccedil;&atilde;o de Rela&ccedil;&otilde;es</span>: m&eacute;tricas de
+      avalia&ccedil;&atilde;o tendo em conta as
+      rela&ccedil;&otilde;es completas (argumentos e tipo);
+	 </li>
+      <li><span class="codigo">Avalia&ccedil;&atilde;o de CORELs</span>: m&eacute;tricas de avalia&ccedil;&atilde;o tendo em conta apenas os argumentos das rela&ccedil;&otilde;es; </li>
+      <li><span class="codigo">Pontua&ccedil;&atilde;o ReRelEM</span>: m&eacute;tricas de
+      avalia&ccedil;&atilde;o tendo em conta a aplica&ccedil;&atilde;o da <a href=
+      "http://acdc.linguateca.pt/aval_conjunta/HAREM/AvalReRelEM.html">f&oacute;rmula de
+      avalia&ccedil;&atilde;o do ReRelEM</a>.</li>
+    </ul>
+	</p>
+(Nota: o &uacute;nico tipo de avalia&ccedil;&atilde;o oficial &eacute; o primeiro, Avalia&ccedil;&atilde;o de Rela&ccedil;&otilde;es, onde cada rela&ccedil;&atilde;o correcta vale 1, caso contr&aacute;rio vale 0).
+<p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+      .;lib/jdom.jar pt.linguateca.harem.GlobalRelationsEvaluatorM2
+      -alinhamento
+      ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas.filtrado.avaliado &gt;
+      ficheiro.alinhado.alts.expandido.seleccionado.normalizado.triplas.filtrado.avaliado.resumo</span>
+</p>
+    <p><span class="bold">Sa&iacute;da:</span><br>
+      Resumo das v&aacute;rias medidas alcan&ccedil;adas pela participa&ccedil;&atilde;o. </p>
+  </div>
+<div class="modulo">
+      <a name="resultados" id="resultados" class="titulo">10. Gerador de resultados</a>
+ 	<p>Em tudo semelhante ao gerador de resultados para o HAREM cl&aacute;ssico. Utiliza todos os ficheiros do tipo .resumo com termina&ccedil;&atilde;o pretendida e que se encontrem dentro de determinada&nbsp;directoria e subdirectorias (ambos dados como argumento) para gerar uma tabela HTML com os v&aacute;rios sistemas e respectivas classifica&ccedil;&otilde;es do ReRelEM, ordenados pela melhor Medida-F.<br>
+      <br>
+      <span class="bold">Op&ccedil;&otilde;es: </span></p>
+ 	<ul>
+      <li><span class="codigo">-depurar</span>: se esta op&ccedil;&atilde;o n&atilde;o estiver presente a identifica&ccedil;&atilde;o dos sistemas &eacute; anonimizada. </li>
+      <li><span class="codigo">-filtro</span>: termina&ccedil;&atilde;o dos ficheiros de onde se pretende extrair as classifica&ccedil;&otilde;es. Se se pretender gerar resultados para apenas um cen&aacute;rio de avalia&ccedil;&atilde;o, ser&aacute; conveniente dar uma termina&ccedil;&atilde;o pelo menos a partir do sufixo do nome dos ficheiro que identifica o v&eacute;u utilizado na sua constru&ccedil;&atilde;o. (Por exemplo ".total.alts.seleccionado.normalizado.expandido.ident.avaliado.resumo"). </li>
+      <li><span class="codigo">-dir</span>: direct&oacute;rio onde procurar os ficheiros (caminho relativo a partir de onde &eacute; feita a invoca&ccedil;&atilde;o). </li>
+      <li><span class="codigo">-info</span>: com esta op&ccedil;&atilde;o &eacute; dado ao programa um ficheiro <a href="lista_participantes.csv">CSV com a informa&ccedil;&atilde;o dos v&aacute;rios sistemas </a> que &eacute; utilizado para o nome do sistema apare&ccedil;a na tabela. Se a op&ccedil;&atilde;o n&atilde;o for utilizada ou se n&atilde;o for poss&iacute;vel associar o nome do ficheiro com um sistema, a linha da tabela &eacute; identificada pelo nome do ficheiro. </li>
+      <li><span class="codigo">-desaconselhadas</span>: se esta op&ccedil;&atilde;o for utilizada os resultados apresentar&atilde;o n&atilde;o s&oacute; a avalia&ccedil;&atilde;o oficial (Avalia&ccedil;&atilde;o de rela&ccedil;&otilde;es), mas tamb&eacute;m outros modos de avalia&ccedil;&atilde;o entretanto abandonados (avalia&ccedil;&atilde;o de COREL e avalia&ccedil;&atilde;o atrav&eacute;s da f&oacute;rmula do ReRelEM). </li>
+ 	</ul>
+  <p><span class="bold">Invoca&ccedil;&atilde;o:</span> <br>
+    <span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp .;lib/jdom.jar pt.linguateca.harem.GlobalRelationsReporter&nbsp;[-depurar] -filtro <em>filtro</em> -dir <em>directorio_participacoes</em> [-info <em>lista_participantes.csv</em> ] &gt; resultados.html</span></p>
+    <p> <span class="bold">Sa&iacute;da: </span><br>
+HTML com os sistemas e respectivas&nbsp;classifica&ccedil;&otilde;es representadas em todos os ficheiros na directoria directorio_participacoes terminados em filtro e ordenadas pela melhor Medida-F.</p>
+</div>
+<div class="modulo">
+  <a name="outros" id="outros" class="titulo">Visualizador de rela&ccedil;&otilde;es </a>
+  <p>Programa que permite visualizar o grafo com as
+    rela&ccedil;&otilde;es nos v&aacute;rios documentos anotados de acordo com o ReRelEM.<br>
+    O Visualizador tem como entrada (se nada for especificado) um ficheiro de alinhamentos, como a sa&iacute;da do organizador de ALTs ou do Expandidor.
+    &Eacute; tamb&eacute;m poss&iacute;vel ter uma entrada onde as rela&ccedil;&otilde;es est&atilde;o representadas sob a nota&ccedil;&atilde;o de triplas  (utilizando a op&ccedil;&atilde;o -entrada triplas), como a sa&iacute;da do V&eacute;us ReRelEM.</p>
+    <p>No grafo apresentado a cor das liga&ccedil;&otilde;es entre os n&oacute;s corresponde a um tipo de
+      rela&ccedil;&atilde;o. Legenda:
+    </p>
+    <ul>
+      <li>
+        <font color="green">ident</font>
+      </li>
+      <li>
+        <font color="red">inclui</font>
+      </li>
+      <li>
+        <font color="magenta">incluido</font>
+      </li>
+      <li>
+        <font color="blue">ocorre_em</font>
+      </li>
+      <li>
+        <font color="cyan">sede_de</font>
+      </li>
+      <li>
+        <font color="black">outra rela&ccedil;&atilde;o</font>
+      </li>
+    </ul>
+    <p>
+      <strong>Op&ccedil;&otilde;es</strong>
+    </p>
+    <ul>
+      <li><span class="codigo">-ver</span>: para seleccionar se se pretende visualizar
+          apenas o grafo do lado da CD (cd) ou do lado da
+      participa&ccedil;&atilde;o (part);</li>
+      <li><span class="codigo">-doc</span>: para seleccionar o documento utilizado para desenhar o grafo. Esta op&ccedil;&atilde;o deve ser seguida do ID de um documento presente no ficheiro de entrada. </li>
+      <li><span class="codigo">-entrada</span>: para indicar o formato do ficheiro de entrada (por omiss&atilde;o &eacute; considerado que o ficheiro est&aacute; na nota&ccedil;&atilde;o de alinhamentos). </li>
+      <li><span class="codigo">-nos</span>: para escolher a forma de identificar os n&oacute;s no grafo. Por omiss&atilde;o cada n&oacute; &eacute; identificado pelo seu ID ou ID+faceta.</li>
+      </ul>
+    <p>
+      <strong>Invoca&ccedil;&atilde;o:</strong><br>
+      <span class="codigo">java -Dfile.encoding=ISO-8859-1 cp
+      .;lib/jdom.jar;lib/jgraph.jar
+      pt.linguateca.harem.ViewRelationsGraphs -alinhamento &lt;ficheiro_alinhamentos&gt;
+      -doc <em>docid</em> [-ver &lt;cd|part&gt;] [-entrada &lt;triplas|alinhamentos&gt;] [-nos &lt;id|em|ambos&gt;]</span>
+    </p>
+
+    <p>
+	    <span class="bold">Informa&ccedil;&atilde;o adicional:</span> Os grafos apresentados posicionam os n&oacute;s numa grelha 6 por N.
+	    Para um melhor posicionamento &eacute; poss&iacute;vel utilizar a biblioteca <a href="http://www.jgraph.com/layout.html">JGraphLayout Pro</a>
+	    que n&atilde;o inclu&iacute;mos no conjunto dos programas porque requer uma licen&ccedil;a específica
+	    (para fins comerciais - paga, ou acad&acute;micos - gratuita).
+    </p>
+
+  </div>
+	<div class="modulo">
+      <a name="nota" id="nota" class="titulo">Nota</a>
+    <p>Todos os m&oacute;dulos utilizados para esta avalia&ccedil;&atilde;o foram implementados em <a href="http://www.java.com">Java</a>, e &eacute; necess&aacute;rio ter instalada a vers&atilde;o 1.6 ou posterior do Java Runtime Environment (ou compat&iacute;vel).
+	<p>Encontram-se aqui descritas as invoca&ccedil;&otilde;es
+    dos programas em ambiente Windows. Em ambiente Unix &eacute;
+    necess&aacute;rio alterar a separa&ccedil;&atilde;o dos
+    arquivos no classpath (de ';' para ':'), por exemplo:
+    <ol>
+      <li>Windows: <span class="codigo">java -cp .;lib/jdom.jar ...</span></li>
+      <li>Unix: <span class="codigo">java -cp .:lib/jdom.jar ... </span></li>
+    </ol>
+	</p>
+  </div>
+
+<div class="modulo">
+ <a name="licenca" class="titulo">Licen&ccedil;a</a>
+  <p>
+    O pacote de programas para a avalia&ccedil;&atilde;o do Segundo HAREM &eacute; disponibilizado pela <a href="http://www.linguateca.pt">Linguateca</a> atrav&eacute;s de uma licen&ccedil;a <a href="LICENSE.txt">BSD</a>. </p>
+</div>
+
+    <hr>
+    &Uacute;ltima actualiza&ccedil;&atilde;o: 11 de Novembro de 2008
+    <address>
+      <a href=
+      "http://www.linguateca.pt/cgi-bin/correio/FormularioCorreio.pl?pagina=Coimbra//http://linguateca.dei.uc.pt/harem/avaliacao/&amp;servico=harem">
+      Contacte a organiza&ccedil;&atilde;o do Segundo HAREM</a>
+    </address>
+  </body>
+</html>

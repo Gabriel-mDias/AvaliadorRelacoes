@@ -1,0 +1,19 @@
+0000000001
+-1 8-ReconhecePerguntasComNomes
+: 1 1 
+: 2 2 
+: 7 3 
+: 3 4 
+: 8 5 6 3 5 3 4 3 3 4 
+t 
+f 
+%<E>
+%quem
+%<ser>
+%<FIRST>
+%<PREPOSICAO>
+%<ABREVIACOES>
+%da
+%<E>/{
+%<E>/,.PESSOA}
+f

@@ -1,0 +1,23 @@
+Para aplicar uma LG em uma coleção, faça:
+
+1) Coloque na pasta Entrada os documentos .txt que deseja anotar. Caso a coleção seja uma das PrimeiroHarem, MiniHarem, SegundoHarem, ATribuna ou Sigarra, isso não precisa ser feito. Basta passar um desses nomes como parâmetro para o make conforme explicado no passo 5.
+
+2) Coloque em listaArquivos.txt a lista dos documentos (só nome sem extensão .txt) que estão na pasta de Entrada (na ordem que devem aparecer no .xml anotado). Caso a coleção seja uma das PrimeiroHarem, MiniHarem, SegundoHarem, ATribuna ou Sigarra, isso também não precisa ser feito. 
+
+3) Se o cabeçalho do .xml tiver que ser diferente, altere o arquivo cabecalho.
+
+4) Coloque a LG que será aplicada na pasta Grafos (todos os .grf: grafo principal e subgrafos).
+
+5) Execute usando: make grafo=<nome_do_grafo_principal.grf> colecao=<nome_da_colecao> 
+
+			Ex: make grafo=NEs.grf colecao=SegundoHarem
+
+O arquivo anotado tem o nome CD_anotado.xml e a coleção .txt anotada estará na pasta Entrada. Caso a coleção seja uma das PrimeiroHarem, MiniHarem, SegundoHarem, ATribuna ou Sigarra,o nome será CDS<nome_da_colecao>_anotado.xml). Caso uma dessas coleções seja usada, os resultados
+computados pelos scripts do HAREM (precisão;abrangência,medida-F) também estarão disponíveis em Resultados.xls.
+
+Se quiser computar as métricas usando os scripts do HAREM para uma coleção diferente das PrimeiroHarem, MiniHarem, SegundoHarem, ATribuna ou Sigarra, crie uma pasta <nome_da_coleção> contendo a base <nome_da_coleção>.xml anotada e coloque em
+RecursosSegundoHarem/programas/Av_HAREM_XML/Experimentos
+Além disso, coloque os arquivos .txt para anotação em uma pasta chamada Entrada_<nome_da_colecao> na pasta AnotaCDComLG.
+
+
+***Após uma adaptação, pode utilizar uma cascata ao invés de um grafo, apenas coloque o seu nome em "grafo=Cascata.csc", a extensão é a parte mais importante para diferênciar*** 

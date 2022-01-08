@@ -1,0 +1,33 @@
+#Unigraph
+SIZE 1253 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+13
+"<E>" 25 187 3 4 7 10 
+"" 785 194 0 
+"sr.+srs.+sra.+sras.+d.+dr.+drs.+dra.+dras.+<PRO+Tra>+<FORMASDETRATAMENTO>" 244 310 2 3 11 
+"<FIRST>" 525 194 3 5 3 6 
+"<E>/{" 87 311 2 2 12 
+"<E>/,.PESSOA}" 674 194 1 1 
+"<PREPOSICAO>+<ABREVIACOES>+da" 497 91 1 3 
+"olá+ei+oi+prezado+prezada+prezado(a)" 99 70 2 8 9 
+"<E>/{" 325 74 1 3 
+"(a)" 278 164 1 8 
+"Att+Att.+Atenciosamente+Abraços+Abraço" 88 194 2 9 8 
+"(a)" 465 310 1 3 
+"<ABREVIACOES><<^D.$>>" 289 495 1 3 

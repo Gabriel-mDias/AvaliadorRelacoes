@@ -1,0 +1,436 @@
+#ABSTRACCAO(DISCIPLINA{OUTRO};ESTADO{OUTRO};IDEIA{OUTRO};NOME{OUTRO};OUTRO):ACONTECIMENTO(EFEMERIDE{OUTRO};EVENTO{OUTRO};ORGANIZADO{OUTRO};OUTRO):COISA(CLASSE{OUTRO};MEMBROCLASSE{OUTRO};OBJECTO{OUTRO};OUTRO;SUBSTANCIA{OUTRO}):LOCAL(FISICO{ILHA,AGUACURSO,PLANETA,REGIAO,OUTRO,RELEVO,AGUAMASSA};HUMANO{RUA,PAIS,DIVISAO,REGIAO,CONSTRUCAO,OUTRO};OUTRO{OUTRO};VIRTUAL{COMSOCIAL,OUTRO,SITIO,OBRA}):OBRA(ARTE{OUTRO};OUTRO;PLANO{OUTRO};REPRODUZIDA{OUTRO}):ORGANIZACAO(ADMINISTRACAO{OUTRO};EMPRESA{OUTRO};INSTITUICAO{OUTRO};OUTRO):OUTRO:PESSOA(CARGO{OUTRO};GRUPOCARGO{OUTRO};GRUPOIND{OUTRO};GRUPOMEMBRO{OUTRO};INDIVIDUAL{OUTRO};MEMBRO{OUTRO};OUTRO;POVO{OUTRO}):TEMPO(DURACAO{OUTRO};FREQUENCIA{OUTRO};GENERICO{OUTRO};OUTRO;TEMPO_CALEND{HORA,INTERVALO,OUTRO,DATA}):VALOR(CLASSIFICACAO{OUTRO};MOEDA{OUTRO};OUTRO;QUANTIDADE{OUTRO})
+DOC ex1
+<ALT>
+<ALT1>
+<EM ID="ex1-16" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PSD</EM> ---> [<EM ID="ex1-3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PSD</EM>]::[Correcto]^0.5
+<EM ID="ex1-17" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Vila Real</EM> ---> [<EM ID="ex1-2" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Vila Real</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex1-18" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PSD/Vila Real</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex1-19" CATEG="PESSOA" TIPO="INDIVIDUAL">Fernando Pereira</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">deputado social-democrata Fernando Pereira</EM> ---> [<EM ID="ex1-5" CATEG="PESSOA" TIPO="INDIVIDUAL">deputado social-democrata Fernando Pereira</EM>]::[Espurio]
+<EM ID="ex1-20" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM> ---> [<EM ID="ex1-6" CATEG="TEMPO" TIPO="GENERICO">ontem</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-1" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-18" TIPOREL="incluido">Comissão Política Distrital de Vila Real do PSD</EM> ---> [<EM ID="ex1-7" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Comissão Política Distrital de Vila Real do PSD</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex1-3" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex1-17" TIPOREL="ident">Vila Real</EM> ---> [null]::[Em_Falta]^0.5
+<EM ID="ex1-4" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-16" TIPOREL="ident">PSD</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex1-22" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----02--T----E--LM-">em Fevereiro</EM> ---> [<EM ID="ex1-8" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO">em Fevereiro</EM>]::[Correcto]
+<EM ID="ex1-23" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-1" TIPOREL="outra">Mascarenhas Ferreira</EM> ---> [<EM ID="ex1-9" CATEG="PESSOA|PESSOA" TIPO="INDIVIDUAL|CARGO" SUBTIPO="|">Mascarenhas Ferreira</EM>]::[Correcto]
+<EM ID="ex1-24" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="SIMULT">na altura</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">na altura da eleição da actual Distrital</EM> ---> [<EM ID="ex1-11" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">na altura da eleição da actual Distrital</EM>]::[Espurio]
+<EM CATEG="ESPURIO">na altura da eleição</EM> ---> [<EM ID="ex1-12" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">na altura da eleição</EM>]::[Espurio]
+<EM ID="ex1-25" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex1-1" TIPOREL="outra">Distrital</EM> ---> [<EM ID="ex1-13" CATEG="ACONTECIMENTO" TIPO="ORGANIZADO">Distrital</EM>]::[Correcto]
+<EM CATEG="ESPURIO">na altura da eleição da actual Distrital</EM> ---> [<EM ID="ex1-11" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">na altura da eleição da actual Distrital</EM>]::[Espurio]
+<EM ID="ex1-26" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-19">Fernando Pereira</EM> ---> [null]::[Em_Falta]
+<EM ID="ex1-27" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-16 ex1-18 ex1-18" TIPOREL="ident inclui">PSD</EM> ---> [<EM ID="ex1-14" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">PSD</EM>]::[Correcto]
+<EM ID="ex1-28" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----12--T----E--LM-">de Dezembro</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Dezembro</EM> ---> [<EM ID="ex1-15" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">Dezembro</EM>]::[Espurio]
+<EM ID="ex1-29" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PS</EM> ---> [<EM ID="ex1-16" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PS</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-2" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Câmaras de Alijó</EM> ---> [<EM ID="ex1-18" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Câmaras de Alijó</EM>]::[Correcto]^0.5
+<EM ID="ex1-6" CATEG="ORGANIZACAO|LOCAL" TIPO="ADMINISTRACAO|HUMANO" SUBTIPO="|DIVISAO">Vila Pouca de Aguiar</EM> ---> [<EM ID="ex1-19" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Vila Pouca de Aguiar</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex1-15" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Alijó</EM> ---> [<EM ID="ex1-20" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Alijó</EM>]::[Correcto]^0.5
+<EM ID="ex1-21" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Vila Pouca de Aguiar</EM> ---> [<EM ID="ex1-19" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Vila Pouca de Aguiar</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Câmaras de Alijó e Vila Pouca de Aguiar</EM> ---> [<EM ID="ex1-17" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Câmaras de Alijó e Vila Pouca de Aguiar</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex1-32" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-23">Mascarenhas Ferreira</EM> ---> [<EM ID="ex1-22" CATEG="PESSOA" TIPO="CARGO">Mascarenhas Ferreira</EM>]::[Correcto]
+<EM ID="ex1-33" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex1-25">Distrital</EM> ---> [null]::[Em_Falta]
+<ALT>
+<ALT1>
+<EM ID="ex1-34" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Secretaria de Estado do Turismo para a Região de Turismo da Serra do Marão</EM> ---> [null]::[Em_Falta]^0.25
+</ALT1>
+<ALT2>
+<EM ID="ex1-30" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Turismo</EM> ---> [null]::[Em_Falta]^0.25
+</ALT2>
+<ALT3>
+<EM ID="ex1-8" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Região de Turismo da Serra do Marão</EM> ---> [null]::[Em_Falta]^0.25
+</ALT3>
+<ALT4>
+<EM ID="ex1-9" CATEG="LOCAL|LOCAL" TIPO="HUMANO|FISICO" SUBTIPO="REGIAO|RELEVO">Serra do Marão</EM> ---> [<EM ID="ex1-25" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="RELEVO">Serra do Marão</EM>]::[Correcto]^0.25
+</ALT4>
+<EM CATEG="ESPURIO">Secretaria de Estado do Turismo</EM> ---> [<EM ID="ex1-23" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Secretaria de Estado do Turismo</EM>]::[Espurio]^0.25
+<EM CATEG="ESPURIO">Região de Turismo</EM> ---> [<EM ID="ex1-24" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Região de Turismo</EM>]::[Espurio]^0.25
+</ALT>
+<EM ID="ex1-36" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-23">Mascarenhas</EM> ---> [<EM ID="ex1-26" CATEG="PESSOA">Mascarenhas</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-11" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-18" TIPOREL="ident">Distrital</EM> ---> [null]::[Em_Falta]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex1-12" CATEG="PESSOA" TIPO="CARGO">vice-presidentes da Distrital</EM> ---> [<EM ID="ex1-27" CATEG="PESSOA" TIPO="CARGO">vice-presidentes da Distrital</EM>]::[Correcto]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex1-39" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-12 ex1-12" TIPOREL="ident ident">Miguel Rodrigues</EM> ---> [<EM ID="ex1-28" CATEG="PESSOA" TIPO="INDIVIDUAL">Miguel Rodrigues</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-48" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro</EM> ---> [<EM ID="ex1-30" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro</EM>]::[Correcto]^0.2
+</ALT1>
+<ALT2>
+<EM ID="ex1-49" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-39" TIPOREL="outro">Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro</EM> ---> [null]::[Em_Falta]^0.2
+</ALT2>
+<ALT3>
+<EM ID="ex1-50" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Universidade de Trás-os-Montes e Alto Douro</EM> ---> [null]::[Em_Falta]^0.2
+</ALT3>
+<ALT4>
+<EM ID="ex1-56" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Trás-os-Montes e Alto Douro</EM> ---> [null]::[Em_Falta]^0.2
+</ALT4>
+<ALT5>
+<EM ID="ex1-57" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Trás-os-Montes</EM> ---> [null]::[Em_Falta]^0.2
+<EM ID="ex1-58" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Alto Douro</EM> ---> [null]::[Em_Falta]^0.2
+</ALT5>
+<EM CATEG="ESPURIO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro (UTAD)</EM> ---> [<EM ID="ex1-29" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro (UTAD)</EM>]::[Espurio]^0.2
+</ALT>
+<EM ID="ex1-42" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-41 ex1-52" TIPOREL="ident inclui">UTAD</EM> ---> [<EM ID="ex1-31" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="OUTRO">UTAD</EM>]::[Correcto]
+<EM CATEG="ESPURIO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro (UTAD)</EM> ---> [<EM ID="ex1-29" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro (UTAD)</EM>]::[Espurio]
+<EM ID="ex1-43" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-39" TIPOREL="outra">Lucinda Rodrigues</EM> ---> [<EM ID="ex1-33">Lucinda Rodrigues</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-54" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Serviços Académicos</EM> ---> [null]::[Em_Falta]^0.3333333333333333
+</ALT1>
+<ALT2>
+<EM ID="ex1-55" CATEG="PESSOA" TIPO="CARGO" COREL="ex1-43" TIPOREL="ident">chefe dos Serviços Académicos da UTAD</EM> ---> [<EM ID="ex1-1033" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Académicos da UTAD</EM>]::[Correcto]^0.3333333333333333
+</ALT2>
+<ALT3>
+<EM ID="ex1-45" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-41">UTAD</EM> ---> [null]::[Em_Falta]^0.3333333333333333
+</ALT3>
+</ALT>
+<EM ID="ex1-46" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Jota</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">grupo da Jota</EM> ---> [<EM ID="ex1-35" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">grupo da Jota</EM>]::[Espurio]
+<EM ID="ex1-47" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-26 ex1-46" TIPOREL="ident outra">Fernando Pereira</EM> ---> [<EM ID="ex1-36" CATEG="PESSOA" TIPO="INDIVIDUAL">Fernando Pereira</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex1-13" CATEG="PESSOA" TIPO="CARGO" COREL="ex1-47" TIPOREL="ident">presidente da Assembleia Municipal de Ribeira de Pena</EM> ---> [null]::[Em_Falta]^0.3333333333333333
+</ALT1>
+<ALT2>
+<EM ID="ex1-14" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex1-47" TIPOREL="outro">Assembleia Municipal de Ribeira de Pena</EM> ---> [null]::[Em_Falta]^0.3333333333333333
+</ALT2>
+<ALT3>
+<EM ID="ex1-37" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Ribeira de Pena</EM> ---> [<EM ID="ex1-38" CATEG="LOCAL|LOCAL" TIPO="FISICO|HUMANO" SUBTIPO="AGUAMASSA|DIVISAO">Ribeira de Pena</EM>]::[Correcto]^0.3333333333333333
+</ALT3>
+<EM CATEG="ESPURIO">presidente da Assembleia Municipal</EM> ---> [<EM ID="ex1-37" CATEG="PESSOA" TIPO="CARGO">presidente da Assembleia Municipal</EM>]::[Espurio]^0.3333333333333333
+</ALT>
+<EM ID="ex1-51" CATEG="PESSOA" TIPO="INDIVIDUAL">P. G.</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Eleições</EM> ---> [<EM ID="ex1-1" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Eleições</EM>]::[Espurio]
+<EM CATEG="ESPURIO">já</EM> ---> [<EM ID="ex1-10" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">já</EM>]::[Espurio]
+<EM CATEG="ESPURIO">vice-reitor</EM> ---> [<EM ID="ex1-32" CATEG="PESSOA" TIPO="CARGO">vice-reitor</EM>]::[Espurio]
+
+
+DOC ex2
+<EM ID="001" CATEG="PESSOA" TIPO="INDIVIDUAL">Augusto M. Seabra</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Augusto</EM> ---> [<EM ID="ex2-39" CATEG="PESSOA" TIPO="INDIVIDUAL">Augusto</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Seabra</EM> ---> [<EM ID="ex2-40" CATEG="PESSOA" TIPO="INDIVIDUAL">Seabra</EM>]::[Espurio]
+<EM ID="002" CATEG="PESSOA" TIPO="INDIVIDUAL">Seabra</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">comissária Seabra</EM> ---> [<EM ID="ex2-41" CATEG="PESSOA" TIPO="INDIVIDUAL">comissária Seabra</EM>]::[Espurio]
+<EM ID="ex2-2" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR_OU_SIMULT">recentemente</EM> ---> [<EM ID="ex2-42" CATEG="TEMPO" TIPO="TEMPO_CALEND">recentemente</EM>]::[Correcto]
+<EM ID="005" CATEG="ORGANIZACAO|PESSOA" TIPO="INSTITUICAO|GRUPOMEMBRO">PS</EM> ---> [<EM ID="ex2-44" CATEG="PESSOA" TIPO="GRUPOMEMBRO">PS</EM>]::[Correcto]
+<EM ID="010" CATEG="ORGANIZACAO" TIPO="EMPRESA">Expresso</EM> ---> [<EM ID="ex2-45" CATEG="ORGANIZACAO" TIPO="EMPRESA">Expresso</EM>]::[Correcto]
+<EM ID="115" CATEG="OBRA" TIPO="REPRODUZIDA">Vale Abraão</EM> ---> [<EM ID="ex2-46" CATEG="OBRA" TIPO="REPRODUZIDA">«Vale Abraão»</EM>]::[Correcto]
+<EM ID="112" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="115" TIPOREL="outra">Manoel de Oliveira</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Manoel</EM> ---> [<EM ID="ex2-47" CATEG="PESSOA" TIPO="INDIVIDUAL">Manoel</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Oliveira</EM> ---> [<EM ID="ex2-48" CATEG="PESSOA" TIPO="INDIVIDUAL">Oliveira</EM>]::[Espurio]
+<EM ID="ex2-3" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR">ao fim de alguns anos</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">ao fim de alguns anos de deliberado silêncio</EM> ---> [<EM ID="ex2-49" CATEG="TEMPO">ao fim de alguns anos de deliberado silêncio</EM>]::[Espurio]
+<EM ID="114" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1980----T----E--LM-">aos anos 80</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">anos 80</EM> ---> [<EM ID="ex2-51" CATEG="TEMPO" TIPO="DURACAO">anos 80</EM>]::[Espurio]
+<EM ID="115a" CATEG="PESSOA" TIPO="INDIVIDUAL">Pedro Santana Lopes</EM> ---> [<EM ID="ex2-52" CATEG="PESSOA" TIPO="INDIVIDUAL">Pedro Santana Lopes</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="116" CATEG="PESSOA" TIPO="CARGO" COREL="115a" TIPOREL="outra">secretário de Estado da Cultura</EM> ---> [<EM ID="ex2-54" CATEG="PESSOA" TIPO="CARGO">secretário de Estado da Cultura</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex2-32" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Cultura</EM> ---> [<EM ID="ex2-55" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Cultura</EM>]::[Correcto]^0.5
+</ALT2>
+</ALT>
+<EM ID="117" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+19900102T----E--LM-">em 2 de Janeiro de 1990</EM> ---> [<EM ID="ex2-56" CATEG="TEMPO" TIPO="TEMPO_CALEND">em 2 de Janeiro de 1990</EM>]::[Correcto]
+<EM ID="ex2-2" CATEG="ORGANIZACAO|OBRA" TIPO="INSTITUICAO|PLANO">European Script Fund</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">European Script Fund do Programa Media das Comunidades Europeias</EM> ---> [<EM ID="ex2-57" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">European Script Fund do Programa Media das Comunidades Europeias</EM>]::[Espurio]
+<ALT>
+<ALT1>
+<EM ID="ex2-3" CATEG="ORGANIZACAO|OBRA" TIPO="INSTITUICAO|PLANO" COREL="ex2-2" TIPOREL="inclui">Programa Media das Comunidades Europeias</EM> ---> [<EM ID="ex2-58" CATEG="OBRA" TIPO="PLANO">Programa Media das Comunidades Europeias</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex2-57" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex2-2" TIPOREL="outro">Comunidades Europeias</EM> ---> [<EM ID="ex2-59" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="OUTRO">Comunidades Europeias</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">European Script Fund do Programa Media das Comunidades Europeias</EM> ---> [<EM ID="ex2-57" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">European Script Fund do Programa Media das Comunidades Europeias</EM>]::[Espurio]^0.5
+<EM CATEG="ESPURIO">Programa Media</EM> ---> [<EM ID="ex2-60" CATEG="OBRA" TIPO="PLANO">Programa Media</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="120" CATEG="VALOR" TIPO="QUANTIDADE">300</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">300 projectos</EM> ---> [<EM ID="ex2-61" CATEG="VALOR" TIPO="QUANTIDADE">300 projectos</EM>]::[Espurio]
+<EM ID="ex2-6" CATEG="TEMPO" TIPO="FREQUENCIA">por ano</EM> ---> [<EM ID="ex2-62" CATEG="TEMPO" TIPO="DURACAO">por ano</EM>]::[Correcto]
+<EM ID="122" CATEG="PESSOA" TIPO="INDIVIDUAL">Salazar</EM> ---> [null]::[Em_Falta]
+<EM ID="132" CATEG="PESSOA" TIPO="INDIVIDUAL">António Lopes Ribeiro</EM> ---> [<EM ID="ex2-63" CATEG="PESSOA" TIPO="INDIVIDUAL">António Lopes Ribeiro</EM>]::[Correcto]
+<EM ID="142" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="132">António Lopes Ribeiro</EM> ---> [<EM ID="ex2-67" CATEG="PESSOA" TIPO="INDIVIDUAL">António Lopes Ribeiro</EM>]::[Correcto]
+<EM ID="511" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">O Pai Tirano</EM> ---> [<EM ID="ex2-68" CATEG="OBRA">«O Pai Tirano»</EM>]::[Correcto]
+<EM ID="512" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">O Pátio das Cantigas</EM> ---> [<EM ID="ex2-69" CATEG="OBRA">O Pátio das Cantigas</EM>]::[Correcto]
+<EM ID="513" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">Aniki-Bóbó</EM> ---> [<EM ID="ex2-70" CATEG="OBRA" TIPO="ARTE">Aniki-Bóbó</EM>]::[Correcto]
+<EM ID="514" CATEG="ORGANIZACAO|ABSTRACCAO" TIPO="ADMINISTRACAO|IDEIA">Estado Novo</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">velho Estado Novo</EM> ---> [<EM ID="ex2-71" CATEG="ABSTRACCAO" TIPO="IDEIA">velho Estado Novo</EM>]::[Espurio]
+<EM ID="ex2-33" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Estado</EM> ---> [<EM ID="ex2-73" CATEG="ORGANIZACAO|ABSTRACCAO" TIPO="ADMINISTRACAO|DISCIPLINA" SUBTIPO="|">Estado</EM>]::[Correcto]
+<EM ID="517" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Europa</EM> ---> [<EM ID="ex2-75" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Europa</EM>]::[Correcto]
+<EM CATEG="ESPURIO">Europa</EM> ---> [<EM ID="ex2-76" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Europa</EM>]::[Espurio]
+<EM ID="ex2-34" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex2-33">Estado</EM> ---> [<EM ID="ex2-77" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Estado</EM>]::[Correcto]
+<EM ID="521" CATEG="ACONTECIMENTO" TIPO="EFEMERIDE">25 de Abril</EM> ---> [<EM ID="ex2-78" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">25 de Abril</EM>]::[Correcto]
+<EM ID="ex2-35" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex2-33">Estado</EM> ---> [<EM ID="ex2-79" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Estado</EM>]::[Correcto]
+<EM ID="523" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="517 ex2-33" TIPOREL="incluido ident">Portugal</EM> ---> [<EM ID="ex2-80" CATEG="LOCAL|PESSOA|ORGANIZACAO|ORGANIZACAO|ABSTRACCAO" TIPO="HUMANO|POVO|ADMINISTRACAO|INSTITUICAO|DISCIPLINA" SUBTIPO="PAIS||||">Portugal</EM>]::[Correcto]
+<EM CATEG="ESPURIO">PSDista</EM> ---> [<EM ID="ex2-43" CATEG="OUTRO" TIPO="OUTRO">PSDista</EM>]::[Espurio]
+<EM CATEG="ESPURIO">período mais exaltante do cinema português</EM> ---> [<EM ID="ex2-50" CATEG="TEMPO" TIPO="GENERICO">período mais exaltante do cinema português</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Com o tempo</EM> ---> [<EM ID="ex2-64" CATEG="TEMPO" TIPO="GENERICO">Com o tempo</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Quantas vezes</EM> ---> [<EM ID="ex2-65" CATEG="TEMPO" TIPO="FREQUENCIA">Quantas vezes</EM>]::[Espurio]
+<EM CATEG="ESPURIO">já</EM> ---> [<EM ID="ex2-66" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">já</EM>]::[Espurio]
+<EM CATEG="ESPURIO">cada vez mais</EM> ---> [<EM ID="ex2-72" CATEG="TEMPO" TIPO="FREQUENCIA">cada vez mais</EM>]::[Espurio]
+<EM CATEG="ESPURIO">lei 7/71</EM> ---> [<EM ID="ex2-74" CATEG="OBRA" TIPO="PLANO">lei 7/71</EM>]::[Espurio]
+
+
+DOC ex3
+<ALT>
+<ALT1>
+<EM ID="ex3-4" CATEG="OBRA|ACONTECIMENTO" TIPO="PLANO|EVENTO">Concessão de Évora Monte</EM> ---> [null]::[Em_Falta]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex3-62" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM> ---> [<EM ID="ex3-82" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Concessão de Évora Monte ou Capitulação de Évora Monte</EM> ---> [<EM ID="ex3-81" CATEG="OBRA|ABSTRACCAO" TIPO="PLANO|DISCIPLINA">Concessão de Évora Monte ou Capitulação de Évora Monte</EM>]::[Espurio]^0.5
+<EM CATEG="ESPURIO">Concessão</EM> ---> [<EM ID="ex3-84" CATEG="OBRA" TIPO="PLANO">Concessão</EM>]::[Espurio]^0.5
+</ALT>
+<ALT>
+<ALT1>
+<EM ID="ex3-5" CATEG="OBRA|ACONTECIMENTO" TIPO="PLANO|EVENTO" COREL="ex3-4">Capitulação de Évora Monte</EM> ---> [null]::[Em_Falta]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex3-63" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-62" TIPOREL="ident">Évora Monte</EM> ---> [<EM ID="ex3-83" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Concessão de Évora Monte ou Capitulação de Évora Monte</EM> ---> [<EM ID="ex3-81" CATEG="OBRA|ABSTRACCAO" TIPO="PLANO|DISCIPLINA">Concessão de Évora Monte ou Capitulação de Évora Monte</EM>]::[Espurio]^0.5
+<EM CATEG="ESPURIO">Capitulação</EM> ---> [<EM ID="ex3-85" CATEG="OBRA" TIPO="PLANO">Capitulação</EM>]::[Espurio]^0.5
+</ALT>
+<ALT>
+<ALT1>
+<EM ID="ex3-6" CATEG="ABSTRACCAO" TIPO="NOME" COREL="ex3-4" TIPOREL="outra">Convenção de Évora Monte</EM> ---> [<EM ID="ex3-86" CATEG="ABSTRACCAO" TIPO="NOME">Convenção de Évora Monte</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex3-64" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM> ---> [<EM ID="ex3-87" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Convenção</EM> ---> [<EM ID="ex3-88" CATEG="OBRA" TIPO="PLANO">Convenção</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex3-7" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-4" TIPOREL="outra sede_de">Évora Monte</EM> ---> [<EM ID="ex3-89" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Évora Monte</EM>]::[Correcto]
+<EM ID="ex3-8" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">hoje</EM> ---> [null]::[Em_Falta]
+<EM ID="ex3-9" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-7" TIPOREL="inclui">Estremoz</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">concelho de Estremoz</EM> ---> [<EM ID="ex3-90" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">concelho de Estremoz</EM>]::[Espurio]
+<EM ID="ex3-10" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+18340529T----E--LM-">em 26 de Maio de 1834</EM> ---> [<EM ID="ex3-91" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">em 26 de Maio de 1834</EM>]::[Correcto]
+<EM ID="ex3-37" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO">de 1832-34</EM> ---> [<EM ID="ex3-92" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO">de 1832-34</EM>]::[Correcto]
+<EM ID="ex3-11" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="ANTERIOR" VAL_DELTA="A2M0S0D0H0M0S0">havia cerca de dois anos</EM> ---> [<EM ID="ex3-93" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">havia cerca de dois anos</EM>]::[Correcto]
+<EM CATEG="ESPURIO">cerca de dois anos</EM> ---> [<EM ID="ex3-94" CATEG="VALOR" TIPO="QUANTIDADE">cerca de dois anos</EM>]::[Espurio]
+<EM ID="ex3-12" CATEG="PESSOA" TIPO="INDIVIDUAL">D. Miguel I</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Miguel I</EM> ---> [<EM ID="ex3-95" CATEG="PESSOA" TIPO="INDIVIDUAL">Miguel I</EM>]::[Espurio]
+<EM ID="ex3-13" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-12" TIPOREL="outra">D. Maria da Glória</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">sobrinha D. Maria da Glória</EM> ---> [<EM ID="ex3-96" CATEG="PESSOA" TIPO="INDIVIDUAL">sobrinha D. Maria da Glória</EM>]::[Espurio]
+<EM ID="ex3-14" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Ribatejo</EM> ---> [<EM ID="ex3-97" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="RELEVO">Ribatejo</EM>]::[Correcto]
+<EM ID="ex3-15" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Pernes</EM> ---> [<EM ID="ex3-98" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Pernes</EM>]::[Correcto]
+<EM ID="ex3-16" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Almoster</EM> ---> [<EM ID="ex3-99" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Almoster</EM>]::[Correcto]
+<EM ID="ex3-17" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Asseiceira</EM> ---> [<EM ID="ex3-100" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Asseiceira</EM>]::[Correcto]
+<EM ID="ex3-18" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1834----T----EINLM-">nos primeiros meses de 1834</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">nos primeiros meses</EM> ---> [<EM ID="ex3-101" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">nos primeiros meses</EM>]::[Espurio]
+<EM CATEG="ESPURIO">de 1834</EM> ---> [<EM ID="ex3-102" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">de 1834</EM>]::[Espurio]
+<EM ID="ex3-19" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-9" TIPOREL="inclui">Alentejo</EM> ---> [<EM ID="ex3-103" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Alentejo</EM>]::[Correcto]
+<EM ID="ex3-20" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="inclui">Reino</EM> ---> [<EM ID="ex3-104" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Reino</EM>]::[Correcto]
+<EM ID="ex3-21" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-12">D. Miguel</EM> ---> [<EM ID="ex3-105" CATEG="PESSOA" TIPO="INDIVIDUAL">D. Miguel</EM>]::[Correcto]
+<EM ID="ex3-22" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Évora-Monte</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">concelho de Évora-Monte</EM> ---> [<EM ID="ex3-106" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">concelho de Évora-Monte</EM>]::[Espurio]
+<EM ID="ex3-24" CATEG="PESSOA" TIPO="GRUPOMEMBRO">Conselho de Guerra</EM> ---> [<EM ID="ex3-107" CATEG="PESSOA" TIPO="POVO">Conselho de Guerra</EM>]::[Correcto]
+<EM ID="ex3-25" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Évora</EM> ---> [<EM ID="ex3-108" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Évora</EM>]::[Correcto]
+<EM ID="ex3-26" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Baixo Alentejo</EM> ---> [<EM ID="ex3-109" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Baixo Alentejo</EM>]::[Correcto]
+<EM CATEG="ESPURIO">Alentejo</EM> ---> [<EM ID="ex3-110" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Alentejo</EM>]::[Espurio]
+<EM ID="ex3-27" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-20" TIPOREL="incluido">Algarve</EM> ---> [<EM ID="ex3-111" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Algarve</EM>]::[Correcto]
+<EM ID="ex3-28" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Espanha</EM> ---> [<EM ID="ex3-112" CATEG="LOCAL|LOCAL" TIPO="HUMANO|HUMANO" SUBTIPO="PAIS|OUTRO">Espanha</EM>]::[Correcto]
+<EM ID="ex3-29" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-21" TIPOREL="outra">Don Carlos</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">primo Don Carlos</EM> ---> [<EM ID="ex3-113" CATEG="PESSOA" TIPO="INDIVIDUAL">primo Don Carlos</EM>]::[Espurio]
+<EM ID="ex3-31" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex3-28" TIPOREL="outra">Espanha</EM> ---> [<EM ID="ex3-114" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Espanha</EM>]::[Correcto]
+<EM ID="ex3-32" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-29" TIPOREL="outra">Isabel II</EM> ---> [<EM ID="ex3-115" CATEG="PESSOA" TIPO="INDIVIDUAL">Isabel II</EM>]::[Correcto]
+<EM ID="ex3-33" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex3-20">Portugal</EM> ---> [<EM ID="ex3-116" CATEG="LOCAL">Portugal</EM>]::[Correcto]
+<EM ID="ex3-34" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex3-24">Conselho de Guerra</EM> ---> [<EM ID="ex3-117" CATEG="PESSOA">Conselho de Guerra</EM>]::[Correcto]
+<EM ID="ex3-35" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----0523T----E--LM-">no dia 23 de Maio</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">23 de Maio</EM> ---> [<EM ID="ex3-118" CATEG="TEMPO" TIPO="TEMPO_CALEND">23 de Maio</EM>]::[Espurio]
+<EM ID="ex3-36" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR_OU_SIMULT">imediatamente</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">chefes</EM> ---> [<EM ID="ex3-119" CATEG="PESSOA" TIPO="GRUPOCARGO">chefes</EM>]::[Espurio]
+
+
+DOC ex4
+<ALT>
+<ALT1>
+<EM ID="ex4-90" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Museu Nacional do Rio de Janeiro</EM> ---> [<EM ID="ex4-121" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Museu Nacional do Rio de Janeiro</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex4-43" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Rio de Janeiro</EM> ---> [<EM ID="ex4-123" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Rio de Janeiro</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Museu Nacional</EM> ---> [<EM ID="ex4-122" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Museu Nacional</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex4-91" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM> ---> [<EM ID="ex4-124" CATEG="TEMPO" TIPO="DURACAO">ontem</EM>]::[Correcto]
+<EM ID="ex4-92" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Brasil</EM> ---> [<EM ID="ex4-125" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="REGIAO">Brasil</EM>]::[Correcto]
+<EM ID="ex4-93" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">há 110 milhões de anos</EM> ---> [<EM ID="ex4-126" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">há 110 milhões de anos</EM>]::[Correcto]
+<EM ID="ex4-94" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-">no período Cretáceo</EM> ---> [<EM ID="ex4-127" CATEG="TEMPO" TIPO="GENERICO">no período Cretáceo</EM>]::[Correcto]
+<EM ID="ex4-95" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-" COREL="ex4-94" TIPOREL="inclui">era dos grandes répteis</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">da era dos grandes répteis</EM> ---> [<EM ID="ex4-128" CATEG="TEMPO" TIPO="GENERICO">da era dos grandes répteis</EM>]::[Espurio]
+<EM ID="ex4-96" CATEG="ABSTRACCAO" TIPO="NOME">Santanaraptor placidus</EM> ---> [<EM ID="ex4-129" CATEG="ABSTRACCAO" TIPO="NOME">Santanaraptor placidus</EM>]::[Correcto]
+<EM ID="ex4-97" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM> ---> [null]::[Em_Falta]
+<EM ID="ex4-98" CATEG="PESSOA" TIPO="INDIVIDUAL">Alexander Kellner</EM> ---> [<EM ID="ex4-130" CATEG="PESSOA" TIPO="CARGO">Alexander Kellner</EM>]::[Correcto]
+<EM ID="ex4-99" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Setor de Paleovertebrados</EM> ---> [<EM ID="ex4-133" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Setor de Paleovertebrados</EM>]::[Correcto]
+<EM CATEG="ESPURIO">geólogo do Setor de Paleovertebrados do Museu Nacional</EM> ---> [<EM ID="ex4-131" CATEG="PESSOA" TIPO="CARGO">geólogo do Setor de Paleovertebrados do Museu Nacional</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Setor de Paleovertebrados do Museu Nacional</EM> ---> [<EM ID="ex4-132" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Setor de Paleovertebrados do Museu Nacional</EM>]::[Espurio]
+<EM ID="ex4-100" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex4-90 ex4-99" TIPOREL="ident inclui">Museu Nacional</EM> ---> [<EM ID="ex4-134" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Museu Nacional</EM>]::[Correcto]
+<EM CATEG="ESPURIO">geólogo do Setor de Paleovertebrados do Museu Nacional</EM> ---> [<EM ID="ex4-131" CATEG="PESSOA" TIPO="CARGO">geólogo do Setor de Paleovertebrados do Museu Nacional</EM>]::[Espurio]
+<EM CATEG="ESPURIO">Setor de Paleovertebrados do Museu Nacional</EM> ---> [<EM ID="ex4-132" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Setor de Paleovertebrados do Museu Nacional</EM>]::[Espurio]
+<EM ID="ex4-101" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="RELEVO">Chapada do Araripe</EM> ---> [<EM ID="ex4-135" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="OUTRO">Chapada do Araripe</EM>]::[Correcto]
+<EM ID="ex4-102" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex4-101" TIPOREL="inclui">Ceará</EM> ---> [<EM ID="ex4-136" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="REGIAO">Ceará</EM>]::[Correcto]
+<EM ID="ex4-103" CATEG="COISA" TIPO="CLASSE" COREL="ex4-96">Santanaraptor</EM> ---> [<EM ID="ex4-137" CATEG="COISA" TIPO="OBJECTO">Santanaraptor</EM>]::[Correcto]
+<EM ID="ex4-104" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103" TIPOREL="inclui">Tyrannoraptora</EM> ---> [<EM ID="ex4-138" CATEG="COISA" TIPO="CLASSE">Tyrannoraptora</EM>]::[Correcto]
+<EM ID="ex4-105" CATEG="COISA" TIPO="CLASSE" COREL="ex4-104" TIPOREL="incluido">Tyrannossaurus rex</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">Tyrannossaurus</EM> ---> [<EM ID="ex4-139" CATEG="COISA" TIPO="CLASSE">Tyrannossaurus</EM>]::[Espurio]
+<EM ID="ex4-106" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">EUA</EM> ---> [<EM ID="ex4-140" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">EUA</EM>]::[Correcto]
+<EM ID="ex4-107" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-">no final da era dos dinos</EM> ---> [<EM ID="ex4-141" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">no final da era dos dinos</EM>]::[Correcto]
+<EM ID="ex4-108" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex4-98">Kellner</EM> ---> [<EM ID="ex4-142" CATEG="PESSOA" TIPO="INDIVIDUAL">Kellner</EM>]::[Correcto]
+<EM ID="ex4-109" CATEG="VALOR" TIPO="QUANTIDADE">2,5 metros</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">2,5 metros de altura</EM> ---> [<EM ID="ex4-143" CATEG="VALOR" TIPO="QUANTIDADE">2,5 metros de altura</EM>]::[Espurio]
+<EM ID="ex4-110" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103">Santanaraptor</EM> ---> [<EM ID="ex4-144" CATEG="COISA" TIPO="CLASSE">Santanaraptor</EM>]::[Correcto]
+<EM ID="ex4-111" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR">68 milhões de anos mais tarde</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">68 milhões de anos</EM> ---> [<EM ID="ex4-145" CATEG="VALOR" TIPO="QUANTIDADE">68 milhões de anos</EM>]::[Espurio]
+<EM ID="ex4-112" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103">Santanaraptor</EM> ---> [<EM ID="ex4-146" CATEG="COISA" TIPO="OBJECTO">Santanaraptor</EM>]::[Correcto]
+<EM ID="ex4-41" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1991----T----E--LM-">em 1991</EM> ---> [<EM ID="ex4-147" CATEG="OUTRO">em 1991</EM>]::[Correcto]
+<EM ID="ex4-40" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR" VAL_DELTA="A9M0S0D0H0M0S0">nove anos mais tarde</EM> ---> [<EM ID="ex4-148" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">nove anos mais tarde</EM>]::[Correcto]
+<EM ID="ex4-114" CATEG="VALOR" TIPO="QUANTIDADE">1,5 metro</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">1,5 metro de altura</EM> ---> [<EM ID="ex4-149" CATEG="VALOR" TIPO="MOEDA">1,5 metro de altura</EM>]::[Espurio]
+<EM ID="ex4-36" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="REGIAO" COREL="ex4-101" TIPOREL="incluido">Formação Santana</EM> ---> [<EM ID="ex4-150" CATEG="LOCAL">Formação Santana</EM>]::[Correcto]
+<EM CATEG="ESPURIO">Pesquisadores</EM> ---> [<EM ID="ex4-120" CATEG="PESSOA" TIPO="GRUPOCARGO">Pesquisadores</EM>]::[Espurio]
+
+
+DOC ex5
+<ALT>
+<ALT1>
+<EM ID="ex5-42" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Comissão Nacional de Ética em Pesquisa</EM> ---> [null]::[Em_Falta]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex5-50" CATEG="PESSOA" TIPO="CARGO">presidente da Comissão Nacional de Ética em Pesquisa</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">presidente da Comissão Nacional de Ética</EM> ---> [<EM ID="ex5-151" CATEG="PESSOA" TIPO="CARGO">presidente da Comissão Nacional de Ética</EM>]::[Espurio]^0.5
+<EM CATEG="ESPURIO">Pesquisa</EM> ---> [<EM ID="ex5-152" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Pesquisa</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex5-43" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex5-42 ex5-50" TIPOREL="outra ident">William Saad Hossne</EM> ---> [<EM ID="ex5-153" CATEG="PESSOA" TIPO="INDIVIDUAL">William Saad Hossne</EM>]::[Correcto]
+<EM ID="ex5-44" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM> ---> [null]::[Em_Falta]
+<ALT>
+<ALT1>
+<EM ID="ex5-45" CATEG="ACONTECIMENTO" TIPO="EVENTO">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM> ---> [<EM ID="ex5-156" CATEG="ORGANIZACAO">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex5-58" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Sociedade Brasileira para o Progresso da Ciência</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">52ª</EM> ---> [<EM ID="ex5-154" CATEG="VALOR" TIPO="CLASSIFICACAO">52ª</EM>]::[Espurio]^0.5
+<EM CATEG="ESPURIO">Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM> ---> [<EM ID="ex5-155" CATEG="ACONTECIMENTO" TIPO="ORGANIZADO">Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM>]::[Espurio]^0.5
+</ALT>
+<ALT>
+<ALT1>
+<EM ID="ex5-46" CATEG="OBRA" TIPO="PLANO">Declaração de Helsinque</EM> ---> [<EM ID="ex5-157" CATEG="OBRA" TIPO="PLANO">Declaração de Helsinque</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex5-65" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Helsinque</EM> ---> [<EM ID="ex5-159" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Helsinque</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Declaração</EM> ---> [<EM ID="ex5-158" CATEG="OBRA" TIPO="PLANO">Declaração</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex5-47" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Terceiro Mundo</EM> ---> [<EM ID="ex5-160" CATEG="LOCAL" TIPO="HUMANO">Terceiro Mundo</EM>]::[Correcto]
+<EM ID="ex5-48" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-47" TIPOREL="incluido">Ruanda</EM> ---> [<EM ID="ex5-161" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Ruanda</EM>]::[Correcto]
+<EM ID="ex5-49" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-47" TIPOREL="incluido">Tailândia</EM> ---> [<EM ID="ex5-162" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="REGIAO">Tailândia</EM>]::[Correcto]
+<EM ID="ex5-51" CATEG="ABSTRACCAO" TIPO="ESTADO">HIV</EM> ---> [<EM ID="ex5-163" CATEG="ABSTRACCAO|COISA" TIPO="ESTADO|CLASSE" SUBTIPO="|">HIV</EM>]::[Correcto]
+<EM ID="ex5-52" CATEG="COISA" TIPO="SUBSTANCIA">AZT</EM> ---> [<EM ID="ex5-164" CATEG="COISA" TIPO="OBJECTO">AZT</EM>]::[Correcto]
+<EM ID="ex5-53" CATEG="ABSTRACCAO" TIPO="ESTADO">HIV</EM> ---> [<EM ID="ex5-165" CATEG="ABSTRACCAO" TIPO="NOME">HIV</EM>]::[Correcto]
+<EM ID="ex5-54" CATEG="COISA" TIPO="SUBSTANCIA" COREL="ex5-52">AZT</EM> ---> [<EM ID="ex5-166" CATEG="COISA" TIPO="OBJECTO">AZT</EM>]::[Correcto]
+<EM ID="ex5-55" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex5-43">Hossne</EM> ---> [<EM ID="ex5-167" CATEG="PESSOA" TIPO="GRUPOMEMBRO">Hossne</EM>]::[Correcto]
+<EM ID="ex5-56" CATEG="PESSOA" TIPO="INDIVIDUAL">Hossne</EM> ---> [<EM ID="ex5-168" CATEG="PESSOA" TIPO="GRUPOMEMBRO">Hossne</EM>]::[Correcto]
+<EM ID="ex5-37" CATEG="PESSOA|ORGANIZACAO|LOCAL" TIPO="INDIVIDUAL|INSTITUICAO|HUMANO" SUBTIPO="||DIVISAO">Tuskegee</EM> ---> [<EM ID="ex5-169" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="CONSTRUCAO">Tuskegee</EM>]::[Correcto]
+<EM ID="ex5-57" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-37" TIPOREL="inclui">EUA</EM> ---> [null]::[Em_Falta]
+<EM ID="ex5-38" CATEG="TEMPO" TIPO="DURACAO">por 40 anos</EM> ---> [<EM ID="ex5-170" CATEG="TEMPO" TIPO="DURACAO">por 40 anos</EM>]::[Correcto]
+<EM ID="ex5-59" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">EUA</EM> ---> [<EM ID="ex5-171" CATEG="PESSOA" TIPO="POVO">EUA</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex5-60" CATEG="OBRA" TIPO="PLANO" COREL="ex5-46">Declaração de Helsinque</EM> ---> [<EM ID="ex5-172" CATEG="OBRA" TIPO="REPRODUZIDA">Declaração de Helsinque</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex5-66" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex5-65" TIPOREL="ident">Helsinque</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex5-39" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1989----T----E--LM-">de 89</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">89</EM> ---> [<EM ID="ex5-173" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">89</EM>]::[Espurio]
+<EM ID="ex5-61" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">OMS</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">OMS (Organização Mundial da Saúde)</EM> ---> [<EM ID="ex5-174" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">OMS (Organização Mundial da Saúde)</EM>]::[Espurio]
+<EM ID="ex5-40" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex5-61">Organização Mundial da Saúde</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">OMS (Organização Mundial da Saúde)</EM> ---> [<EM ID="ex5-174" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">OMS (Organização Mundial da Saúde)</EM>]::[Espurio]
+<ALT>
+<ALT1>
+<EM ID="ex5-63" CATEG="OBRA" TIPO="PLANO">Declaração de Consenso de Atlanta</EM> ---> [null]::[Em_Falta]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex5-68" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Atlanta</EM> ---> [<EM ID="ex5-176" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Atlanta</EM>]::[Correcto]^0.5
+</ALT2>
+<EM CATEG="ESPURIO">Declaração de Consenso</EM> ---> [<EM ID="ex5-175" CATEG="OBRA" TIPO="PLANO">Declaração de Consenso</EM>]::[Espurio]^0.5
+</ALT>
+<EM ID="ex5-41" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1999----T----E--LM-">de 99</EM> ---> [<EM ID="ex5-177" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">de 99</EM>]::[Correcto]
+<EM ID="ex5-64" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex5-40">OMS</EM> ---> [<EM ID="ex5-178" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">OMS</EM>]::[Correcto]
+
+
+DOC ex6
+<EM ID="ex6-65" CATEG="COISA" TIPO="CLASSE">Sistema Solar</EM> ---> [<EM ID="ex6-179" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="PLANETA">Sistema Solar</EM>]::[Correcto]
+<EM ID="ex6-66" CATEG="COISA" TIPO="OBJECTO">Gemini</EM> ---> [<EM ID="ex6-180" CATEG="COISA" TIPO="OBJECTO">Gemini</EM>]::[Correcto]
+<EM ID="ex6-67" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A1M0S0D0H0M0S0">a partir do ano que vem</EM> ---> [<EM ID="ex6-181" CATEG="TEMPO" TIPO="GENERICO">a partir do ano que vem</EM>]::[Correcto]
+<EM ID="ex6-68" CATEG="ACONTECIMENTO" TIPO="EVENTO">"Da Origem do Universo aos Grandes Telescópios"</EM> ---> [<EM ID="ex6-182" CATEG="ABSTRACCAO" TIPO="NOME">"Da Origem do Universo aos Grandes Telescópios"</EM>]::[Correcto]
+<EM ID="ex6-69" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM> ---> [null]::[Em_Falta]
+<EM ID="ex6-70" CATEG="PESSOA" TIPO="INDIVIDUAL">João Steiner</EM> ---> [<EM ID="ex6-183" CATEG="PESSOA" TIPO="INDIVIDUAL">João Steiner</EM>]::[Correcto]
+<EM ID="ex6-71" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex6-70" TIPOREL="outra">USP</EM> ---> [<EM ID="ex6-185" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="CONSTRUCAO">USP</EM>]::[Correcto]
+<EM CATEG="ESPURIO">astrofísico da USP</EM> ---> [<EM ID="ex6-184" CATEG="PESSOA" TIPO="CARGO">astrofísico da USP</EM>]::[Espurio]
+<ALT>
+<ALT1>
+<EM ID="ex6-72" CATEG="ACONTECIMENTO" TIPO="ORGANIZADO" COREL="ex6-68" TIPOREL="inclui">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM> ---> [<EM ID="ex6-186" CATEG="ACONTECIMENTO" TIPO="EVENTO">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex6-59" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Sociedade Brasileira para o Progresso da Ciência</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex6-73" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D2H0M0S0">anteontem</EM> ---> [<EM ID="ex6-187" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">anteontem</EM>]::[Correcto]
+<EM ID="ex6-74" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UnB</EM> ---> [<EM ID="ex6-188" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UnB</EM>]::[Correcto]
+<ALT>
+<ALT1>
+<EM ID="ex6-75" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex6-74">Universidade de Brasília</EM> ---> [<EM ID="ex6-189" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Universidade de Brasília</EM>]::[Correcto]^0.5
+</ALT1>
+<ALT2>
+<EM ID="ex6-45" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Brasília</EM> ---> [null]::[Em_Falta]^0.5
+</ALT2>
+</ALT>
+<EM ID="ex6-7" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR_OU_SIMULT">até hoje</EM> ---> [<EM ID="ex6-190" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA">até hoje</EM>]::[Correcto]
+<EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FG112">Plutão</EM> ---> [<EM ID="ex6-191" CATEG="COISA" TIPO="OBJECTO">Plutão</EM>]::[Correcto]
+<EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FTG56">Sol</EM> ---> [<EM ID="ex6-192" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="PLANETA">Sol</EM>]::[Correcto]
+<EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FGL56">Terra</EM> ---> [<EM ID="ex6-193" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="PLANETA">Terra</EM>]::[Correcto]
+<EM ID="ex6-76" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex6-70" TIPOREL="ident">Steiner</EM> ---> [<EM ID="ex6-194" CATEG="PESSOA" TIPO="INDIVIDUAL">Steiner</EM>]::[Correcto]
+<EM ID="ex6-77" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT">atualmente</EM> ---> [null]::[Em_Falta]
+<EM ID="ex6-78" CATEG="COISA" TIPO="OBJECTO">Gemini</EM> ---> [<EM ID="ex6-195" CATEG="PESSOA" TIPO="INDIVIDUAL">Gemini</EM>]::[Correcto]
+<EM ID="ex6-80" CATEG="OBRA" TIPO="PLANO" COREL="ex6-66" TIPOREL="outra">Gemini</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">projeto Gemini</EM> ---> [<EM ID="ex6-196" CATEG="OBRA" TIPO="PLANO">projeto Gemini</EM>]::[Espurio]
+<EM ID="ex6-8" CATEG="VALOR" TIPO="QUANTIDADE">oito metros</EM> ---> [null]::[Em_Falta]
+<EM ID="ex6-81" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Havaí</EM> ---> [<EM ID="ex6-197" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="ILHA">Havaí</EM>]::[Correcto]
+<EM ID="ex6-82" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex6-81" TIPOREL="inclui">EUA</EM> ---> [<EM ID="ex6-198" CATEG="LOCAL|LOCAL" TIPO="HUMANO|FISICO" SUBTIPO="PAIS|REGIAO">EUA</EM>]::[Correcto]
+<EM ID="ex6-83" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A1M0S0D0H0M0S0">no ano que vem</EM> ---> [<EM ID="ex6-199" CATEG="OUTRO" TIPO="OUTRO">no ano que vem</EM>]::[Correcto]
+<EM ID="ex6-84" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Atacama</EM> ---> [<EM ID="ex6-200" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Atacama</EM>]::[Correcto]
+<EM ID="ex6-85" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex6-84" TIPOREL="inclui">Chile</EM> ---> [<EM ID="ex6-201" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Chile</EM>]::[Correcto]
+<EM ID="ex6-86" CATEG="ORGANIZACAO|PESSOA" TIPO="ADMINISTRACAO|POVO">Brasil</EM> ---> [<EM ID="ex6-202" CATEG="LOCAL|PESSOA|PESSOA" TIPO="HUMANO|GRUPOIND|POVO" SUBTIPO="PAIS||">Brasil</EM>]::[Correcto]
+<EM ID="ex6-42" CATEG="TEMPO" TIPO="FREQUENCIA">14 noites por ano</EM> ---> [null]::[Em_Falta]
+<EM CATEG="ESPURIO">14 noites</EM> ---> [<EM ID="ex6-203" CATEG="VALOR" TIPO="QUANTIDADE">14 noites</EM>]::[Espurio]
+<EM CATEG="ESPURIO">por ano</EM> ---> [<EM ID="ex6-204" CATEG="TEMPO" TIPO="FREQUENCIA">por ano</EM>]::[Espurio]
+<EM ID="ex6-88" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex6-70">Steiner</EM> ---> [<EM ID="ex6-205" CATEG="PESSOA" TIPO="INDIVIDUAL">Steiner</EM>]::[Correcto]
+<EM ID="ex6-89" CATEG="COISA" TIPO="CLASSE">Gemini</EM> ---> [<EM ID="ex6-206" CATEG="COISA" TIPO="MEMBROCLASSE">Gemini</EM>]::[Correcto]
+
+

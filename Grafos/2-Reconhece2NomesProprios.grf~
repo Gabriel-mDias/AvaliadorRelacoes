@@ -1,0 +1,27 @@
+#Unigraph
+SIZE 1232 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+7
+"<E>/<PESSOA>" 153 183 1 4 
+"" 740 183 0 
+":Ultimo_Nome.grf" 418 182 3 3 2 6 
+"<E>/</PESSOA>" 651 183 1 1 
+":Primeiro_Nome.grf" 227 182 2 2 6 
+"<E>" 87 183 1 0 
+":Preposicao.grf+:Abreviacoes.grf" 425 98 1 2 

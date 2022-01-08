@@ -1,0 +1,37 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+17
+"<E>" 70 174 2 11 6 
+"" 809 170 0 
+"<FIRST>" 546 171 4 3 4 2 8 
+"<PREPOSICAO>+e" 532 73 1 2 
+"<E>/,.OUTRO}" 689 171 1 1 
+"prémio+prêmio+premio" 406 131 3 2 3 7 
+"<E>/{" 122 129 1 15 
+"\\\"" 575 258 1 2 
+"\\\"" 658 133 1 4 
+"<LOWER>" 166 303 1 12 
+"prémio+prêmio+premio" 327 304 1 13 
+"$[" 126 303 1 9 
+"$]" 277 303 1 10 
+"<E>/{" 443 305 3 7 2 3 
+"<FIRST>" 274 129 1 16 
+"$[" 226 129 1 14 
+"$]" 359 129 1 5 

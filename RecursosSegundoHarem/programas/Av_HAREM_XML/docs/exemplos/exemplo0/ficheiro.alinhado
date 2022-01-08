@@ -1,0 +1,31 @@
+# teste2703sub.xml
+# teste2703cd.xml
+DOC teste1
+<ALT>
+<ALT1>
+<EM ID="cdAlt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]
+</ALT1>
+<ALT2>
+<EM ID="cdAlt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>]
+<EM ID="cdAlt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]
+</ALT2>
+<ALT3>
+<EM ID="cdAlt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]
+</ALT3>
+<ALT4>
+<EM ID="cdAlt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>]
+<EM ID="cdAlt4b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]
+</ALT4>
+</ALT>
+<EM ID="cd2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM> ---> [<EM ID="sub2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM>]
+<EM ID="cd3" CATEG="TEMPO" TIPO="TEMPO_CALEND">1999</EM> ---> [null]
+<EM ID="cd4" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM> ---> [<EM ID="sub3" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM>]
+<EM CATEG="ESPURIO">Ele</EM> ---> [<EM ID="sub0" CATEG="OUTRO">Ele</EM>]
+
+
+DOC teste2
+<EM ID="cd5" CATEG="ACONTECIMENTO|ACONTECIMENTO|OBRA" TIPO="EVENTO|ORGANIZADO|PLANO">HAREM</EM> ---> [<EM ID="sub4" CATEG="ACONTECIMENTO" TIPO="EVENTO">HAREM</EM>]
+<EM ID="cd6" CATEG="COISA" TIPO="OBJECTO">Alinhador</EM> ---> [<EM ID="sub5" CATEG="COISA" TIPO="CLASSE">Alinhador</EM>]
+<EM ID="cd7" CATEG="COISA" TIPO="OBJECTO">Ida</EM> ---> [<EM ID="sub6" CATEG="COISA" TIPO="CLASSE">Ida</EM>]
+
+

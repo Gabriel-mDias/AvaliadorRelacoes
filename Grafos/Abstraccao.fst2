@@ -1,0 +1,70 @@
+0000000001
+-1 Abstraccao
+: 42 5 25 4 24 4 23 3 20 3 19 2 18 2 17 2 16 2 15 2 14 2 13 2 11 2 1 1 
+: 7 6 6 6 5 6 4 6 3 6 
+: 12 7 
+: 22 7 21 7 
+: 21 7 
+: 41 8 
+: 10 10 9 10 8 9 
+: 1 11 
+: 40 12 
+: 10 10 9 10 8 9 2 13 
+: 39 14 8 9 
+: 8 9 
+: 33 16 32 7 31 7 28 15 27 7 26 7 
+t 
+: 37 20 36 18 35 19 34 18 18 17 15 17 14 18 13 17 11 17 
+: 29 21 21 7 1 11 
+: 21 7 1 11 
+: 12 18 
+: 40 11 
+: 21 22 
+: 38 18 
+: 30 7 
+: 18 17 
+f 
+%<E>
+%<E>/{
+%<E>/,.ABSTRACCAO}
+%síndrome
+%doença
+%mal
+%sindroma
+%síndroma
+%<FIRST>
+%<PREPOSICAO>
+%e
+%licenciatura
+%em
+%licenciaturas
+%licenciado
+%mestrado
+%mestre
+%doutorado
+%doutoramento
+%doutor
+%áreas
+%de
+%da
+%área
+%professor
+%professores
+%denominada
+%chama
+%chamavam
+%-
+%lhe
+%chamava
+%chamado
+%chamada
+%<UNIDADE_ORGANICA>
+%programa
+%licenciada
+%lic
+%.
+%$![0
+%$]
+%<LOWER>
+%$[1
+f

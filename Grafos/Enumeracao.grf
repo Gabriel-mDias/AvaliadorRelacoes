@@ -1,0 +1,42 @@
+#Unigraph
+SIZE 1188 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+22
+"<E>" 35 272 1 13 
+"" 862 518 0 
+"/Com Cascata deve ter um jeito muito mais fácil para fazer isso" 24 84 0 
+"," 353 270 1 9 
+"<FIRST>" 535 269 3 5 10 4 
+"<PREPOSICAO>+<ABREVIACOES>+-" 516 359 1 4 
+"(" 502 114 1 7 
+"<WORD>" 533 114 2 8 7 
+")" 629 114 1 9 
+"<E>/{" 431 270 1 4 
+"<E>/,.$entidade$}" 669 270 4 6 1 15 17 
+"<PESSOA>/PESSOA" 166 212 1 14 
+"<LOCAL>/LOCAL" 176 296 1 14 
+"$|entidade(" 78 272 2 11 12 
+"$|entidade)" 292 278 2 3 17 
+"," 580 498 2 9 16 
+"<PESSOA>+<LOCAL>" 363 506 2 16 9 
+"ou+e" 259 699 1 20 
+"<FIRST>" 561 698 3 19 21 18 
+"<PREPOSICAO>+<ABREVIACOES>+-" 544 783 1 18 
+"<E>/{" 457 699 1 18 
+"<E>/,.$entidade$}" 695 699 1 1 

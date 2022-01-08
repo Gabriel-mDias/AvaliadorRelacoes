@@ -1,0 +1,16 @@
+0000000001
+-1 Preposicao
+: 6 1 
+: 5 2 4 2 3 2 2 2 1 2 
+: 7 3 
+t 
+f 
+%<E>
+%de
+%da
+%do
+%das
+%dos
+%<E>/{
+%<E>/,.PREPOSICAO}
+f

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE sigarra>
+<COL versao="Primeira_versao">
+    <DOC DOCID="H2-dhy6432">
+    <EM ID="H2-dhy6432-148" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Badakhshan</EM> no norte do <EM ID="H2-dhy6432-149" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="H2-dhy6432-148" TIPOREL="inclui">Afeganistão</EM>.
+    <EM ID="H2-dhy6432-150" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Bom Jesus do Itabapoana</EM> no norte do <EM ID="H2-dhy6432-151" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="H2-dhy6432-150" TIPOREL="inclui">Rio de Janeiro</EM>.
+    </DOC>
+</COL>

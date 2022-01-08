@@ -1,0 +1,53 @@
+0000000001
+-1 4-ReconhecePronomesDeTratamento
+: 30 2 29 2 28 2 27 4 23 2 22 3 21 2 20 2 19 2 14 1 
+: 31 7 12 6 11 6 10 5 9 5 8 5 7 5 6 5 5 5 4 5 3 5 1 5 
+: 24 8 14 7 
+: 24 9 14 7 
+: 24 8 14 7 2 2 
+: 2 6 
+: 24 11 13 10 
+: 13 10 
+: 25 12 
+: 25 13 
+: 18 7 17 7 16 7 15 14 13 10 
+: 25 15 
+: 26 16 
+: 26 2 
+t 
+: 26 7 
+: 14 7 
+f 
+%<E>
+%sr
+%.
+%srs
+%sra
+%sras
+%d
+%dr
+%drs
+%dra
+%dras
+%<PRO+Tra>
+%<FORMASDETRATAMENTO>
+%<FIRST>
+%<E>/{
+%<E>/,.PESSOA}
+%<PREPOSICAO>
+%<ABREVIACOES>
+%da
+%olá
+%ei
+%oi
+%prezado
+%prezada
+%(
+%a
+%)
+%Att
+%Atenciosamente
+%Abraços
+%Abraço
+%<ABREVIACOES><<^D.$>>
+f

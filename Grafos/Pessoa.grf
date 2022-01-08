@@ -1,0 +1,33 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+13
+"<E>" 24 330 11 5 3 4 2 6 7 9 10 11 12 8 
+"" 851 329 0 
+":1-ReconheceNomesCompostos.grf" 368 63 1 1 
+":4-ReconhecePronomesDeTratamento.grf" 346 227 1 1 
+":5-ReconheceAcoesHumADireita.grf" 361 280 1 1 
+":3-ReconheceAcoesHumAEsquerda.grf" 361 175 1 1 
+":6-ReconheceAposto.grf" 390 330 1 1 
+":9-AcaoRealizadaPor.grf" 405 482 1 1 
+":2-Reconhece2NomesProprios.grf" 375 114 1 1 
+":8-ReconhecePerguntasComNomes.grf" 362 425 1 1 
+":10-ReconheceNomeSucedidoPorIdade.grf" 347 536 1 1 
+":11-ReconheceNomesLeNer.grf" 386 578 1 1 
+":7-ReconheceMinusculasHAREMAEsquerda.grf" 327 375 1 1 

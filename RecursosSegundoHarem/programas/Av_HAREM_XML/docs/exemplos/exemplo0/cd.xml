@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE colHAREM>
+<colHAREM versao="Segundo_dourada_9.0">
+<DOC DOCID="teste1">
+Ele era apenas um 
+<ALT>
+<EM ID="cdAlt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM> |
+<EM ID="cdAlt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM> da <EM ID="cdAlt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> |
+Professor da <EM ID="cdAlt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM> |
+Professor da <EM ID="cdAlt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras</EM> da <EM ID="cdAlt4b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>
+</ALT>, mas já tinha sido <EM ID="cd2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM> em <EM ID="cd3" CATEG="TEMPO" TIPO="TEMPO_CALEND">1999</EM>.
+Ainda assim nunca se defez da sua residência em <EM ID="cd4" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM>.
+</DOC>
+<DOC DOCID="teste2">
+Este é mais um documento para exemplificar o funcionamento dos programas do <EM ID="cd5" CATEG="ACONTECIMENTO|ACONTECIMENTO|OBRA" TIPO="EVENTO|ORGANIZADO|PLANO">HAREM</EM>.
+A invocação destes programas começa no <EM ID="cd6" CATEG="COISA" TIPO="OBJECTO">Alinhador</EM> e termina no <EM ID="cd7" CATEG="COISA" TIPO="OBJECTO">Ida</EM>.
+</DOC>
+</colHAREM>

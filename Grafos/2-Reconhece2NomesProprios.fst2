@@ -1,0 +1,28 @@
+0000000001
+-1 2-Reconhece2NomesProprios
+: 1 1 
+: 2 2 
+: 5 3 
+: 4 4 
+: 6 5 
+: 3 6 
+: 4 7 
+: 8 8 
+: 11 10 10 10 9 10 3 9 
+: 11 10 10 10 9 10 7 11 3 9 
+: 3 9 
+t 
+f 
+%<E>
+%<E>/{
+%$[0
+%<FIRST>
+%$]
+%<!UPPER>
+%$[1
+%<E>/,.PESSOA}
+%<N+Pr>
+%<PREPOSICAO>
+%<ABREVIACOES>
+%da
+f

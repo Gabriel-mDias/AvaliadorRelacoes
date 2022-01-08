@@ -1,0 +1,22 @@
+Programas de avaliação do Segundo HAREM
+=======================================
+
+Requisitos:
+
+- Máquina com Java 1.6 ou superior.
+
+
+Instalação e utilização:
+
+- Extrair o conteúdo do arquivo
+- Os programas são invocados a partir da directoria Av_HAREM_XML
+
+
+Manual:
+
+- O manual para a utilização dos programas encontra-se em:
+http://linguateca.dei.uc.pt/harem/avaliacao/programas.html
+Ou na directoria docs.
+
+-----------------------------------------
+Hugo Oliveira

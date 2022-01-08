@@ -1,0 +1,26 @@
+0000000001
+-1 Datas_Def
+: 1 1 
+: 14 2 13 2 12 3 11 3 10 3 9 3 6 3 5 2 4 2 3 2 2 2 
+: 15 4 
+: 7 5 
+t 
+: 8 2 
+f 
+%<E>
+%<E>/{
+%Primavera
+%Verão
+%Outono
+%Inverno
+%Segunda
+%-
+%Feira
+%Terça
+%Quarta
+%Quinta
+%Sexta
+%Sábado
+%Domingo
+%<E>/,.DATAS_DEF}
+f

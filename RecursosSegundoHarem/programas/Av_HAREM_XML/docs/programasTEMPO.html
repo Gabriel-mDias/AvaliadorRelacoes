@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Programas de Avaliação do Segundo HAREM: Pista TEMPO</title>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  <style type="text/css">
+<!--
+.style1 {font-family: "Courier New", Courier, mono}
+.style2 {font-weight: bold}
+-->
+  </style>
+</head>
+
+
+<body>
+
+<h2>Programas de avalia&ccedil;&atilde;o da pista TEMPO</h2>
+Cristina Mota
+
+<hr>
+
+<ol>
+
+  <li><a href="#avaltempo">Avaliador dos atributos estendidos de TEMPO</a></li>
+
+  <li><a href="#integracao">Integração com programas de avaliação do HAREM clássico</a></li>
+
+</ol>
+
+<hr>
+
+<p>Neste documento descreve-se o programa que avalia os atributos adicionais do TEMPO, bem como a sua utilização e integração na sequência de invocação dos programas de avaliação do HAREM clássico.</p>
+
+<h3><a name="avaltempo">Avaliador dos atributos estendidos de TEMPO</a></h3>
+
+<p>O programa AvalTEMPO compara os atributos TEMPO_REF, SENTIDO, VAL_NORM e VAL_DELTA das entidades TEMPO que estiverem na CD com os mesmos atributos que estiverem na saída do sistema calculando a pontuação adicional da entidade correspondente. O cálculo da pontuação adicional é feito de acordo com a fórmula descrita em <a href="http://acdc.linguateca.pt/aval_conjunta/HAREM/AvalTempo.html">Avaliação da categoria TEMPO</a>.</p>
+
+<p>Para cada alinhamento já pontuado pelo <a href="http://linguateca.dei.uc.pt/harem/avaliacao/programas.html#emir">avaliador da classificação</a> (Emir) e que corresponda a uma entidade TEMPO na CD, o programa calcula a pontuação adicional e actualiza a pontuação produzida previamente pelo Emir, somando esse valor à pontuação existente no ficheiro (ou seja, actualiza, o campo CSC do ficheiro).</p>
+
+<p><strong>Invoca&ccedil;&atilde;o:</strong><br>
+
+<span class="style1">gawk -f AvalTEMPO.awk [-v MODO=valor1] [-v TODOS=valor2] <a href="http://linguateca.dei.uc.pt/harem/avaliacao/exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir">
+ficheiro.alinhado.avalida.veu.alts.emir</a>
+&gt; <a href="http://linguateca.dei.uc.pt/harem/avaliacao/exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir.tempo">ficheiro.alinhado.avalida.veu.alts.emir.tempo</a></span></p>
+
+<p><strong><span style="font-weight: normal;">Argumentos opcionais:</span></strong></p>
+<ul>
+  <li><strong><span style="font-weight: normal;">-v MODO=valor: condiciona os atributos que vão ser avaliados. Pode ter os seguintes valores:
+  <ul>
+    <li>1 - avalia todos os atributos </li>
+    <li>2 - avalia só TEMPO_REF e SENTIDO</li>
+    <li>3 - avalia só VAL_NORM e VAL_DELTA</li>
+  </ul>
+</span></strong></li>
+  <li><span style="font-weight: normal;">-v TODOS=valor: condiciona os alinhamentos que são listados na saída. É usado para depurar o programa. Pode ter um dos seguintes valores:
+      <ul>
+	<li>0 - só lista os alinhamentos com entidades TEMPO</li>
+	<li>1 - lista todos os alinhamentos</li>
+      </ul>
+  </span></li>
+</ul>
+
+<p><strong>Sa&iacute;da:</strong><br>
+
+Alinhamentos avaliados de acordo com os atributos estendidos de TEMPO.<br>
+
+</p>
+
+<h3><a name="integracao">Integração com programas de avaliação do HAREM clássico</a></h3>
+
+<p>Este programa deve ser incluído na sequência de invocação dos programas de avaliação do HAREM clássico, após a invocação do avaliador semântico ou do selector de ALTs. O ficheiro <a href="Avaliacao.sh">Avaliacao.sh</a> ilustra uma sequência completa de invocação dos programas.</p>
+
+<hr>
+&Uacute;ltima actualiza&ccedil;&atilde;o: 21 de Junho de
+2008
+<address><a href="http://www.linguateca.pt/cgi-bin/correio/FormularioCorreio.pl?pagina=Coimbra//http://linguateca.dei.uc.pt/harem/avaliacao/&servico=harem">Contacte
+a organiza&ccedil;&atilde;o do Segundo HAREM</a>
+</address>
+
+</body>
+</html>

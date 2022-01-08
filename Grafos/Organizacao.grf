@@ -1,0 +1,66 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+46
+"<E>" 78 188 6 12 18 28 30 32 40 
+"" 938 126 0 
+"<E>/{" 350 38 3 6 11 43 
+"<E>/,.ORGANIZACAO}" 823 126 1 1 
+"pela+da" 266 38 1 2 
+"<FIRST>" 714 117 4 5 3 6 23 
+"<PREPOSICAO>+e+\/+-" 700 36 1 5 
+"<E>/{" 570 716 1 9 
+"<E>/,.ORGANIZACAO}" 779 716 1 1 
+"<FIRST>" 677 716 3 9 8 22 
+"em+da" 445 715 1 7 
+"universidade+faculdade+igreja+secretaria+polícia+companhia+sindicato+centro+parlamento+instituto+organização+superintendência+procuradoria+fundação+escola+departamento+dpto.+banco+câmara+assembleia+associação+confederação+biblioteca+museu+ministério+agência+restaurante+conselho" 461 272 3 6 5 45 
+"<E>/{" 162 247 2 14 26 
+"<FIRST>" 288 248 1 15 
+"$[" 248 248 1 13 
+"$]" 389 248 1 11 
+"universidade+igreja+secretaria+polícia+companhia+sindicato+centro+parlamento+instituto+organização+superintendência+procuradoria+fundação+escola+departamento+dpto.+banco+câmara+assembleia+associação+confederação+biblioteca+museu+ministério+agência+restaurante+conselho" 629 445 2 20 21 
+"<LOWER>" 276 371 1 19 
+"$[" 227 371 1 17 
+"$]" 368 370 1 16 
+"<E>/{" 906 369 1 5 
+"<PREPOSICAO>" 805 452 1 20 
+"<PREPOSICAO>+e+\/+-" 693 796 1 9 
+"#.#" 744 167 1 5 
+"<!DIC>" 286 548 1 27 
+"<UPPER>" 455 548 1 3 
+"$[" 246 548 1 24 
+"$]" 370 548 1 25 
+"<UNIDADE_ORGANICA>" 275 644 1 1 
+"<PALAVRAS_MINUSCULAS_HAREM>" 189 715 1 10 
+"<ser>" 108 657 1 29 
+"<!DIC>" 435 775 1 38 
+"(" 207 777 1 33 
+"<E>/{" 295 780 1 37 
+"<WORD>" 574 775 1 36 
+")" 1007 770 1 1 
+"<E>/,.ORGANIZACAO}" 841 776 1 35 
+"$[" 395 775 1 31 
+"$]" 519 775 1 34 
+"<LOWER>" 121 44 1 41 
+"$[" 81 44 1 39 
+"$]" 224 44 1 4 
+"<LOCAL>" 284 121 1 44 
+"$![" 244 121 1 42 
+"$]" 372 121 1 5 
+"<PESSOA>" 670 196 1 3 

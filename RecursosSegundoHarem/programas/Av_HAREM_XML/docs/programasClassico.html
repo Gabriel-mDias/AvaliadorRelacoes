@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+  <title>Programas Segundo HAREM</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <style type="text/css">
+<!--
+.codigo {font-family: "Courier New", Courier, mono; font-size:12px;}
+.bold {font-weight: bold;}
+.modulo {margin: 10px; border: 2px solid; padding:15px; background-color: #CCCCCC;}
+div.modulo a.titulo {font-weight: bold; font-size:20px; padding:15px 0px 15px 0px;}
+.codigo1 {font-family: "Courier New", Courier, mono}
+-->
+  </style>
+</head>
+<body>
+
+<h2>Programas de avalia&ccedil;&atilde;o do HAREM cl&aacute;ssico</h2>
+Hugo Gonçalo Oliveira
+<hr>
+
+<ol>
+  <li><a href="#haremconf">O ficheiro harem.conf</a></li>
+  <li><a href="#alinhador">Alinhador</a></li>
+  <li><a href="#avalida">Avaliador da identifica&ccedil;&atilde;o</a></li>
+  <li><a href="#veus">Filtros</a></li>
+  <li><a href="#alts">Organizador de ALTs</a></li>
+  <li><a href="#espurios">Listador de espúrios</a></li>
+  <li><a href="#emir">Avaliador semântico</a></li>
+  <li><a href="#altinarelax">Selector de ALTs</a></li>
+  <li><a href="#ida">Resumidor das classificações</a></li>
+  <li><a href="#sultao">Gerador de resultados</a></li>
+  <li><a href="#nota">Notas para utiliza&ccedil;&atilde;o </a></li>
+  <li><a href="#licen&#231;a">Licen&ccedil;a</a></li>
+</ol>
+
+<hr>
+
+<p>Neste documento descrevem-se de forma muito resumida os m&oacute;dulos utilizados para a avaliação da pista do HAREM cl&aacute;ssico, inclu&iacute;da no Segundo HAREM.</p>
+<p>A avalia&ccedil;&atilde;o tem como ponto de partida a colec&ccedil;&atilde;o dourada (CD) e as participações e &eacute; feita atrav&eacute;s da invoca&ccedil;&atilde;o sequencial de m&oacute;dulos, pela  ordem aqui apresentada. Cada m&oacute;dulo tem como entrada um (ou mais) ficheiros de texto, que s&atilde;o processados
+  de forma a produzir um resultado pronto a ser tratado pelo m&oacute;dulo seguinte.</p>
+<p>Os m&oacute;dulos s&atilde;o apresentados pelo seu t&iacute;tulo. Aqueles que utilizaram como base m&oacute;dulos utilizado no Primeiro HAREM t&ecirc;m tamb&eacute;m o seu antigo nome entre par&ecirc;ntesis.</p>
+<p>Para exemplificar os vários passos foi utilizado uma
+colec&ccedil;&atilde;o dourada muito simples <a href="exemplos/exemplo1/CDexemplo.xml">CD</a> e o seguinte ficheiro <a href="harem.conf">harem.conf</a>.
+</p>
+
+<div class="modulo">
+<a name="haremconf" class="titulo">0. O ficheiro harem.conf</a>
+
+<p>Este <a href="harem.conf">ficheiro</a>, que se tem de se encontrar na mesma directoria dos programas, consiste na listagem do elenco de categorias, tipos e subtipos a utilizar na avalia&ccedil;&atilde;o (e ainda os nomes de rela&ccedil;&otilde;es utilizados no ReRelEM).</p>
+<p>Cada linha deste ficheiro consiste em um caracter (que indica o tipo de atributo que se vai seguir), seguido de ':' e do valor do atributo. Por exemplo, a linha C:PESSOA define a categoria PESSOA.</p>
+<ul>
+<li>'C' antecede uma categoria, 'T' antecede um tipo e 'S' um subtipo.</li>
+<li>Todos os tipos que se encontrarem entre uma categoria e outra pertencem à primeira categoria (acontecendo o mesmo para subtipos).</li>
+<li>O caracter '#' é utilizado para comentar linhas, ou seja, linhas que começam com esse caractr sao ignoradas pelos programas.</li>
+<li>As linhas podem ainda ser iniciadas pelos caracteres:
+	<ul>
+		<li>'X', indicando uma possibilidade para o atributo TEMPO_REF (<a href="programasTEMPO.html">avalia&ccedil;&atilde;o do TEMPO</a>);</li>
+
+		<li>'Y', indicando uma possibilidade para o atributo SENTIDO (<a href="programasTEMPO.html">avalia&ccedil;&atilde;o do TEMPO</a>);</li>
+		<li>'R', indicando o nome de uma rela&ccedil;&atilde;o a ser utilizada pelos <a href="programasRerelem.html">programas de avalia&ccedil;&atilde;o da tarefa do ReRelEM</a>.</li>
+	</ul>
+</li>
+</ul>
+
+</div>
+
+<div class="modulo">
+<a name="alinhador"  class="titulo">1. Alinhador (AlinhEM)</a>
+
+<p>O Alinhador tem como entrada um ficheiro relativo a uma participação completa (constitu&iacute;da por documentos da colec&ccedil;&atilde;o HAREM), mas alinha apenas EMs que fazem parte de documentos que estão na CD.</p>
+<p>Cada alinhamento consiste numa EM do lado da CD e a sua correspondente do lado da participa&ccedil;&atilde;o. </p>
+<p><span class="bold">Invocação:</span><br>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 [-Xmx512M] -cp
+.;lib/jdom.jar pt.linguateca.harem.Aligner -submissao <a href="exemplos/exemplo1/ficheiro.xml">
+ficheiro.xml</a>
+-cd <a href="exemplos/exemplo1/CDexemplo.xml">CDexemplo.xml</a>
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado">ficheiro.alinhado</a>
+</span></p>
+
+<p class="bold">Argumentos obrigatórios:</p>
+<ul>
+  <li>-submissao: ficheiro XML com a participa&ccedil;&atilde;o</li>
+  <li>-cd: ficheiro XML com a CD</span></li>
+</ul>
+(Nota: quando os ficheiros são muito grandes pode ser
+necessário utilizar a opção -Xmx512M para aumentar
+a memória disponível)
+<p><div class="bold">Saída:</div>
+EMs da CD alinhadas com as EMs da participação<br>
+</p>
+
+</div>
+
+<div class="modulo">
+<a name="avalida" class="titulo">2. Avaliador de alinhamentos (AvalIDa)</a>
+
+<p>Este m&oacute;dulo avalia os alinhamentos, comparando a delimita&ccedil;&atilde;o das
+  EM do lado da CD com a delimita&ccedil;&atilde;o das EM do lado da participa&ccedil;&atilde;o.</p>
+<p>Cada alinhamento pode ser avaliado como <span class="bold">Correctos,
+  Espúrios, Em Falta ou Parcialmente Correcto.</span></p>
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.IndividualAlignmentEvaluator
+-alinhamento <a href="exemplos/exemplo1/ficheiro.alinhado">ficheiro.alinhado</a>
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida">ficheiro.alinhado.avalida</a>
+</span></p>
+
+<p><div class="bold">Saída:</div>
+Alinhamentos avaliados relativamente à
+identificação. Os alinhamentos podem estar
+Correctos, Espúrios, Em Falta,
+Parcialmente_Correctos_Por_Excesso ou Parcialmente_Correctos_Por_Defeito
+</p>
+</div>
+
+<div class="modulo">
+<a name="veus" class="titulo">3. V&eacute;us </a>
+<p>O V&eacute;us consiste na aplica&ccedil;&atilde;o de filtros para adaptar um conjunto de alinhamentos
+  a um cen&aacute;rio selectivo.</p>
+<p>Os filtros est&atilde;o disponíveis através da utilização de op&ccedil;&otilde;es:</p>
+<ul>
+
+  <li>-sistema:&nbsp;conjunto de categorias, tipos e
+subtipos que representa o cenário selectivo em que o sistema
+participa</li>
+
+  <li>-avaliacao: conjunto de categorias, tipos e
+subtipos que representa o cenário selectivo em que se
+pretender avaliar o sistema.</li>
+
+  <li>-estilo: Este filtro foi herdado do Primeiro HAREM, mas tem
+apenas uma opção de no Segundo HAREM (-estilo muc) que vai fazer com que
+não existam EMs parcialmente correctas. As EM parcialmente
+correctas são contabilizadas como Espúrias e as EMs da CD que a elas estavam associadas são
+contabilizadas como estando Em Falta.</li>
+
+</ul>
+
+<p>Os filtros que representam um cenário (sistema e avaliacao) são
+construídos segundo uma máscara <span class="codigo">&quot;CATEG1(TIPO1{SUBTIPO1,SUBTIPO2...};TIPO2...):CATEG2...&quot;</span></p>
+
+<p>Exemplos de filtros:</p>
+
+<table border="1">
+
+  <tbody>
+
+    <tr>
+
+      <th>Filtro</th>
+
+      <th>Descrição</th>
+
+    </tr>
+
+    <tr>
+
+      <td class="codigo">"PESSOA(*):LOCAL(*):ORGANIZACAO(*)"</td>
+
+      <td>Apenas as categorias PESSOA, LOCAL e ORGANIZACAO e o seu conjunto normal de tipos/subtipos. </td>
+
+    </tr>
+
+    <tr>
+
+      <td class="codigo">"LOCAL(FISICO{*};HUMANO{*})"</td>
+
+      <td>A categoria LOCAL apenas com os tipos FISICO e HUMANO e o seu conjunto normal de subtipos. </td>
+
+    </tr>
+
+    <tr>
+
+      <td class="codigo">"LOCAL(FISICO{*};HUMANO{RUA,PAIS,DIVISAO,REGIAO})"</td>
+
+      <td>A categoria LOCAL apenas com o tipo FISICO como seu conjunto normal de subtipos e com o tipo HUMANO apenas com os subtipos
+RUA, PAIS, DIVISAO e REGIAO. </td>
+
+    </tr>
+
+    <tr>
+
+      <td class="codigo">"*" (ou sem a flag do cenario)</td>
+
+      <td>Cenário completo.&nbsp; </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+<p>(Nota: utilizar um véu com todas as categorias,
+tipos e subtipos não é completamente igual a
+utilizar apenas o "*". O véu com tudo vai retirar da CD
+entidades não classificadas) </p>
+
+<p class="bold"><a href="http://acdc.linguateca.pt/aval_conjunta/HAREM/avaliacao_por_cenarios.html"><span style="font-weight: normal;">Informação adicional sobre a avaliação em diferentes cenários selectivos.</span></a></p>
+
+<p><span class="bold">Invocação:</span><br>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.AlignmentFilter -alinhamento <a href="exemplos/exemplo1/ficheiro.alinhado.avalida">ficheiro.alinhado.avalida</a>
+-estilo muc [-sistema <em>filtro1</em>]</span><span class="codigo">[-avaliacao <em>filtro2</em>]
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu">ficheiro.alinhado.avalida.veu</a></span></p>
+
+(Nota: onde está o sufixo .veu, adicionado ao nome do ficheiro gerado pode e deve estar um nome que identifique o cenário
+selectivo a que a avaliação diz respeito)
+
+<p><div class="bold">Saída:</div>
+Alinhamentos filtrados de acordo com as opções.
+Como é sempre utilizado o filtro "muc" deixam de existir
+entidades parcialmente identificadas.
+</p>
+</div>
+
+<div class="modulo">
+
+<a name="alts" class="titulo">4. Organizador de ALTs</a>
+<p>Este m&oacute;dulo organiza os ALT, de forma a garantir que:</p>
+
+<ul>
+  <li> n&atilde;o haja an&aacute;lises iguais, que possam ter surgido ap&oacute;s a aplica&ccedil;&atilde;o do V&eacute;us, por
+    meio da remo&ccedil;&atilde;o de duplicados;</li>
+  <li>n&atilde;o haja alternativas que deixaram de conter EM ap&oacute;s a aplica&ccedil;&atilde;o do V&eacute;us;</li>
+  <li>o peso 1/(total de elementos) seja atribu&iacute;do a cada EM dentro de um ALT (esse peso    &eacute; colocado no fim de cada alinhamento, depois do caracter &quot;&rdquo;).</li>
+</ul>
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.AltAlignmentOrganizer -alinhamento <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu">ficheiro.alinhado.avalida.veu</a>
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts">ficheiro.alinhado.avalida.veu.alts</a>
+</span></p>
+
+<p><div class="bold">Saída:</div>
+Alinhamentos com ALTs organizados. Alinhamentos dentro de ALTs
+têm anexado o seu peso.</p>
+
+</div>
+
+<div class="modulo">
+<a name="espurios" class="titulo">5. Listador de espúrios</a>
+
+Este módulo pode ser invocado se se pretender listar todas
+as EMs espúrias nos documentos da participação.
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.SpuriousAlignmentsCollector -alinhamento
+<a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts">ficheiro.alinhado.avalida.veu.alts</a>
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.espurios">ficheiro.alinhado.avalida.veu.alts.espurios</a></span></p>
+
+<p><div class="bold">Saída:</div>
+Alinhamentos espúrios da participação.</p>
+
+</div>
+
+<div class="modulo">
+
+<a name="emir" class="titulo">6. Avaliador da classificação (Emir)</a>
+
+<p>O Avaliador da classifica&ccedil;&atilde;o  compara os atributos CATEG, TIPO e SUBTIPO no lado da CD e no lado da
+participação, sendo cada um dos seus pontuado classificado como Correcto, Espúrio ou Em Falta.<br>
+
+De acordo com a pontuação dos atributos é calculada a medida da Classificação
+de cada alinhamento, bem como um Peso que é igual a 1.0, tirando quando se trata de uma EM
+espúria (0) ou quando se trata de uma EM dentro de um ALT. </p>
+
+<p>No Primeiro HAREM este peso também podia estar entre 0 e 1 no caso de EMs parcialmente identificadas.</p>
+
+<p><span class="bold">Op&ccedil;&atilde;o:</span> -pesos identificação;&alpha;;&beta;;&gamma;:
+indicação dos pesos a ser utilizados no c&aacute;lculo da medida (identifica&ccedil;&atilde;o, &alpha;, &beta; &gamma;).
+Os pesos por omiss&atilde;o são respectivamente 1, 1, 0.5 e 0.25</p>
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.SemanticAlignmentEvaluator
+-alinhamento <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts">ficheiro.alinhado.avalida.veu.alts</a>
+ [-pesos id;&alpha;;&beta;;&gamma;]
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir">ficheiro.alinhado.avalida.veu.alts.emir
+</a></span>
+<p><div class="bold">Saída:</div>
+Alinhamentos avaliados de acordo com a classificação.</p>
+Um atributo pode estar Correcto, Em Falta ou ser Espúrio.
+<br>Além da avaliação dos atributos são anexados mais alguns valores aos alinhamentos:</p>
+<ul>
+  <li>MaxCSC_CD: classificação máxima com a anotação na CD;</li>
+  <li>MaxCSC_S: classificação máxima possível com a anotação do sistema;</li>
+  <li>CSC: classificação efectiva da anotação do sistema, comparada com a anotação do CD;</li>
+  <li>Peso: peso do alinhamento (0 se for Espúrio ou Em Falta, 1 se estiver Correcto. No Primeiro HAREM poderia ter valores
+entre 0 e 1 para entidades parcialmente identificadas);</li>
+  <li>PALT: peso do alinhamento dentro de um ALT (quando este valor não está presente, é igual a 1)</li>
+</ul>
+
+(Nota: apesar da saída do Avaliador da classificação utilizadar a sigla CSC para identificar a medida da classificação,
+este termo utilizado no Primeiro HAREM (classificação semântica combinada) deixou de existir no Segundo HAREM.)
+</div>
+<div class="modulo">
+
+<a name="altinarelax" class="titulo">7. Selector de ALTs (ALTina)</a>
+
+<p>O Selector de ALT é utilizado <span class="bold">apenas</span> na avaliação relaxada de ALT.</p>
+<p>É aplicado sobre a
+  saída do Avaliador da classificação e tem como objectivo seleccionar apenas o melhor elemento
+  dentro de cada ALT.
+  Existem dois critérios para a selecção do melhor elemento:</p>
+<ol>
+  <li>Alternativa com a melhor Medida-F</li>
+  <li>Alternativa com a melhor medida da classifica&ccedil;&atilde;o </li>
+</ol>
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.SemanticAltAlignmentSelector
+-alinhamento <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir">ficheiro.alinhado.avalida.veu.alts.emir</a>
+&gt;&nbsp;<a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir.altrel">ficheiro.alinhado.avalida.veu.alts.emir.altrel</a></span>
+
+<p><div class="bold">Saída:</div>
+Alinhamentos com ALTs alinhados à melhor alternativa na participação.
+</p>
+</div>
+
+<div class="modulo">
+<a name="ida" class="titulo">8. Resumidor das classificações (Ida)</a>
+
+<p>Resume as pontuações obtidas para as métricas e medidas obtidas nas tarefas de identificação e classificação.
+<p>Pode ser invocado utilizando a saída do Avaliador da classificação ou do Selector de ALTs.
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp
+.;lib/jdom.jar pt.linguateca.harem.GlobalSemanticEvaluator -alinhamento
+<a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir">ficheiro.alinhado.avalida.veu.alts.emir</a>
+&gt; <a href="exemplos/exemplo1/ficheiro.alinhado.avalida.veu.alts.emir.ida">ficheiro.alinhado.avalida.veu.alts.emir.ida</a></span></p>
+
+<p><div class="bold">Saída:</div>
+Resumo das várias pontuações obtidas pelo sistema.</p>
+</div>
+
+<div class="modulo">
+
+<a name="sultao" class="titulo">9. Gerador de resultados (Sultão)</a>
+
+<p>O Gerador de resultados utiliza todos os ficheiros do tipo .ida com
+a terminação pretendida e que se encontrem dentro
+de determinada&nbsp;directoria e subdirectorias (ambos dados como
+argumento) para gerar uma tabela HTML com os vários sistemas
+e respectivas classificações&nbsp;(na tarefa
+de classificação e também na
+identificação), ordenados pela melhor Medida-F.
+Outras valores presentes incluem a Precisão e a
+Abrangência.</p>
+
+<p>Opções disponíveis através da utilização de flags:
+<ul>
+
+  <li>-depurar: se esta opção
+não estiver presente a identificação
+dos sistemas é anonimizada.</li>
+
+  <li>-filtro: terminação dos ficheiros de
+onde se pretende extrair as classificações. Se se
+pretender gerar resultados para apenas um cenário de
+avaliação, será conveniente dar uma
+terminação pelo menos a partir do sufixo do nome
+dos ficheiro que identifica o véu utilizado na sua
+construção. (Por exemplo ".total.alts.emir.ida").</li>
+
+  <li>-dir: directório onde procurar os ficheiros
+(caminho relativo a partir de onde é feita a
+invocação).</li>
+
+  <li>-info: com esta opção é
+dado ao programa um ficheiro <a href="lista_participantes.csv">CSV com a informação dos vários sistemas</a>
+que é utilizado para o nome do sistema
+apareça na tabela. Se a opção
+não for utilizada ou se não for
+possível associar o nome do ficheiro com um sistema, a linha
+da tabela é identificada pelo nome do ficheiro.</li>
+
+</ul>
+</p>
+
+<p><div class="bold">Invocação:</div>
+<span class="codigo">java -Dfile.encoding=ISO-8859-1 -cp .;lib/jdom.jar
+pt.linguateca.harem.GlobalSemanticReporter&nbsp;[-depurar] -filtro <span style="font-style: italic;">filtro</span>&nbsp;-dir
+<span style="font-style: italic;">directorio_participacoes</span>
+[-info <span style="font-style: italic;">lista_participantes.csv</span>]&gt; resultados.html</span></p>
+
+<p><span class="bold">Saída:<br>
+
+</span>HTML com os sistemas e
+respectivas&nbsp;classificações representadas
+em todos os ficheiros na directoria <span class="codigo"><span style="font-style: italic;">directorio_participacoes </span>terminados
+em<span style="font-style: italic;"> filtro</span> e</span>
+ordenadas pela melhor Medida-F. São também
+apresentadas outras medidas como a precisão ou a
+abrangência.<br>
+</p>
+</div>
+
+<div class="modulo">
+  <a name="nota" class="titulo">Notas</a>
+  <p>Todos os m&oacute;dulos utilizados para esta avalia&ccedil;&atilde;o foram implementados em <a href="http://www.java.com">Java</a>, e &eacute; necess&aacute;rio ter instalada a vers&atilde;o 1.6 ou posterior do Java Runtime Environment (ou compat&iacute;vel).</p>
+  <p>Encontram-se aqui descritas as invoca&ccedil;&otilde;es dos programas em ambiente Windows. Em ambiente Unix &eacute; necess&aacute;rio alterar a separa&ccedil;&atilde;o dos arquivos no classpath (de ';' para ':'), por exemplo:
+  <ol>
+      <li>Windows: <span class="codigo1">java -cp .;lib/jdom.jar ...</span></li>
+      <li>Unix: <span class="codigo1">java -cp .:lib/jdom.jar ... </span></li>
+  </ol>
+</div>
+
+<div class="modulo">
+ <a name="licenca" class="titulo">Licen&ccedil;a</a>
+  <p>
+    O pacote de programas para a avalia&ccedil;&atilde;o do Segundo HAREM &eacute; disponibilizado pela <a href="http://www.linguateca.pt">Linguateca</a> atrav&eacute;s de uma licen&ccedil;a <a href="LICENSE.txt">BSD</a>. </p>
+</div>
+
+<hr>
+Última actualização: 11 de Novembro de 2008
+<address><a href="http://www.linguateca.pt/cgi-bin/correio/FormularioCorreio.pl?pagina=Coimbra//http://linguateca.dei.uc.pt/harem/avaliacao/&servico=harem">Contacte a organização do Segundo HAREM</a>
+</address>
+
+</body>
+</html>

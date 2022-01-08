@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Programa de geração dos relatórios individuais por participante</title>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  <style type="text/css">
+<!--
+.style1 {font-family: "Courier New", Courier, mono}
+.style2 {font-weight: bold}
+-->
+  </style>
+</head>
+
+
+<body>
+
+<h2>Programa de geração dos relatórios individuais por participante</h2>
+
+Cristina Mota
+<hr>
+<ol>
+
+  <li><a href="#alcaide">Descrição do programa de geração de relatórios individuais</a></li>
+  <li><a href="#integracao">Integração com os programas de avaliação</a></li>
+  <li><a href="#r">Informações adicionais sobre o R</a></li>
+
+</ol>
+
+<p>Neste documento descreve-se o programa que gera os relatórios individuais de avaliação por participante.</p>
+
+<h3><a name="alcaide">Descrição do programa de geração de relatórios individuais</a></h3>
+
+<p>O programa Alcaide gera relatórios individuais detalhados por participante, a partir dos ficheiros de resultados produzidos pelo programa Sultão, descrito na página de <a href="programasClassico.html">documentação dos programas do HAREM clássico</a>. O programa cria uma directoria por cada sistema, onde escreve o relatório e coloca as figuras correspondentes. Na directoria raiz cria um ficheiro index.html a partir do qual se pode ver todos os relatórios.</p>
+
+<p>O programa está configurado para ler os seguintes ficheiros de resultados:</p>
+<ul>
+  <li>Resultados do HAREM clássico para os cenários de avaliação, incluindo de categorias: <i>resultados[_altrel]_&lt;cenario&gt;.html</i> e <i>resultados[_altrel]_&lt;categoria&gt;.html</i></li>
+  <li>Resultados dos vários modos da pista TEMPO, incluindo os do HAREM clássico na mini CD do TEMPO, para os cenário de avaliação do TEMPO estendido: <i>resultadosTEMPO_classico_&lt;cenario&gt;.html</i> e <i>resultadosTEMPO_estendido_&lt;cenario&gt;_{completo|sonorm|semnorm}.html</i></li>
+</ul>
+
+<p><strong>Invoca&ccedil;&atilde;o:</strong><br><br>
+
+<span class="style1">./Alcaide.r [-dresultados directoria1] [-drelatorios directoria2]</span></p>
+
+<p><strong><span style="font-weight: normal;">Argumentos opcionais:</span></strong></p>
+<ul>
+  <li><strong><span style="font-weight: normal;">-dresultados &lt;directoria1&gt;: indica a directoria onde se encontram os ficheiros de resultados produzidos pelo programa Sultão; caso seja omitida, o programa tentará ler os ficheiros da directoria <i>resultados</i> a partir da directoria de onde se estiver a invocar o programa;</span></strong></li>
+  <li><span style="font-weight: normal;">-drelatorios &lt;directoria2&gt;: indica a directoria raiz onde serão criadas as directorias, uma por cada sistema, que conterão o relatório do sistema e os gráficos produzidos; caso seja omitida, o programa criará as directorias na directoria <i>resultados/relatorios</i> a partir da directoria de onde se estiver a invocar o programa.
+  </span></li>
+</ul>
+
+
+<h3><a name="integracao">Integração com programas de avaliação</a></h3>
+
+<p>Este programa deve ser usado no fim da sequência completa de invocação dos programas de avaliação para o HAREM clássico e TEMPO estendido, nos vários cenários de avaliação, incluindo por categorias. O ficheiro <a href="Avaliacao.sh">Avaliacao.sh</a> ilustra uma sequência completa de invocação dos programas com geração de relatórios.</p>
+
+<h3><a name="r">Informações adicionais sobre o R</a></h3>
+
+O programa foi escrito em R e testado tanto no Darwin como no ambiente R para MacOSX. Não foram utilizados pacotes adicionais do R, mas a distribuição de R tem de ter sido compilada para suportar png e o X11 deve estar instalado na máquina. Para informações sobre como instalar, consultar a página do <a href="http://www.r-project.org/">projecto R</a>.
+
+<hr>
+&Uacute;ltima actualiza&ccedil;&atilde;o: 25 de Agosto de 2008
+<address><a href="http://www.linguateca.pt/cgi-bin/correio/FormularioCorreio.pl?pagina=ACDC//html/aval_conjunta/HAREM/ProgramaRelatoriosIndividuais.html&amp;servico=harem">Contacte
+a organiza&ccedil;&atilde;o do Segundo HAREM</a>
+</address>
+
+</body>
+</html>

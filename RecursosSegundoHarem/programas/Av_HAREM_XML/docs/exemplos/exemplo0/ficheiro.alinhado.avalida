@@ -1,0 +1,31 @@
+# teste2703sub.xml
+# teste2703cd.xml
+DOC teste1
+<ALT>
+<ALT1>
+<EM ID="cdAlt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[Correcto, Parcialmente_Correcto_por_Defeito(0.35714285714285715; 0.6428571428571428), Parcialmente_Correcto_por_Defeito(0.35714285714285715; 0.6428571428571428), Parcialmente_Correcto_por_Defeito(0.07142857142857142; 0.9285714285714286), Parcialmente_Correcto_por_Defeito(0.07142857142857142; 0.9285714285714286), Parcialmente_Correcto_por_Defeito(0.07142857142857142; 0.9285714285714286)]
+</ALT1>
+<ALT2>
+<EM ID="cdAlt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>]::[Parcialmente_Correcto_por_Excesso(0.35714285714285715; 0.6428571428571428), Correcto, Parcialmente_Correcto_por_Excesso(0.3333333333333333; 0.6666666666666667), Parcialmente_Correcto_por_Defeito(0.1; 0.9), Parcialmente_Correcto_por_Defeito(0.1; 0.9)]
+<EM ID="cdAlt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[Parcialmente_Correcto_por_Excesso(0.07142857142857142; 0.9285714285714286), Parcialmente_Correcto_por_Excesso(0.1; 0.9), Correcto]
+</ALT2>
+<ALT3>
+<EM ID="cdAlt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[Parcialmente_Correcto_por_Excesso(0.35714285714285715; 0.6428571428571428), Parcialmente_Correcto_por_Excesso(0.3333333333333333; 0.6666666666666667), Correcto, Parcialmente_Correcto_por_Defeito(0.1; 0.9), Parcialmente_Correcto_por_Defeito(0.1; 0.9), Parcialmente_Correcto_por_Defeito(0.1; 0.9)]
+</ALT3>
+<ALT4>
+<EM ID="cdAlt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt2a" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt4a" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade</EM>, <EM ID="alt4b" CATEG="ABSTRACCAO" TIPO="IDEIA">Letras</EM>]::[Parcialmente_Correcto_por_Excesso(0.21428571428571427; 0.7857142857142857), Parcialmente_Correcto_por_Excesso(0.3; 0.7), Parcialmente_Correcto_por_Excesso(0.3; 0.7), Parcialmente_Correcto_por_Defeito(0.16666666666666666; 0.8333333333333334), Parcialmente_Correcto_por_Defeito(0.16666666666666666; 0.8333333333333334)]
+<EM ID="cdAlt4b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM> ---> [<EM ID="alt1" CATEG="PESSOA" TIPO="CARGO">Professor da Faculdade de Letras da UC</EM>, <EM ID="alt3" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Faculdade de Letras da UC</EM>, <EM ID="alt2b" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UC</EM>]::[Parcialmente_Correcto_por_Excesso(0.07142857142857142; 0.9285714285714286), Parcialmente_Correcto_por_Excesso(0.1; 0.9), Correcto]
+</ALT4>
+</ALT>
+<EM ID="cd2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM> ---> [<EM ID="sub2" CATEG="PESSOA" TIPO="CARGO">Presidente da UC</EM>]::[Correcto]
+<EM ID="cd3" CATEG="TEMPO" TIPO="TEMPO_CALEND">1999</EM> ---> [null]::[Em_Falta]
+<EM ID="cd4" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM> ---> [<EM ID="sub3" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Lisboa</EM>]::[Correcto]
+<EM CATEG="ESPURIO">Ele</EM> ---> [<EM ID="sub0" CATEG="OUTRO">Ele</EM>]::[Espurio]
+
+
+DOC teste2
+<EM ID="cd5" CATEG="ACONTECIMENTO|ACONTECIMENTO|OBRA" TIPO="EVENTO|ORGANIZADO|PLANO">HAREM</EM> ---> [<EM ID="sub4" CATEG="ACONTECIMENTO" TIPO="EVENTO">HAREM</EM>]::[Correcto]
+<EM ID="cd6" CATEG="COISA" TIPO="OBJECTO">Alinhador</EM> ---> [<EM ID="sub5" CATEG="COISA" TIPO="CLASSE">Alinhador</EM>]::[Correcto]
+<EM ID="cd7" CATEG="COISA" TIPO="OBJECTO">Ida</EM> ---> [<EM ID="sub6" CATEG="COISA" TIPO="CLASSE">Ida</EM>]::[Correcto]
+
+

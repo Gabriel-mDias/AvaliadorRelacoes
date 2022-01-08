@@ -1,0 +1,98 @@
+0000000001
+-1 UnidadeOrganica
+: 54 1 
+: 29 4 18 3 17 2 16 2 15 2 14 2 13 2 12 2 11 2 10 2 9 2 8 2 7 2 6 2 5 2 4 2 3 2 2 2 1 2 
+: 55 6 25 5 
+: 19 7 
+: 19 8 
+: 47 11 45 10 17 9 
+t 
+: 41 16 38 15 36 14 33 2 32 2 30 2 24 13 22 12 21 2 20 2 
+: 31 2 24 2 
+: 55 6 
+: 52 20 43 19 25 18 19 17 
+: 48 19 
+: 23 2 
+: 43 23 40 2 34 22 25 21 
+: 55 6 37 2 25 5 
+: 27 24 
+: 27 25 
+: 51 9 
+: 49 26 
+: 46 9 
+: 19 27 
+: 26 28 
+: 27 29 
+: 20 30 
+: 19 31 
+: 42 2 
+: 50 9 
+: 53 9 
+: 27 32 
+: 35 2 
+: 27 33 
+: 24 34 
+: 28 2 
+: 19 35 
+: 25 36 
+: 39 37 
+: 39 2 
+: 44 2 
+f 
+%<E>
+%FADEUP
+%FAUP
+%FBAUP
+%FCNAUP
+%FCUP
+%FDUP
+%FEP
+%FEUP
+%FFUP
+%FLUP
+%FMDUP
+%FMUP
+%FPCEUP
+%ICBAS
+%Reitoria
+%SPUP
+%UP
+%Faculdade
+%de
+%Desporto
+%Arquitectura
+%Belas
+%Artes
+%Ciências
+%da
+%Nutrição
+%e
+%Alimentaçao
+%Faculade
+%Letras
+%Economia
+%Engenharia
+%Farmácia
+%Sociais
+%Humanas
+%Medicina
+%Dentária
+%Psicologia
+%Educaçao
+%Médicas
+%Ciencias
+%Tecnologia
+%do
+%Física
+%Universidade
+%Porto
+%U
+%.
+%Beira
+%Interior
+%Coimbra
+%Nova
+%Lisboa
+%<E>/{
+%<E>/,.UNIDADE_ORGANICA}
+f

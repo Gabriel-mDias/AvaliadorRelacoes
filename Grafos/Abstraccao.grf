@@ -1,0 +1,36 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+16
+"<E>" 18 195 3 2 7 14 
+"" 801 195 0 
+"<E>/{" 235 195 1 4 
+"<E>/,.ABSTRACCAO}" 653 195 1 1 
+"síndrome+doença+mal+sindroma+síndroma" 340 195 2 5 6 
+"<FIRST>" 507 195 3 5 6 3 
+"<PREPOSICAO>+e" 499 108 2 5 11 
+"licenciatura em+licenciaturas em+licenciado em+mestrado em+mestre em+doutorado em+doutoramento em+doutor em+áreas de+áreas da+área de+área da+professor de+professores de" 79 334 1 8 
+"<E>/{" 562 331 1 5 
+"denominada+chama+chamavam+chamavam-lhe+chamavam de+chamava+chamado+chamada+chamada de" 222 95 1 8 
+"<UNIDADE_ORGANICA>+licenciatura em+licenciaturas em+mestrado em+doutoramento em+ programa de doutoramento em+licenciada+licenciado+lic." 714 99 1 12 
+"$![" 629 99 1 10 
+"$]" 1008 99 1 5 
+"<LOWER>" 69 97 1 15 
+"$[" 29 97 1 13 
+"$]" 172 97 1 9 

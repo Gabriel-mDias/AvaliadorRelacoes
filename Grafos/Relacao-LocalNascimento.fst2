@@ -1,0 +1,34 @@
+0000000001
+-1 Relacao-LocalNascimento
+: 9 1 
+: 1 2 
+: 14 3 
+: 4 5 3 4 2 4 
+: 9 6 
+: 5 7 
+: 10 9 8 8 
+: 6 10 
+: 13 11 
+: 13 11 12 12 11 12 10 9 
+: 4 13 
+t 
+: 10 9 
+: 2 14 
+: 7 4 
+f 
+%<E>
+%<PESSOA>
+%de
+%da
+%,
+%nascido
+%em
+%origem
+%<LOCAL>
+%<E>/{
+%<FIRST>
+%<PREPOSICAO>
+%<ABREVIACAO>
+%<E>/,.LOCAL-LOCAL_NASCIMENTO}
+%<E>/,.PESSOA-LOCAL_NASCIMENTO}
+f

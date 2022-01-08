@@ -1,0 +1,35 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+15
+"<E>" 19 405 10 2 3 4 6 7 8 9 10 11 13 
+"" 564 415 0 
+":Local_2.grf" 244 225 1 1 
+":Organizacao_3.grf" 225 282 1 1 
+":Outro.grf" 266 612 1 1 
+":Pessoa.grf" 243 172 1 1 
+":Abstraccao.grf" 240 330 1 1 
+":Acontecimento.grf" 232 383 1 1 
+":Coisa.grf" 262 432 1 1 
+":Obra.grf" 266 487 1 1 
+":Tempo.grf" 268 528 1 1 
+":Valor.grf" 273 574 1 1 
+":Local.grf" 80 174 1 14 
+"$![" 40 174 1 12 
+"$]" 179 174 1 5 

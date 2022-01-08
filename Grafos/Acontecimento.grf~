@@ -1,0 +1,33 @@
+#Unigraph
+SIZE 1253 848
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+13
+"<E>" 27 205 1 2 
+"" 995 210 0 
+"<E>/<ACONTECIMENTO>" 61 205 3 8 10 12 
+"<E>/</ACONTECIMENTO>" 887 208 1 1 
+"campeonato+simpósio+excursões+cerimônia+seminário+congresso+workshop+jornada+jornadas+semana+guerra+copa+encontro+festa+congresso+taça+revolução+feira+festival+jogos" 530 208 3 5 6 3 
+"<FIRST>" 741 178 3 6 3 5 
+":Preposicao.grf" 736 108 1 5 
+"<FIRST>" 356 202 1 9 
+"$[" 290 205 1 7 
+"$]" 472 205 1 4 
+"<NB>" 109 128 2 11 8 
+"º +ª " 196 131 1 8 
+":NumRomanos.grf" 136 300 1 8 

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE colHAREM [
+
+<!ELEMENT colHAREM (DOC)*>
+<!ATTLIST colHAREM
+  versao CDATA #REQUIRED>
+
+<!ELEMENT DOC (#PCDATA|ALT|EM|OMITIDO|P)*> <!ATTLIST DOC DOCID CDATA #REQUIRED>
+
+<!ELEMENT P (#PCDATA|ALT|EM|OMITIDO)*>
+
+<!ELEMENT ALT (#PCDATA|EM|OMITIDO)*>
+
+<!ELEMENT EM (#PCDATA)>
+<!ATTLIST EM
+  ID CDATA #REQUIRED
+  CATEG CDATA #IMPLIED
+  TIPO CDATA #IMPLIED
+  SUBTIPO CDATA #IMPLIED
+  COMENT CDATA #IMPLIED
+  TIPOREL CDATA #IMPLIED
+  COREL CDATA #IMPLIED
+  TEMPO_REF (ENUNCIACAO|TEXTUAL) #IMPLIED
+  SENTIDO (ANTERIOR|POSTERIOR|SIMULT|ANTERIOR_OU_SIMUL|POSTERIOR_OU_SIMULT) #IMPLIED
+  VAL_DELTA CDATA #IMPLIED
+  VAL_NORM CDATA #IMPLIED>
+
+<!ELEMENT OMITIDO (#PCDATA|EM)*>
+]>
+<colHAREM versao="Segundo_HAREM_exemplo_dourada_15.0">
+  <DOC DOCID="ex1">
+<P>    Eleições à vista no
+    <ALT>
+      <EM ID="ex1-16" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PSD</EM>
+      /
+      <EM ID="ex1-17" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Vila Real</EM>
+      |
+      <EM ID="ex1-18" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PSD/Vila Real</EM>
+    </ALT></P>
+<P>
+    O deputado social-democrata
+    <EM ID="ex1-19" CATEG="PESSOA" TIPO="INDIVIDUAL">Fernando Pereira</EM>
+    anunciou
+    <EM ID="ex1-20" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM>
+    a sua candidatura à presidência da
+    <ALT><EM ID="ex1-1" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-18" TIPOREL="incluido">Comissão Política Distrital de Vila Real do PSD</EM> | Comissão Política Distrital de <EM ID="ex1-3" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex1-17" TIPOREL="ident">Vila Real</EM> do <EM ID="ex1-4" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-16" TIPOREL="ident">PSD</EM></ALT>
+    , cujas eleições irão ter lugar
+    <EM ID="ex1-22" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----02--T----E--LM-">em Fevereiro</EM>
+    . O presidente em exercício,
+    <EM ID="ex1-23" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-1" TIPOREL="outra">Mascarenhas Ferreira</EM>
+    , havia já confirmado a sua recandidatura, pelo que é de esperar uma disputa renhida entre duas personalidades que estiveram do mesmo lado
+    <EM ID="ex1-24" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="SIMULT">na altura</EM>
+    da eleição da actual
+    <EM ID="ex1-25" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex1-1" TIPOREL="outra">Distrital</EM>
+    . Tudo indica que não surja mais nenhum concorrente.</P>
+<P>
+Ao contrário do que seria legítimo pensar, a candidatura de
+    <EM ID="ex1-26" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-19">Fernando Pereira</EM>
+    não aparece como resposta aos maus resultados obtidos pelo
+    <EM ID="ex1-27" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-16 ex1-18 ex1-18" TIPOREL="ident inclui">PSD</EM>
+    nas eleições autárquicas
+    <EM ID="ex1-28" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----12--T----E--LM-">de Dezembro</EM>
+    , quando perdeu para o
+    <EM ID="ex1-29" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">PS</EM>
+    as <ALT><EM ID="ex1-2" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Câmaras de Alijó</EM> e <EM ID="ex1-6" CATEG="ORGANIZACAO|LOCAL" TIPO="ADMINISTRACAO|HUMANO" SUBTIPO="|DIVISAO">Vila Pouca de Aguiar</EM> | Câmaras de <EM ID="ex1-15" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Alijó</EM> e <EM ID="ex1-21" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Vila Pouca de Aguiar</EM></ALT>, mas sim por desinteligências quanto à forma de actuar de
+    <EM ID="ex1-32" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-23">Mascarenhas Ferreira</EM>
+    , a quem alguns dirigentes acusam de tomar decisões importantes «nas costas» da
+    <EM ID="ex1-33" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex1-25">Distrital</EM>
+    . Como exemplo é-lhe apontado o caso da comissão administrativa nomeada pela
+    <ALT><EM ID="ex1-34" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Secretaria de Estado do Turismo para a Região de Turismo da Serra do Marão</EM> | Secretaria de Estado do <EM ID="ex1-30" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Turismo</EM> para a Região de Turismo da Serra do Marão | Secretaria de Estado do Turismo para a <EM ID="ex1-8" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Região de Turismo da Serra do Marão</EM> | Secretaria de Estado do Turismo para a Região de Turismo da <EM ID="ex1-9" CATEG="LOCAL|LOCAL" TIPO="HUMANO|FISICO" SUBTIPO="REGIAO|RELEVO">Serra do Marão</EM></ALT>
+    , cuja composição foi acordada secretamente entre
+    <EM ID="ex1-36" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-23">Mascarenhas</EM>
+    e um dos <ALT>vice-presidentes da <EM ID="ex1-11" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-18" TIPOREL="ident">Distrital</EM> | <EM ID="ex1-12" CATEG="PESSOA" TIPO="CARGO">vice-presidentes da Distrital</EM></ALT>
+    ,
+    <EM ID="ex1-39" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-12 ex1-12" TIPOREL="ident ident">Miguel Rodrigues</EM>
+    , <ALT COREL="ex1-39" TIPOREL="ident"><EM ID="ex1-48" CATEG="PESSOA" TIPO="CARGO">chefe dos Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro</EM> | chefe dos <EM ID="ex1-49" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-39" TIPOREL="outro">Serviços Administrativos da Universidade de Trás-os-Montes e Alto Douro</EM> | chefe dos Serviços Administrativos da <EM ID="ex1-50" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Universidade de Trás-os-Montes e Alto Douro</EM> | chefe dos Serviços Administrativos da Universidade de <EM ID="ex1-56" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Trás-os-Montes e Alto Douro</EM> | chefe dos Serviços Administrativos da Universidade de <EM ID="ex1-57" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Trás-os-Montes</EM> e <EM ID="ex1-58" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Alto Douro</EM></ALT>
+    (
+    <EM ID="ex1-42" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-41 ex1-52" TIPOREL="ident inclui">UTAD</EM>
+    ), onde o primeiro é vice-reitor. Para surpresa de todos, a escolha para presidente daquela comissão veio a recair na esposa do segundo,
+    <EM ID="ex1-43" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-39" TIPOREL="outra">Lucinda Rodrigues</EM>
+    , <ALT>chefe dos <EM ID="ex1-54" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Serviços Académicos</EM> | <EM ID="ex1-55" CATEG="PESSOA" TIPO="CARGO" COREL="ex1-43" TIPOREL="ident">chefe dos Serviços Académicos da UTAD</EM> | chefe dos Serviços Académicos da <EM ID="ex1-45" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex1-41">UTAD</EM></ALT>
+    .</P>
+<P>
+O crescente protagonismo do chamado «grupo da universidade» vinha, de resto, causando um certo mal-estar junto de alguns dirigentes sociais-democratas, a maioria dos quais integrantes do intitulado «grupo da
+    <EM ID="ex1-46" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Jota</EM>
+    », liderado por
+    <EM ID="ex1-47" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex1-26 ex1-46" TIPOREL="ident outra">Fernando Pereira</EM>
+    , que, além de deputado, é o <ALT><EM ID="ex1-13" CATEG="PESSOA" TIPO="CARGO" COREL="ex1-47" TIPOREL="ident">presidente da Assembleia Municipal de Ribeira de Pena</EM> | presidente da <EM ID="ex1-14" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex1-47" TIPOREL="outro">Assembleia Municipal de Ribeira de Pena</EM> | presidente da Assembleia Municipal de <EM ID="ex1-37" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Ribeira de Pena</EM></ALT>. Este grupo, pelo seu peso eleitoral, tem tido um papel preponderente na escolha dos elencos distritais, pelo que não chega a ser uma surpresa a candidatura do seu mentor.
+    <EM ID="ex1-51" CATEG="PESSOA" TIPO="INDIVIDUAL">P. G.</EM></P>
+  </DOC>
+  <DOC DOCID="ex2">
+<P>    Entre o jdanovismo e a ignorância</P>
+<P>
+    <EM ID="001" CATEG="PESSOA" TIPO="INDIVIDUAL">Augusto M. Seabra</EM>
+    Se não quer ser simplesmente ignorante, a comissária
+    <EM ID="002" CATEG="PESSOA" TIPO="INDIVIDUAL">Seabra</EM>
+    que atente às regras da economia cinematográfica. O que conta, então, não são os valores dos números de espectadores nacionais, mas as receitas de um produto nos diferentes tipos de circuito internacional. E sabe que mais? O filme português
+    <EM ID="ex2-2" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR_OU_SIMULT">recentemente</EM>
+    mais vendido e visto, imagine a senhora tão PSDista, e o
+    <EM ID="005" CATEG="ORGANIZACAO|PESSOA" TIPO="INSTITUICAO|GRUPOMEMBRO">PS</EM>
+    e o «
+    <EM ID="010" CATEG="ORGANIZACAO" TIPO="EMPRESA">Expresso</EM>
+    », é... «
+    <EM ID="115" CATEG="OBRA" TIPO="REPRODUZIDA">Vale Abraão</EM>
+    », de
+    <EM ID="112" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="115" TIPOREL="outra">Manoel de Oliveira</EM>
+    .</P>
+<P>
+Sentir o imperativo ético de voltar a escrever sobre «o cinema português» não deixa de ser um acto penoso, mas inadiável. Se o faço
+    <EM ID="ex2-3" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR">ao fim de alguns anos</EM>
+    de deliberado silêncio (não sobre este ou aquele filme, mas sobre as questões estruturais), isso deve-se a razões de longo prazo, à sua agudização em curto prazo, mas também a dois motivos que, sendo pessoais, não deixam de se prender com o debate em curso: em primeiro lugar, porque penso que o período mais exaltante do cinema português, que genericamente correspondeu
+    <EM ID="114" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1980----T----E--LM-">aos anos 80</EM>
+    , foi ultrapassado numa conjuntura que, para todos os efeitos políticos, teve início com a nomeação de
+    <EM ID="115a" CATEG="PESSOA" TIPO="INDIVIDUAL">Pedro Santana Lopes</EM>
+    para
+    <ALT><EM ID="116" CATEG="PESSOA" TIPO="CARGO" COREL="115a" TIPOREL="outra">secretário de Estado da Cultura</EM> | secretário de Estado da <EM ID="ex2-32" CATEG="ABSTRACCAO" TIPO="DISCIPLINA">Cultura</EM></ALT>
+    <EM ID="117" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+19900102T----E--LM-">em 2 de Janeiro de 1990</EM>
+    ; em segundo lugar, porque as funções que venho ocupando no
+    <EM ID="ex2-2" CATEG="ORGANIZACAO|OBRA" TIPO="INSTITUICAO|PLANO">European Script Fund</EM>
+    do
+   <ALT><EM ID="ex2-3" CATEG="ORGANIZACAO|OBRA" TIPO="INSTITUICAO|PLANO" COREL="ex2-2" TIPOREL="inclui">Programa Media das Comunidades Europeias</EM>| Programa Media das <EM ID="ex2-57" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex2-2" TIPOREL="outro">Comunidades Europeias</EM></ALT>
+    fazem com que a única relação institucional que mantenho com o cinema português ocorra num quadro europeu em que, quando se tem por função ler ou discutir para aí uns
+    <EM ID="120" CATEG="VALOR" TIPO="QUANTIDADE">300</EM>
+    projectos de guiões cinematográficos e televisivos
+    <EM ID="ex2-6" CATEG="TEMPO" TIPO="FREQUENCIA">por ano</EM>
+    , os modos de entendimento não deixam de ser diferentes.</P>
+<P>
+A luta pela existência de condições para o funcionamento regular de uma produção é quase tão velha como o próprio cinema português -- essa indústria «horrivelmente cara», como
+    <EM ID="122" CATEG="PESSOA" TIPO="INDIVIDUAL">Salazar</EM>
+    se queixava a
+    <EM ID="132" CATEG="PESSOA" TIPO="INDIVIDUAL">António Lopes Ribeiro</EM>
+    . Com o tempo produziram-se mitos, que um novo-vindo, a televisão (essa mesma que aqui, como em toda a parte, tantos espectadores e viabilidade económica retirou ao cinema), consolidou. Quantas vezes já não ouvimos locutores virem relembrar uma suposta «idade de ouro» do cinema português?</P>
+<P>
+Pois é, mas então pergunte-se a
+    <EM ID="142" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="132">António Lopes Ribeiro</EM>
+    porque faliu a sua produtora depois de três filmes tidos como tão populares como «
+    <EM ID="511" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">O Pai Tirano</EM>
+    », «
+    <EM ID="512" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">O Pátio das Cantigas</EM>
+    » e «
+    <EM ID="513" CATEG="OBRA" TIPO="REPRODUZIDA" COREL="142" TIPOREL="outra">Aniki-Bóbó</EM>
+    ». A degenerescência hegemónica do velho
+    <EM ID="514" CATEG="ORGANIZACAO|ABSTRACCAO" TIPO="ADMINISTRACAO|IDEIA">Estado Novo</EM>
+    e a cada vez mais insistente presença no espaço público (mesmo com todos os cortes de censura) dos autores de um «novo cinema português» levaram à definição de um apoio do
+    <EM ID="ex2-33" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">Estado</EM>
+    , consagrado na
+    <OMITIDO>lei 7/71</OMITIDO>
+    , na vigência do marcelismo. O facto nem era inédito, pois em diversos países da
+    <EM ID="517" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Europa</EM>
+    se consagrava então o apoio do
+    <EM ID="ex2-34" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex2-33">Estado</EM>
+    à produção cinematográfica.</P>
+<P>
+As circunstâncias históricas, e desde logo o
+    <EM ID="521" CATEG="ACONTECIMENTO" TIPO="EFEMERIDE">25 de Abril</EM>
+    , levaram a algumas particularidades no caso, duas antes de mais: o divórcio acentuado entre produção e distribuição; a consolidação de uma ideologia hegemónica entre os realizadores, como se, por apoio do
+    <EM ID="ex2-35" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex2-33">Estado</EM>
+    e alheamento das regras do mercado,
+    <EM ID="523" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="517 ex2-33" TIPOREL="incluido ident">Portugal</EM>
+    se tivesse transformado numa espécie de utopia da criação cinematográfica. Contudo, em raros países a parte da produção nacional no respectivo mercado é tão restrita. E, apesar disso, em poucos países os realizadores (que não directamente os filmes) têm tal presença no espaço público.</P>
+  </DOC>
+  <DOC DOCID="ex3">
+<P>    A
+   <ALT><EM ID="ex3-4" CATEG="OBRA|ACONTECIMENTO" TIPO="PLANO|EVENTO">Concessão de Évora Monte</EM> | Concessão de <EM ID="ex3-62" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM></ALT> ou
+    <ALT><EM ID="ex3-5" CATEG="OBRA|ACONTECIMENTO" TIPO="PLANO|EVENTO" COREL="ex3-4">Capitulação de Évora Monte</EM> | Capitulação de <EM ID="ex3-63" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-62" TIPOREL="ident">Évora Monte</EM></ALT> (depois impropriamente chamada de <ALT><EM ID="ex3-6" CATEG="ABSTRACCAO" TIPO="NOME" COREL="ex3-4" TIPOREL="outra">Convenção de Évora Monte</EM> | Convenção de <EM ID="ex3-64" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Évora Monte</EM></ALT>) foi um acordo assinado entre liberais e miguelistas na pacata vila alentejana de
+    <EM ID="ex3-7" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-4" TIPOREL="outra sede_de">Évora Monte</EM>
+    (
+    <EM ID="ex3-8" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">hoje</EM>
+    concelho de
+    <EM ID="ex3-9" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-7" TIPOREL="inclui">Estremoz</EM>
+    ),
+    <EM ID="ex3-10" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+18340529T----E--LM-">em 26 de Maio de 1834</EM>
+    , o qual pôs termo à guerra civil
+    <EM ID="ex3-37" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO">de 1832-34</EM>
+    , que vinha dilacerando a nação portuguesa
+    <EM ID="ex3-11" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="ANTERIOR" VAL_DELTA="A2M0S0D0H0M0S0">havia cerca de dois anos</EM>
+    .</P>
+<P>
+Antecedentes</P>
+<P>
+    <EM ID="ex3-12" CATEG="PESSOA" TIPO="INDIVIDUAL">D. Miguel I</EM>
+    , considerado soberano usurpador do trono de sua sobrinha
+    <EM ID="ex3-13" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-12" TIPOREL="outra">D. Maria da Glória</EM>
+    pelos liberais, havia perdido as grandes batalhas da guerra civil no
+    <EM ID="ex3-14" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Ribatejo</EM>
+    (
+    <EM ID="ex3-15" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Pernes</EM>
+    ,
+    <EM ID="ex3-16" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Almoster</EM>
+    e
+    <EM ID="ex3-17" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-14" TIPOREL="incluido">Asseiceira</EM>
+    )
+    <EM ID="ex3-18" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1834----T----EINLM-">nos primeiros meses de 1834</EM>
+    , e refugiara-se com o seu quartel-general no
+    <EM ID="ex3-19" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-9" TIPOREL="inclui">Alentejo</EM>
+    , a única região do
+    <EM ID="ex3-20" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="inclui">Reino</EM>
+    que lhe continuava formalmente fiel.</P>
+<P>
+Com um exércio pouco motivado para continuar a sua luta por uma causa já perdida, com inúmeras baixas e outras tantas deserções para o lado que acabaria por sair vencedor,
+    <EM ID="ex3-21" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-12">D. Miguel</EM>
+    instalou-se no então concelho de
+    <EM ID="ex3-22" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Évora-Monte</EM>
+    com o seu
+    <EM ID="ex3-24" CATEG="PESSOA" TIPO="GRUPOMEMBRO">Conselho de Guerra</EM>
+    . Ponderando a hipótese de uma derradeira e decisiva batalha às portas de
+    <EM ID="ex3-25" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Évora</EM>
+    , a manutenção de uma guerra de guerrilha no
+    <EM ID="ex3-26" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-19" TIPOREL="incluido">Baixo Alentejo</EM>
+    e
+    <EM ID="ex3-27" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex3-20" TIPOREL="incluido">Algarve</EM>
+    , a retirada para
+    <EM ID="ex3-28" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Espanha</EM>
+    para auxiliar a causa carlista de seu primo
+    <EM ID="ex3-29" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-21" TIPOREL="outra">Don Carlos</EM>
+    (pretendente absolutista ao trono da
+    <EM ID="ex3-31" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO" COREL="ex3-28" TIPOREL="outra">Espanha</EM>
+    , que o disputava à sua sobrinha
+    <EM ID="ex3-32" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex3-29" TIPOREL="outra">Isabel II</EM>
+    - situação, de resto, similar à que se vivia em
+    <EM ID="ex3-33" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex3-20">Portugal</EM>
+    ), ou a rendição pura e simples, acabou o
+    <EM ID="ex3-34" CATEG="PESSOA" TIPO="GRUPOMEMBRO" COREL="ex3-24"> Conselho de Guerra</EM>
+    por deliberar,
+    <EM ID="ex3-35" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+----0523T----E--LM-">no dia 23 de Maio</EM>
+    , pedir um armistício aos chefes liberais, para que cessassem
+    <EM ID="ex3-36" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR_OU_SIMULT">imediatamente</EM> as hostilidades.</P>
+  </DOC>
+  <DOC DOCID="ex4">
+<P>    Pesquisadores do
+    <ALT><EM ID="ex4-90" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Museu Nacional do Rio de Janeiro</EM> | Museu Nacional do <EM ID="ex4-43" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Rio de Janeiro</EM></ALT>
+    anunciaram
+    <EM ID="ex4-91" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM>
+    a descoberta de uma nova espécie de dinossauro no
+    <EM ID="ex4-92" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">Brasil</EM>
+    . O animal era um carnívoro que habitou o nordeste brasileiro
+    <EM ID="ex4-93" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">há 110 milhões de anos</EM>
+    ,
+    <EM ID="ex4-94" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-">no período Cretáceo</EM>
+    (o último da
+    <EM ID="ex4-95" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-" COREL="ex4-94" TIPOREL="inclui">era dos grandes répteis</EM>
+    ).</P>
+<P>
+Batizado de
+    <EM ID="ex4-96" CATEG="ABSTRACCAO" TIPO="NOME">Santanaraptor placidus</EM>
+    , o fóssil é o único a ser encontrado no país com restos de tecido mole, como fibras musculares, vasos sanguíneos e pele.</P>
+<P>
+Para os paleontólogos, achar esse tipo de evidência equivale a acertar na loteria.</P>
+<P>
+"É como se o dinossauro tivesse sido enterrado
+    <EM ID="ex4-97" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM>
+    ", disse
+    <EM ID="ex4-98" CATEG="PESSOA" TIPO="INDIVIDUAL">Alexander Kellner</EM>
+    , geólogo do
+    <EM ID="ex4-99" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Setor de Paleovertebrados</EM>
+    do
+    <EM ID="ex4-100" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex4-90 ex4-99" TIPOREL="ident inclui">Museu Nacional</EM>
+    e coordenador da expedição que encontrou o fóssil na região da
+    <EM ID="ex4-101" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="RELEVO">Chapada do Araripe</EM>
+    ,
+    <EM ID="ex4-102" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex4-101" TIPOREL="inclui">Ceará</EM>
+    (veja mapa).</P>
+<P>
+Com os tecidos preservados, os cientistas esperam poder saber mais sobre o modo de vida e a evolução dos répteis.</P>
+<P>
+Outra importante descoberta é que, na cadeia evolutiva dos dinossauros, o
+    <EM ID="ex4-103" CATEG="COISA" TIPO="CLASSE" COREL="ex4-96">Santanaraptor</EM>
+    ocuparia uma posição no grupo
+    <EM ID="ex4-104" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103" TIPOREL="inclui">Tyrannoraptora</EM>
+    , o mesmo do
+    <EM ID="ex4-105" CATEG="COISA" TIPO="CLASSE" COREL="ex4-104" TIPOREL="incluido">Tyrannossaurus rex</EM>
+    , que habitou os
+    <EM ID="ex4-106" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS">EUA</EM>
+    <EM ID="ex4-107" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="-99999999T9999E--LM-">no final da era dos dinos</EM>
+    .</P>
+<P>
+Segundo
+    <EM ID="ex4-108" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex4-98">Kellner</EM>
+    , apesar de o animal ser um baixinho (poderia atingir, no máximo,
+    <EM ID="ex4-109" CATEG="VALOR" TIPO="QUANTIDADE">2,5 metros</EM>
+    de altura), suas patas e bacia têm características anatômicas muito semelhantes às do ilustre réptil norte-americano.</P>
+<P>
+"O
+    <EM ID="ex4-110" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103">Santanaraptor</EM>
+    pode ser a espécie que deu origem ao tiranossauro
+    <EM ID="ex4-111" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR">68 milhões de anos mais tarde</EM>
+    ", explicou o geólogo.</P>
+<P>
+Predador</P>
+<P>
+O exemplar de
+    <EM ID="ex4-112" CATEG="COISA" TIPO="CLASSE" COREL="ex4-103">Santanaraptor</EM>
+    encontrado pela equipe carioca foi desenterrado
+    <EM ID="ex4-41" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1991----T----E--LM-">em 1991</EM>
+    , mas a montagem do fóssil só foi concluída
+    <EM ID="ex4-40" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR" VAL_DELTA="A9M0S0D0H0M0S0">nove anos mais tarde</EM>
+    . Tudo o que sobrou dele foram as patas e partes da cauda e da bacia, mas os pesquisadores conseguiram estimar que o bicho fosse um filhote de
+    <EM ID="ex4-114" CATEG="VALOR" TIPO="QUANTIDADE">1,5 metro</EM>
+    de altura.</P>
+<P>
+Sua estrutura óssea é de um dinossauro ágil e veloz, que provavelmente se alimentava de pequenas presas _um raptor, na linguagem dos paleontólogos. O nome é uma alusão à região onde ele viveu (a
+    <EM ID="ex4-36" CATEG="LOCAL" TIPO="FISICO" SUBTIPO="REGIAO" COREL="ex4-101" TIPOREL="incluido">Formação Santana</EM>
+    ).</P>
+  </DOC>
+  <DOC DOCID="ex5">
+<P>    O <ALT>presidente da
+    <EM ID="ex5-42" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Comissão Nacional de Ética em Pesquisa</EM> | <EM ID="ex5-50" CATEG="PESSOA" TIPO="CARGO">presidente da Comissão Nacional de Ética em Pesquisa</EM></ALT>
+    ,
+    <EM ID="ex5-43" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex5-42 ex5-50" TIPOREL="outra ident">William Saad Hossne</EM>
+    , disse
+    <EM ID="ex5-44" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM>
+    , na
+    <ALT><EM ID="ex5-45" CATEG="ACONTECIMENTO" TIPO="EVENTO">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM> | 52ª Reunião Anual da <EM ID="ex5-58" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Sociedade Brasileira para o Progresso da Ciência</EM></ALT>
+    , que a comunidade científica internacional pode alterar a
+    <ALT><EM ID="ex5-46" CATEG="OBRA" TIPO="PLANO">Declaração de Helsinque</EM> | Declaração de <EM ID="ex5-65" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Helsinque</EM></ALT>
+    , sobre ética em pesquisas com humanos.</P>
+<P>
+Em estudos no
+    <EM ID="ex5-47" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="REGIAO">Terceiro Mundo</EM>
+    , os cientistas se desobrigariam de fornecer aos doentes o melhor tratamento médico conhecido. A proposta, a ser discutida, dá aos pesquisados o direito de receber terapia dada pelo governo de seu país -- que pode ser nenhuma.</P>
+<P>
+O debate surgiu após estudos em
+    <EM ID="ex5-48" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-47" TIPOREL="incluido">Ruanda</EM>
+    e na
+    <EM ID="ex5-49" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-47" TIPOREL="incluido">Tailândia</EM>
+    em que cientistas deram a grávidas com
+    <EM ID="ex5-51" CATEG="ABSTRACCAO" TIPO="ESTADO">HIV</EM>
+    um regime de
+    <EM ID="ex5-52" CATEG="COISA" TIPO="SUBSTANCIA">AZT</EM>
+    mais breve do que o recomendado. Queriam saber se o regime curto era melhor que nada para impedir a contaminação do feto. Para isso, outro grupo de grávidas com
+    <EM ID="ex5-53" CATEG="ABSTRACCAO" TIPO="ESTADO">HIV</EM>
+    não recebeu remédio algum. Comprovou-se que o regime mais breve basta, na maioria dos casos, para impedir a contaminação.</P>
+<P>
+Os pesquisadores argumentaram que as mulheres que não receberam
+    <EM ID="ex5-54" CATEG="COISA" TIPO="SUBSTANCIA" COREL="ex5-52">AZT</EM>
+    não o teriam recebido, de qualquer forma, e que seria impossível obter resultados precisos sem esse grupo. Além disso, o resultado da pesquisa beneficia países pobres, onde o regime curto é o único acessível.</P>
+<P>
+Contra esse ponto de vista,
+    <EM ID="ex5-55" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex5-43">Hossne</EM>
+    defende a norma atual: em pesquisa de tratamentos, os doentes devem receber ao menos o remédio mais eficiente já descoberto para sua doença.
+    <EM ID="ex5-56" CATEG="PESSOA" TIPO="INDIVIDUAL">Hossne</EM>
+    citou o estudo de
+    <EM ID="ex5-37" CATEG="PESSOA|ORGANIZACAO|LOCAL" TIPO="INDIVIDUAL|INSTITUICAO|HUMANO" SUBTIPO="||DIVISAO">Tuskegee</EM>
+    (
+    <EM ID="ex5-57" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex5-37" TIPOREL="inclui">EUA</EM>
+    ), em que negros com sífilis não foram tratados
+    <EM ID="ex5-38" CATEG="TEMPO" TIPO="DURACAO">por 40 anos</EM>
+    para que a evolução da doença fosse estudada. Os
+    <EM ID="ex5-59" CATEG="ORGANIZACAO" TIPO="ADMINISTRACAO">EUA</EM>
+    , disse ele, foram um dos últimos países a assinar a
+    <ALT><EM ID="ex5-60" CATEG="OBRA" TIPO="PLANO" COREL="ex5-46">Declaração de Helsinque</EM> | Declaração de <EM ID="ex5-66" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO" COREL="ex5-65" TIPOREL="ident">Helsinque</EM></ALT>
+    . O texto,
+    <EM ID="ex5-39" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1989----T----E--LM-">de 89</EM>
+    , traça diretrizes para ética em pesquisas. Seus termos são endossados pela
+    <EM ID="ex5-61" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">OMS</EM>
+    (
+    <EM ID="ex5-40" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex5-61">Organização Mundial da Saúde</EM>
+    ). A proposta já faz parte de outras declarações, como a
+    <ALT><EM ID="ex5-63" CATEG="OBRA" TIPO="PLANO">Declaração de Consenso de Atlanta</EM> | Declaração de Consenso de <EM ID="ex5-68" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Atlanta</EM></ALT>
+    ,
+    <EM ID="ex5-41" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1999----T----E--LM-">de 99</EM>
+    , assinadas por menos cientistas e sem endosso da
+    <EM ID="ex5-64" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex5-40">OMS</EM>
+    .</P>
+  </DOC>
+  <DOC DOCID="ex6">
+<P>    Astrônomos brasileiros esperam fotografar os primeiros planetas fora do
+    <EM ID="ex6-65" CATEG="COISA" TIPO="CLASSE">Sistema Solar</EM>
+    com a ajuda do maior telescópio do mundo, o
+    <EM ID="ex6-66" CATEG="COISA" TIPO="OBJECTO">Gemini</EM>
+    ,
+    <EM ID="ex6-67" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A1M0S0D0H0M0S0">a partir do ano que vem</EM>
+    .</P>
+<P>
+A informação foi dada na conferência
+    <EM ID="ex6-68" CATEG="ACONTECIMENTO" TIPO="EVENTO">"Da Origem do Universo aos Grandes Telescópios"</EM>
+    , ministrada
+    <EM ID="ex6-69" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">ontem</EM>
+    por
+    <EM ID="ex6-70" CATEG="PESSOA" TIPO="INDIVIDUAL">João Steiner</EM>
+    , astrofísico da
+    <EM ID="ex6-71" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex6-70" TIPOREL="outra">USP</EM>
+    , durante a
+    <ALT><EM ID="ex6-72" CATEG="ACONTECIMENTO" TIPO="ORGANIZADO" COREL="ex6-68" TIPOREL="inclui">52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência</EM> | 52ª Reunião Anual da <EM ID="ex6-59" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">Sociedade Brasileira para o Progresso da Ciência</EM></ALT>
+    . A reunião começou
+    <EM ID="ex6-73" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D2H0M0S0">anteontem</EM>
+    no campus da
+    <EM ID="ex6-74" CATEG="ORGANIZACAO" TIPO="INSTITUICAO">UnB</EM>
+    (<ALT><EM ID="ex6-75" CATEG="ORGANIZACAO" TIPO="INSTITUICAO" COREL="ex6-74">Universidade de Brasília</EM> | Universidade de <EM ID="ex6-45" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Brasília</EM></ALT>).</P>
+<P>
+O planeta mais distante
+    <EM ID="ex6-7" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR_OU_SIMULT">até hoje</EM>
+    fotografado é
+    <EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FG112">Plutão</EM>
+    . "Imagine alguém de fora da nossa galáxia que tente fotografar o
+    <EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FTG56">Sol</EM>
+    . Essa pessoa não perceberia a
+    <EM CATEG="LOCAL|COISA" TIPO="FISICO|OBJECTO" SUBTIPO="PLANETA|" ID="FGL56">Terra</EM>
+    , que seria ofuscada pela luminosidade solar", explicou
+    <EM ID="ex6-76" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex6-70" TIPOREL="ident">Steiner</EM>
+    . O mesmo acontece
+    <EM ID="ex6-77" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT">atualmente</EM>
+    com os astrônomos que fotografam estrelas muito distantes.</P>
+<P>
+No entanto, o
+    <EM ID="ex6-78" CATEG="COISA" TIPO="OBJECTO">Gemini</EM>
+    poderá "enxergar" planetas. Isso porque, além de medir luz, o telescópio mede calor, por meio de radiação infravermelha. E, embora não emitam luz, planetas geram calor.</P>
+<P>
+O projeto
+    <EM ID="ex6-80" CATEG="OBRA" TIPO="PLANO" COREL="ex6-66" TIPOREL="outra">Gemini</EM>
+    , resultado de um consórcio de sete países, envolve a construção de dois telescópios com um espelho de
+    <EM ID="ex6-8" CATEG="VALOR" TIPO="QUANTIDADE">oito metros</EM>
+    de diâmetro.</P>
+<P>
+Um dos telescópios já está pronto e em funcionamento no
+    <EM ID="ex6-81" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Havaí</EM>
+    ,
+    <EM ID="ex6-82" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex6-81" TIPOREL="inclui">EUA</EM>
+    . O outro entrará em operação
+    <EM ID="ex6-83" CATEG="TEMPO" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A1M0S0D0H0M0S0">no ano que vem</EM>
+    , em
+    <EM ID="ex6-84" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">Atacama</EM>
+    ,
+    <EM ID="ex6-85" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="ex6-84" TIPOREL="inclui">Chile</EM>
+    , e o
+    <EM ID="ex6-86" CATEG="ORGANIZACAO|PESSOA" TIPO="ADMINISTRACAO|POVO">Brasil</EM>
+    terá direito a usá-lo
+    <EM ID="ex6-42" CATEG="TEMPO" TIPO="FREQUENCIA">14 noites por ano</EM>
+    .</P>
+<P>
+Segundo
+    <EM ID="ex6-88" CATEG="PESSOA" TIPO="INDIVIDUAL" COREL="ex6-70">Steiner</EM>
+    , os telescópios
+    <EM ID="ex6-89" CATEG="COISA" TIPO="CLASSE">Gemini</EM>
+    têm capacidade científica de observação e qualidade de imagem dez vezes superiores às de um telescópio espacial.</P>
+  </DOC>
+</colHAREM>

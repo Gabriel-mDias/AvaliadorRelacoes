@@ -1,0 +1,46 @@
+0000000001
+-1 Acontecimento
+: 1 1 
+: 30 4 29 4 26 3 24 2 
+: 22 5 
+: 27 6 24 2 
+: 24 2 
+: 25 7 
+: 28 4 24 2 
+: 21 8 20 8 19 8 18 8 17 8 16 8 15 8 14 8 13 8 12 8 11 8 10 8 9 8 8 8 7 8 6 8 5 8 4 8 3 8 
+: 23 10 22 8 2 9 
+t 
+: 22 8 
+f 
+%<E>
+%<E>/{
+%<E>/,.ACONTECIMENTO}
+%campeonato
+%simpósio
+%excursões
+%cerimônia
+%seminário
+%congresso
+%workshop
+%jornada
+%jornadas
+%semana
+%guerra
+%copa
+%encontro
+%festa
+%taça
+%revolução
+%feira
+%festival
+%liga
+%<FIRST>
+%<PREPOSICAO>
+%$[0
+%$]
+%<VALOR>
+%.
+%{S}
+%<NUM_ROMANOS>
+%<DET+Num>
+f

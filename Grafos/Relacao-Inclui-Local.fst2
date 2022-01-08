@@ -1,0 +1,42 @@
+0000000001
+-1 Relacao-Inclui-Local
+: 2 1 
+: 1 2 
+: 3 3 
+: 11 6 7 5 4 4 
+: 5 7 
+: 14 7 8 8 
+: 18 7 17 7 16 7 15 7 13 7 12 8 
+: 6 9 
+: 10 9 9 9 6 9 
+: 2 10 
+: 19 12 1 11 
+: 3 13 
+: 22 14 21 14 20 14 19 12 3 13 
+t 
+: 19 12 
+f 
+%<E>
+%<LOCAL>
+%<E>/{
+%<E>/,.LOCAL-INCLUI}
+%na
+%região
+%de
+%no
+%norte
+%do
+%da
+%ao
+%noroeste
+%nordeste
+%sul
+%sudoeste
+%suldoeste
+%leste
+%oeste
+%<FIRST>
+%<PREPOSICAO>
+%<ABREVIACOES>
+%-
+f
