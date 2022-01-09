@@ -1,4 +1,3 @@
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Dias.fst2" Merge Disabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Horas.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Meses.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Numero.fst2" Merge Enabled 1 0
@@ -14,7 +13,8 @@
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Outro.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Obra.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/palavrasMinusculasFamilia.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/ReconheceRelacaoFamiliar.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoEstavaCom.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoCasamento.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Abstraccao.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Local.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacao-LocalNascimento.fst2" Merge Enabled 1 0

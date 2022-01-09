@@ -1,0 +1,60 @@
+0000000001
+-1 Familia-ReconheceRelacaoEstavaCom
+: 19 1 
+: 18 3 2 2 
+: 20 4 
+: 20 4 18 3 17 5 16 5 
+: 30 10 29 10 22 9 21 8 12 6 11 6 10 7 7 6 6 7 5 6 3 6 
+: 18 3 
+: 4 11 
+: 8 12 4 11 
+: 32 14 31 14 30 10 29 10 22 9 14 14 13 14 1 13 
+: 28 10 27 10 26 10 23 15 3 10 
+: 32 14 31 14 14 14 13 14 1 13 
+: 17 14 16 14 15 16 14 14 13 14 
+: 9 11 
+: 21 17 19 18 16 17 
+: 1 13 
+: 25 10 24 10 
+: 14 14 13 14 
+: 19 18 
+: 18 20 2 19 
+: 20 21 
+: 20 21 18 20 17 22 16 22 
+t 
+: 18 20 
+f 
+%<E>
+%<PALAVRAS_MINUSCULA_FAMILIA>
+%<PESSOA>
+%foi
+%com
+%iria
+%fez
+%faria
+%ao
+%lado
+%estava
+%estaria
+%estará
+%sua
+%seu
+%de
+%<PREPOSICAO>
+%<ABREVIACOES>
+%<FIRST>
+%<E>/{
+%<E>/,.PESSOA-RELACAO_FAMILIAR}
+%,
+%que
+%se
+%tornou
+%tornará
+%é
+%seria
+%será
+%cujo
+%cuja
+%seus
+%suas
+f

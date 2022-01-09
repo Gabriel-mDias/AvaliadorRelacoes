@@ -1,0 +1,47 @@
+0000000001
+-1 Familia-ReconheceRelacaoCasamento
+: 3 1 
+: 4 3 1 2 
+: 2 4 
+: 6 5 5 5 4 3 2 4 
+: 14 8 8 7 7 6 
+: 4 3 
+: 3 9 
+: 17 10 16 10 14 8 
+: 15 10 
+: 4 12 1 11 
+: 5 14 3 13 
+: 2 15 
+: 6 16 5 16 4 12 2 15 
+: 4 18 1 17 
+: 3 13 
+: 8 19 
+: 4 12 
+: 2 20 
+: 6 21 5 21 4 18 2 20 
+: 13 22 11 23 9 22 
+t 
+: 4 18 
+t 10 20 
+t 12 24 10 20 
+: 8 22 
+f 
+%<E>
+%<PESSOA>
+%<E>/,.PESSOA-RELACAO_FAMILIAR}
+%<E>/{
+%<FIRST>
+%<PREPOSICAO>
+%<ABREVIACOES>
+%e
+%se
+%casaram
+%?
+%divorciaram
+%-
+%separaram
+%casou
+%com
+%divorciou
+%separou
+f

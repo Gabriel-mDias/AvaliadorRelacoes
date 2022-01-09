@@ -35,7 +35,7 @@ Quem foi eleito presidente da <EM ID="dav-100932-30000" CATEG="ORGANIZACAO">  Á
 Quem se tornou líder do Partido Trabalhista britânico a  <EM ID="dav-100932-40000" CATEG="TEMPO">21 de Julho de 1994</EM>? .
 Quais as cinco praias do desembarque das quais um industrial comprou  <EM ID="dav-100932-50000" CATEG="VALOR">200 toneladas</EM> de areia para comemorar o  <EM ID="dav-100932-50001" CATEG="VALOR">50º</EM> aniversário do Dia-D? .
 Quem era presidente da <EM ID="dav-100932-30000" CATEG="ORGANIZACAO"> Comissão Europeia</EM> em <EM ID="dav-100932-40000" CATEG="TEMPO"> 1995</EM>? .
-Onde é que  <EM ID="dav-100932-10000" CATEG="PESSOA">Stephanie do Mónaco</EM> e <EM ID="dav-100932-10001" CATEG="PESSOA">  Daniel Ducruet </EM> se casaram? .
+Onde é que  <EM ID="dav-100932-14000" CATEG="PESSOA">Stephanie do Mónaco</EM> e<EM ID="dav-100932-14001" CATEG="PESSOA" TIPOREL="relacao_familiar" COREL="dav-100932-14000"> Daniel Ducruet</EM> se casaram? .
 Quantas pessoas estavam presentes na cerimónia em memória do escritor  <EM ID="dav-100932-10000" CATEG="PESSOA">Elias Canetti</EM>? .
 Qual o endereço da <EM ID="dav-100932-30000" CATEG="ORGANIZACAO"> Delegação de Turismo do  Sri Lanka </EM> ? .
 Que aconteceu na <EM ID="dav-100932-20000" CATEG="LOCAL"> Argélia</EM> na noite de 17 para  <EM ID="dav-100932-40000" CATEG="TEMPO">18 de Agosto de 1994</EM>? Quantas pessoas morreram no terramoto? Quantos quilómetros são de Orão a Macara? .

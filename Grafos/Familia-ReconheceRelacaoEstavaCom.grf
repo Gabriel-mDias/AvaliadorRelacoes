@@ -1,0 +1,38 @@
+#Unigraph
+SIZE 1887 879
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+18
+"<E>" 147 522 1 12 
+"" 1735 524 0 
+"<PALAVRAS_MINUSCULA_FAMILIA>" 1004 523 2 9 15 
+"<PESSOA>" 309 561 1 11 
+"foi com+iria com+fez com+faria com+fez ao lado+estava ao lado+estava com+estaria com+estaria com+estará com+estaria com" 614 185 1 5 
+"sua+seu+de sua+de seu+<PREPOSICAO>+<ABREVIACOES>" 753 185 1 2 
+"<PESSOA>" 1430 565 1 10 
+"<FIRST>" 1431 478 3 8 7 10 
+"<PREPOSICAO>+<ABREVIACOES>" 1397 362 1 7 
+"<E>/{" 1327 523 2 7 6 
+"<E>/,.PESSOA-RELACAO_FAMILIAR}" 1608 524 1 1 
+"<E>/,.PESSOA-RELACAO_FAMILIAR}" 419 523 2 4 16 
+"<E>/{" 243 522 2 3 13 
+"<FIRST>" 322 495 3 13 14 11 
+"<PREPOSICAO>+<ABREVIACOES>" 290 403 1 13 
+"<PREPOSICAO>+," 1229 610 1 9 
+",+que se tornou+, que se tornou+que se tornará+, que se tornará+que é+, que é+que foi+, que foi+que seria+, que seria+que será+, que será+cujo+, cujo+cuja+, cuja" 650 712 2 17 2 
+"seu+seus+sua+suas" 916 712 1 2 

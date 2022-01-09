@@ -1,0 +1,41 @@
+#Unigraph
+SIZE 1446 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+21
+"<E>" 64 368 1 4 
+"" 1508 407 0 
+"<PESSOA>" 203 402 1 3 
+"<E>/,.PESSOA-RELACAO_FAMILIAR}" 312 372 2 7 14 
+"<E>/{" 154 368 2 2 5 
+"<FIRST>" 216 336 3 5 6 3 
+"<PREPOSICAO>+<ABREVIACOES>" 184 244 1 5 
+"e" 483 190 1 10 
+"<PESSOA>" 684 224 1 9 
+"<E>/,.PESSOA-RELACAO_FAMILIAR}" 793 194 1 13 
+"<E>/{" 635 190 2 8 11 
+"<FIRST>" 697 158 3 11 12 9 
+"<PREPOSICAO>+<ABREVIACOES>" 665 66 1 11 
+"se casaram+se casaram?+se divorciaram+se divorciaram?+se divorciaram-se+se divorciaram-se?+se separaram+se separaram?" 1167 194 1 1 
+"casou com+se casou com+se divorciou+se separou" 404 543 2 17 20 
+"<PESSOA>" 1071 577 1 16 
+"<E>/,.PESSOA-RELACAO_FAMILIAR}" 1180 547 1 1 
+"<E>/{" 1022 543 2 15 18 
+"<FIRST>" 1084 511 3 18 19 16 
+"<PREPOSICAO>+<ABREVIACOES>" 1052 419 1 18 
+"<PREPOSICAO>" 694 632 1 17 
