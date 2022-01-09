@@ -72,8 +72,8 @@ if [ -n "$2" ]; then
 	F=`cat Resultado_$2.txt | grep "Medida F:" | tail -1 | cut -d":" -f2 | sed 's/^ \+//'`
 
     RP=`cat Resultado_$2_ReRelEM.txt | head -31 | tail -1 | grep "Precisão:" | cut -d":" -f2 | sed 's/^ \+//'`	
-	RA=`cat Resultado_$2_ReRelEM.txt | head -31 | tail -1 | grep "Abrangência:" | cut -d":" -f2 | sed 's/^ \+//'`
-	RF=`cat Resultado_$2_ReRelEM.txt | head -31 | tail -1 | grep "Medida F:" | tail -1 | cut -d":" -f2 | sed 's/^ \+//'`
+	RA=`cat Resultado_$2_ReRelEM.txt | head -32 | tail -1 | grep "Abrangência:" | cut -d":" -f2 | sed 's/^ \+//'`
+	RF=`cat Resultado_$2_ReRelEM.txt | head -33 | tail -1 | grep "Medida F:" | tail -1 | cut -d":" -f2 | sed 's/^ \+//'`
 	
     echo "$2;$P;$A;$F;$RP;$RA;$RF;" >> Resultados.xls			
 
