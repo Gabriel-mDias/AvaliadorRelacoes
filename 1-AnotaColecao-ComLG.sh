@@ -40,15 +40,8 @@ if [ -n "$2" ]; then
 
 	avaliacao=5
 
-	#Faz avaliação usando programa do segundo HAREM e obtém os resultados
-	cp CD$2_anotado.xml RecursosSegundoHarem/programas/Av_HAREM_XML/Experimentos/$2/Participacao$2.xml
-
-	cd RecursosSegundoHarem/programas/Av_HAREM_XML
-
-    #Nova avaliação
-    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim 1 sim $avaliacao
-
-    #Para cenários mais específicos na avaliação de relação, modifique o 7º parâmetro
+    avaliacaoRelRelem=1
+    #Para cenários mais específicos na avaliação de relação, modifique o parâmetro
         #1 - Genérico
         #2 - ident;inclui;incluido;sede_de;ocorre_em;
         #3 - ident;
@@ -56,6 +49,14 @@ if [ -n "$2" ]; then
         #5 - sede_de;ocorre_em;
         #6 - relacao_familiar"
         #7 - ident;inclui;incluido;sede_de;ocorre_em;relacao_familiar"
+
+	#Faz avaliação usando programa do segundo HAREM e obtém os resultados
+	cp CD$2_anotado.xml RecursosSegundoHarem/programas/Av_HAREM_XML/Experimentos/$2/Participacao$2.xml
+
+	cd RecursosSegundoHarem/programas/Av_HAREM_XML
+
+    #Nova avaliação
+    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim $avaliacaoRelRelem sim $avaliacao
 
 	case "$avaliacao" in
 		"5") cenario="cenario4";;
