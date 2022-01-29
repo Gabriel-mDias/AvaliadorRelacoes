@@ -46,7 +46,7 @@ if [ -n "$2" ]; then
 	cd RecursosSegundoHarem/programas/Av_HAREM_XML
 
     #Nova avaliação
-    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim 6 sim $avaliacao
+    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim 1 sim $avaliacao
 
     #Para cenários mais específicos na avaliação de relação, modifique o 7º parâmetro
         #1 - Genérico
