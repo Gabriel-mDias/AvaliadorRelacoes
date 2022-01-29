@@ -1,7 +1,7 @@
 
 US Open: Federer campeão.
 PELO QUARTO ANO CONSECUTIVO .
- <EM ID="hub-19181-10000" CATEG="PESSOA">Roger Federer</EM> conquistou este domingo pela quarta vez consecutiva o US Open, ao bater na final o sérvio <EM ID="hub-19181-10001" CATEG="PESSOA"> Novak Djokovic</EM> por 7-6(4), 7-6(2) e 6-4..
-Com este triunfo, o suíço contabiliza  <EM ID="hub-19181-50000" CATEG="VALOR">12</EM> vitórias em torneios do Grand Slam, aproximando-se do recorde de 14, que pertence a Pete Sampras..
-A final demorou  <EM ID="hub-19181-40000" CATEG="TEMPO">2.26 horas</EM> e o líder mundial fez  <EM ID="hub-19181-50000" CATEG="VALOR">11</EM> ases contra apenas 5 do sérvio. Ao helvético apenas lhe falta o título no <EM ID="hub-19181-20000" CATEG="LOCAL"> Open de França</EM>, em <EM ID="hub-19181-20001" CATEG="LOCAL"> Roland Garros</EM>..
-Entretanto, a francesa <EM ID="hub-19181-10000" CATEG="PESSOA"> Nathalie Dechy</EM> conquistou o seu segundo título consecutivo em pares femininos. Dechy e a russa <EM ID="hub-19181-10001" CATEG="PESSOA"> Dinara Safina</EM> bateram Chan Yung-jan e Chuang Chia-jung (Taiwan), por 6-4 e 6-2..
+ <EM ID="hub-19181-10000" CATEG="PESSOA">Roger Federer</EM> conquistou este domingo pela quarta vez consecutiva o US Open, ao bater na final o sérvio <EM ID="hub-19181-10001" CATEG="PESSOA"> Novak Djokovic</EM> por  <EM ID="hub-19181-50000" CATEG="VALOR">7-6</EM>(4),  <EM ID="hub-19181-50001" CATEG="VALOR">7-6</EM>(2) e  <EM ID="hub-19181-50002" CATEG="VALOR">6-4</EM>..
+Com este triunfo, o suíço contabiliza 12 vitórias em torneios do Grand Slam, aproximando-se do recorde de 14, que pertence a Pete Sampras..
+A final demorou 2.26 horas e o líder mundial fez 11 ases contra apenas 5 do sérvio. Ao helvético apenas lhe falta o título no <EM ID="hub-19181-20000" CATEG="LOCAL"> Open de França</EM>, em <EM ID="hub-19181-20001" CATEG="LOCAL"> Roland Garros</EM>..
+Entretanto, a francesa <EM ID="hub-19181-10000" CATEG="PESSOA"> Nathalie Dechy</EM> conquistou o seu segundo título consecutivo em pares femininos. Dechy e a russa <EM ID="hub-19181-10001" CATEG="PESSOA"> Dinara Safina</EM> bateram Chan Yung-jan e Chuang Chia-jung (Taiwan), por  <EM ID="hub-19181-50000" CATEG="VALOR">6-4</EM> e  <EM ID="hub-19181-50001" CATEG="VALOR">6-2</EM>..

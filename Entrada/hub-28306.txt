@@ -1,6 +1,6 @@
 
-Panda elege os vírus mais curiosos de  <EM ID="hub-28306-40000" CATEG="TEMPO">2007</EM>.
-O laboratório anti-malware da <EM ID="hub-28306-30000" CATEG="ORGANIZACAO"> Panda Security</EM>, revelou um relatório onde agrupa os mais curiosos exemplos de malware que emergiram no último semestre de <EM ID="hub-28306-40000" CATEG="TEMPO"> 2007</EM>..
+Panda elege os vírus mais curiosos de 2007.
+O laboratório anti-malware da <EM ID="hub-28306-30000" CATEG="ORGANIZACAO"> Panda Security</EM>, revelou um relatório onde agrupa os mais curiosos exemplos de malware que emergiram no último semestre de 2007..
 Alguns exemplos da lista:.
 O código malicioso mais pontual detectado nos últimos tempos, revela a Panda, foi o Trojan Aifone.A. O nome não engana: é um malware associado ao iPhone da <EM ID="hub-28306-30000" CATEG="ORGANIZACAO"> Apple</EM>. Mal tinha acabado de ser lançado, já este malware o promovia, mas com o objectivo de propagar cópias de si mesmo entre utilizadores....
 O worm mais travesso foi o RogueMario.A, destinado a entreteter os utilizadores enquanto os infecta. Tem uma vertente generosa, já que foi desenhado para instalar a versão do jogo  <EM ID="hub-28306-10000" CATEG="PESSOA">Mario Bros</EM> de cada vez que infecta um computador..

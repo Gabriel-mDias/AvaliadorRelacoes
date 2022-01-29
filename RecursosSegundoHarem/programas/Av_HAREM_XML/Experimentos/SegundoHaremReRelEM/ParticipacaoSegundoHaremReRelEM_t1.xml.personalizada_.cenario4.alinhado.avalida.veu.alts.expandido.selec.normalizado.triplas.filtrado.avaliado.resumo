@@ -1,0 +1,33 @@
+Avaliação do ReRelEM
+Descrição do cenário HAREM
+	#ABSTRACCAO:ACONTECIMENTO:COISA:LOCAL:OBRA:ORGANIZACAO:OUTRO:PESSOA:TEMPO:VALOR
+Descrição do cenário ReRelEM
+	#relacao_familiar
+
+Avaliação de CORELs
+Total na CD: 2555
+Total identificadas: 10
+Total correctamente identificados: 10
+Espúrios: 0
+Em Falta: 2545
+Precisão: 1.0
+Abrangência: 0.003913894324853229
+Medida F: 0.0077972709551656924
+
+Avaliação de Relações
+Total na CD: 2555
+Total identificadas: 10
+Total correctamente identificadas: 10
+Espúrios: 0
+Em Falta: 2545
+Precisão: 1.0
+Abrangência: 0.003913894324853229
+Medida F: 0.0077972709551656924
+
+Avaliação Global - ReRelEM
+Pontuação na CD: 2555.0
+Pontuação máxima possível do Sistema: 10.0
+Pontuação do Sistema: 10.0
+Precisão: 1.0
+Abrangência: 0.003913894324853229
+Medida F: 0.0077972709551656924

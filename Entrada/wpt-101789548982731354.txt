@@ -2,7 +2,7 @@
 Telemoveis.com  <EM ID="wpt-101789548982731354-30000" CATEG="ORGANIZACAO">TV</EM>.
 Escolher outra notícia.
 Telemóveis vão ter domínio na <EM ID="wpt-101789548982731354-20000" CATEG="LOCAL"> Net</EM>.
- <EM ID="wpt-101789548982731354-40000" CATEG="TEMPO">2005</EM>-07-13.
+ <EM ID="wpt-101789548982731354-50000" CATEG="VALOR">2005-07-13</EM>.
 A decisão vem na sequência de vários pedidos de um grupo de operadores móveis e fabricantes de telemóveis, que criaram uma joint-venture» para estimular o aparecimento de sites destinados exclusivamente a estes equipamentos. E o  <EM ID="wpt-101789548982731354-30000" CATEG="ORGANIZACAO">ICANN</EM> assincou já o acordo nesse sentido com a mTLD Top Level Domain, que congrega a  <EM ID="wpt-101789548982731354-30001" CATEG="ORGANIZACAO">GSM</EM> Association, a Microsoft, fabricantes como a Nokia, a Samsung e a Ericsson e operadores como a Vodafone, a Telefónica Móviles, a Hutchison 3 e a T-Mobile..
 O objectivo desta iniciativa é fazer aumentar a utilização da <EM ID="wpt-101789548982731354-30000" CATEG="ORGANIZACAO"> Internet</EM> no telemóvel, funcionalidade ainda pouco utilizada, devido à escassez de sites e conteúdos adaptados aos equipamentos..
 Em princípio, o sufixo.mobi deverá ser integrado automaticamente nos endereços logo que o sistema detecte que o acesso está a ser efectuado via telemóvel..

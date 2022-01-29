@@ -1,5 +1,5 @@
 #Unigraph
-SIZE 1450 840
+SIZE 1772 840
 FONT Times New Roman:  10
 OFONT Arial Unicode MS:B 12
 BCOLOR 16777215
@@ -17,14 +17,13 @@ DRST n
 FITS 100
 PORIENT L
 #
-10
-"<E>/{" 70 200 6 2 3 4 5 6 9 
+9
+"<E>/{" 70 200 5 2 3 4 5 6 
 "" 1385 151 0 
-"papa+sua santidade o papa+arcebispo+arquiteta+arquiteto+arquitecta+arquitecto+arquitetas+arquitetos+arquitectas+arquitectos+avó+avós+avô+avôs+bispo+bispos+cristo+dom+dona+donas+doutor+doutora+doutoras+doutores+engenheira+engenheiras+engenheiro+engenheiros+madre+madres+mestre+mestres+pai+padre+padres+professor+professora+professores+professoras+filho+filha+filhos+filhas+irmã+irmão+irmãos+irmãs" 166 448 2 7 8 
-"rabino+rabinos+senhor+senhora+senhores+sir+sô+tia+tio+tias+tios+vovó+vovô+vovós+vovôs+virgem+alta-comissária+altas-comissárias+alto-comissário+altos-comissários+almirante+bispo+bispos+chanceler+chanceleres+vice-chefe+chefe+chefes+condessa+condessas+conde+condes+cônsul+cônsules+consulesa+consulesas+czar+czares+czarina+czarinas+diretor+director+diretora+directora+diretoras" 348 438 2 7 8 
+"papa+sua santidade o papa+arcebispo+arquiteta+arquiteto+arquitecta+arquitecto+arquitetas+arquitetos+arquitectas+arquitectos+bispo+bispos+cristo+dom+dona+donas+doutor+doutora+doutoras+doutores+engenheira+engenheiras+engenheiro+engenheiros+madre+madres+mestre+mestres+padre+padres+professor+professora+professores+professoras" 166 448 2 7 8 
+"rabino+rabinos+senhor+senhora+senhores+sir+sô+virgem+alta-comissária+altas-comissárias+alto-comissário+altos-comissários+almirante+bispo+bispos+chanceler+chanceleres+vice-chefe+chefe+chefes+condessa+condessas+conde+condes+cônsul+cônsules+consulesa+consulesas+czar+czares+czarina+czarinas+diretor+director+diretora+directora+diretoras" 348 438 2 7 8 
 "directoras+diretores+directores+diretor-geral+director-geral+diretora-geral+directora-geral+diretoras-gerais+directoras-gerais+diretores-gerais+directores-gerais+duque+duques+duquesa+duquesas+embaixador+embaixadores+embaixatriz+embaixatrizes+imperador+imperadores+infanta+infantas+infante+infantes+governador+governadora+governadoras+governadores+líder+líderes+ministra+ministras+ministro+ministros+padre+padres+patrão+patroa+patroas+patrões+porta-voz+prof.+porta-vozes+presidente+presidentes" 572 445 2 7 8 
 "primeira-ministra+primeiras-ministras+primeiro-ministro+primeiros-ministros+princesa+princesas+príncipe+príncipes+rabino+rabinos+rainha+rainhas+rei+reis+reitor+pro-reitor+pró-reitor+reitora+pro-reitora+pró-reitora+reitoras+reitores+secretária de Estado+secretárias de Estado+secretário de Estado+secretários de Estado+secretária-geral+secretárias-gerais+secretário-geral+servidor+servidora+secretários-gerais+sultão+sultãos+sultões+vice-rei+visconde+viscondes+viscondessa+viscondessas" 765 425 2 7 8 
 "prefeito+prefeita+prefeitos+prefeitas+vereador+vereadora+vereadores+vereadoras+deputado+deputada+deputados+deputadas+empresário+empresario+empresária+empresaria+empresários+empresarios+empresárias+empresarias" 974 449 2 7 8 
 "(a)" 1144 95 1 8 
 "<E>/,.PALAVRAS_MINUSCULAS_HAREM}" 1159 156 1 1 
-"<PALAVRAS_MINUSCULA_FAMILIA>" 511 34 2 8 7 

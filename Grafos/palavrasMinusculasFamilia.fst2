@@ -1,13 +1,25 @@
 0000000001
 -1 palavrasMinusculasFamilia
 : 1 1 
-: 47 2 46 2 45 2 44 2 43 2 42 2 41 2 40 2 39 2 38 2 37 2 36 2 35 2 34 2 33 2 32 2 31 2 30 2 29 2 28 2 27 2 26 2 25 2 24 2 23 2 22 2 21 2 20 2 19 2 18 2 17 2 16 2 15 2 14 2 13 2 12 2 11 2 10 2 9 2 8 2 7 2 6 2 5 2 4 2 3 2 
+: 55 2 54 2 53 2 52 2 51 2 50 2 49 2 48 2 47 2 46 2 45 2 44 2 43 2 42 2 41 2 40 2 39 2 38 2 37 2 36 2 35 2 34 2 33 2 32 2 31 2 30 2 29 2 28 2 27 2 26 2 25 2 24 2 23 2 22 2 21 2 20 2 19 2 18 2 17 2 16 2 15 2 14 2 13 2 12 2 11 2 10 2 9 2 8 2 7 2 6 2 5 2 4 2 3 2 
 : 2 3 
 t 
 f 
 %<E>
 %<E>/{
 %<E>/,.PALAVRAS_MINUSCULA_FAMILIA}
+%parente
+%parentes
+%primo
+%primos
+%prima
+%primas
+%tio
+%tios
+%tia
+%tias
+%sobrinho
+%sobrinhas
 %irmão
 %irmã
 %irmãos
@@ -29,6 +41,10 @@ f
 %avós
 %avô
 %avôs
+%vovô
+%vovôs
+%vovó
+%vovós
 %bisavó
 %bisavós
 %bisavô
@@ -37,20 +53,12 @@ f
 %trisavós
 %trisavô
 %trisavôs
-%parente
-%parentes
-%primo
-%primos
-%prima
-%primas
-%tio
-%tios
-%tia
-%tias
-%sobrinho
-%sobrinhas
 %padrasto
+%padrastros
 %madastra
+%madastras
 %enteado
+%enteados
 %enteada
+%enteadas
 f

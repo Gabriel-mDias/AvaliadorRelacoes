@@ -1,6 +1,6 @@
 Em que escola estuda o Harry Potter? Qual a divisa da escola? Em quantas casas está dividida? Quem é o director da escola? .
 Como são os peixes-espada? Qual é o recorde da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> IGFA</EM> para este tipo de peixe? .
-Quando nasceu Amintore Fanfani? E aonde nasceu? .
+ <EM ID="dav-52390-10000" CATEG="PESSOA">Quando</EM> nasceu <EM ID="dav-52390-10001" CATEG="PESSOA"> Amintore</EM> Fanfani? E aonde nasceu? .
 Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA"> Le Corbusier</EM>? Qual era o seu verdadeiro nome? .
 Quem era <EM ID="dav-52390-10000" CATEG="PESSOA"> Flaubert</EM>? Em que ano publicou <EM ID="dav-52390-10001" CATEG="PESSOA"> Bouvard</EM> e <EM ID="dav-52390-10002" CATEG="PESSOA"> Pécuchet</EM>»? Lista todas as suas obras. .
 O que foi a  <EM ID="dav-52390-70000" CATEG="ACONTECIMENTO">Revolução de Veludo</EM>? .
@@ -9,7 +9,7 @@ Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA">  António de Oliveira Salazar 
 Quem compôs a canção <EM ID="dav-52390-80000" CATEG="OBRA"> Grândola</EM>,  <EM ID="dav-52390-20000" CATEG="LOCAL">Vila Morena</EM>? .
 Onde foi fabricado Bender Bending Rodriguez? .
 Quem é <EM ID="dav-52390-10000" CATEG="PESSOA"> Philip J</EM>. Fry? .
-Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA"> Hermann  Emil Fischer </EM>? Quem prémio é que ele recebeu em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1902</EM>? Quem recebeu o Prémio Nobel da Literatura nesse ano? .
+Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA"> Hermann  Emil Fischer </EM>? Quem prémio é que ele recebeu em 1902? Quem recebeu o Prémio Nobel da Literatura nesse ano? .
 Quem era <EM ID="dav-52390-10000" CATEG="PESSOA"> Bertha</EM> von Suttner? .
 Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA"> Marco Pantani</EM>? Qual era a sua alcunha? .
 Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA">  Juan Manuel Fangio </EM>? .
@@ -24,7 +24,7 @@ O que é um tacógrafo? .
 O que é um odómetro? .
 O que é um kinnor? .
 O que é o  <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">INTASAT</EM> .
-O que é que era o Rainbow Warrior? Quem é que o afundou em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1985</EM>? .
+O que é que era o Rainbow Warrior? Quem é que o afundou em 1985? .
 Para que serve um draga-minas? .
 O que é a  <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">INTELSAT</EM>? .
 O que é uma  <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">Organização Não-Governamental</EM>? .
@@ -41,9 +41,9 @@ Onde é que trabalha o Homer Simpson? .
 Em que país fica Minas Gerais? .
 De onde é típica a ensaimada? .
 Em que cidade nasceu  <EM ID="dav-52390-10000" CATEG="PESSOA">Natalie Hershlag</EM>? Quem é o prefeito dessa cidade? .
-Quem desenhou o processador <EM ID="dav-52390-10000" CATEG="PESSOA"> Zilog Z</EM>80? De quantos bits era este processador? .
+Quem desenhou o processador <EM ID="dav-52390-10000" CATEG="PESSOA"> Zilog  Z80 </EM>? De quantos bits era este processador? .
 Como se chamam os pais de Luke Skywalker? .
-Que paises entraram na <EM ID="dav-52390-20000" CATEG="LOCAL"> União Europeia</EM> a 1 de  <EM ID="dav-52390-40000" CATEG="TEMPO">Janeiro de 1995</EM>? .
+Que paises entraram na <EM ID="dav-52390-20000" CATEG="LOCAL"> União Europeia</EM> a 1 de Janeiro de 1995? .
 Quem é a rainha da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Austrália</EM> ? .
 Quem era o papa quando se realizou o Concílio de Clermont? .
 Que actor faz de Chewbacca? .
@@ -93,13 +93,13 @@ Quantos lugares o parlamento da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Is
 Quantos anos durarão as reservas mundiais de petróleo? .
 Quantas vezes é que  <EM ID="dav-52390-10000" CATEG="PESSOA">Alain Prost</EM> foi campeão do Mundo ? .
 Quantos cavalos tem as turbinas do  <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">USS</EM> Nimitz? .
-Quantos golos se marcaram ao todo no <EM ID="dav-52390-20000" CATEG="LOCAL"> Mundial</EM> de  <EM ID="dav-52390-40000" CATEG="TEMPO">1982</EM> ? .
+Quantos golos se marcaram ao todo no <EM ID="dav-52390-20000" CATEG="LOCAL"> Mundial</EM> de 1982 ? .
 Quantas caves tem a  <EM ID="dav-52390-20000" CATEG="LOCAL">Torre Picasso</EM>? .
 Quantos prémios <EM ID="dav-52390-10000" CATEG="PESSOA"> Goya</EM> ganhou Torrente: El brazo tonto de la ley? .
 Que idade tem o  <EM ID="dav-52390-90000" CATEG="COISA">Sol</EM>? .
 Qual a duração do filme <EM ID="dav-52390-80000" CATEG="OBRA"> A Nona Porta</EM>»? .
 Com que idade morreu  <EM ID="dav-52390-10000" CATEG="PESSOA">Alfred Hitchcock</EM>? .
-Qual a envergadura do Airbus 380? Quantos passageiros transportou no dia 4 de  <EM ID="dav-52390-40000" CATEG="TEMPO">Setembro de 2006</EM>? Quanto custa cada unidade? .
+Qual a envergadura do Airbus 380? Quantos passageiros transportou no dia 4 de Setembro de 2006? Quanto custa cada unidade? .
 Qual a capacidade de carga do Antonov An-124? .
 Quais são os membros fundadores da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Star Alliance</EM>? .
 Em que país se fala náhuatl? .
@@ -129,42 +129,42 @@ O que é que  <EM ID="dav-52390-10000" CATEG="PESSOA">Manuel Campello Esclápez<
 De que é que <EM ID="dav-52390-10000" CATEG="PESSOA"> Jasão</EM> e os Argonautas andavam à procura? .
 Quem era presidente dos Estados Unidos durante o ataque a Pearl Harbour? .
 O que é que a Norsk Hydro produzia durante a  <EM ID="dav-52390-70000" CATEG="ACONTECIMENTO">Segunda Guerra Mundial</EM> ? .
-Qual o tíulo da obra que ganhou o Prémio Nadal em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1994</EM>? .
-Quantos reservistas tinha a Haganah em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1936</EM>? .
-Que idade tinha  <EM ID="dav-52390-10000" CATEG="PESSOA">Miguel Induraín</EM> durante a Volta a Espanha de  <EM ID="dav-52390-40000" CATEG="TEMPO">1985</EM>? Em que ano é que ele ganhou a Volta à Espanha? Quantas etapas da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Volta</EM> à  <EM ID="dav-52390-10001" CATEG="PESSOA">França do Futuro</EM> de  <EM ID="dav-52390-40001" CATEG="TEMPO">1986</EM> é que ele ganhou? Que prémio é que ele recebeu em <EM ID="dav-52390-40002" CATEG="TEMPO"> 1992</EM>? .
+Qual o tíulo da obra que ganhou o Prémio Nadal em 1994? .
+Quantos reservistas tinha a Haganah em 1936? .
+Que idade tinha  <EM ID="dav-52390-10000" CATEG="PESSOA">Miguel Induraín</EM> durante a Volta a Espanha de 1985? Em que ano é que ele ganhou a Volta à Espanha? Quantas etapas da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Volta</EM> à  <EM ID="dav-52390-10001" CATEG="PESSOA">França do Futuro</EM> de 1986 é que ele ganhou? Que prémio é que ele recebeu em 1992? .
 Que actores são os protagonistas de O Bom, o Mau e o Vilão? .
 Quantas pessoas morreram na <EM ID="dav-52390-20000" CATEG="LOCAL"> Europa</EM> durante a epidemia de peste do  <EM ID="dav-52390-40000" CATEG="TEMPO">século XIV</EM>? .
-Em que país teve origem a epidemia de gripe de  <EM ID="dav-52390-40000" CATEG="TEMPO">1918</EM>? .
+Em que país teve origem a epidemia de gripe de 1918? .
 Como se chamavam os Reis <EM ID="dav-52390-10000" CATEG="PESSOA"> Católicos</EM>? .
-Como se chamava o presidente do Burundi que morreu em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1994</EM>? .
+Como se chamava o presidente do Burundi que morreu em 1994? .
 Em que dia foi promulgada a constituição espanhola de 1812? .
-Quem foi o capitão do Real Sociedad entre <EM ID="dav-52390-40000" CATEG="TEMPO"> 1974</EM> e <EM ID="dav-52390-40001" CATEG="TEMPO"> 1989</EM>? .
-Em que cidade se disputou a final da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">  Taça da Europa de Basquete </EM> de  <EM ID="dav-52390-40000" CATEG="TEMPO">1996</EM>? .
+Quem foi o capitão do Real Sociedad entre 1974 e 1989? .
+Em que cidade se disputou a final da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">  Taça da Europa de Basquete </EM> de 1996? .
 Que grupo terrorista cometeu um atentado durante os Jogos Olímpicos de Munique ? .
-Que partido político governou a Espanha de  <EM ID="dav-52390-40000" CATEG="TEMPO">28 de Outubro de 1982</EM> a 3 de  <EM ID="dav-52390-40001" CATEG="TEMPO">Março de 1996</EM>? .
+Que partido político governou a Espanha de 28 de Outubro de 1982 a 3 de Março de 1996? .
 Que farda tinha vestida o Rei quando apareceu na televisão após o golpe de estado de Tejero? .
-O que é que  <EM ID="dav-52390-10000" CATEG="PESSOA">Leonardo da Vinci</EM> desenhou em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1492</EM>? .
+O que é que  <EM ID="dav-52390-10000" CATEG="PESSOA">Leonardo da Vinci</EM> desenhou em 1492? .
 O que é que  <EM ID="dav-52390-10000" CATEG="PESSOA">Antonio Rebollo</EM> usou para acender a Chama Olímpica nos <EM ID="dav-52390-20000" CATEG="LOCAL"> Jogos Olímpicos de Barcelona</EM> ? .
-Que programa de televisão apresentou Takeshi Kitano de  <EM ID="dav-52390-40000" CATEG="TEMPO">1986</EM> a  <EM ID="dav-52390-40001" CATEG="TEMPO">1989</EM>? .
+Que programa de televisão apresentou Takeshi Kitano de 1986 a 1989? .
 Que presente é que Nova Iorque recebeu para comemorar o centenário da indepêndencia dos Estados Unidos? .
-Qual foi a distribuidora do filme <EM ID="dav-52390-80000" CATEG="OBRA"> O Planeta dos Macacos</EM>» que estreou em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1968</EM>? .
-Que velocidade atingiu  <EM ID="dav-52390-10000" CATEG="PESSOA">Louis Blériot</EM> a  <EM ID="dav-52390-40000" CATEG="TEMPO">25 de Julho de 1909</EM>? .
-Quantos quilos de anchova apanhou a frota do Cantábrico em <EM ID="dav-52390-40000" CATEG="TEMPO"> 1994</EM>? .
-Quais são as ilhas cuja posse a Argentina disputou ao Reino Unido de 2 de  <EM ID="dav-52390-40000" CATEG="TEMPO">Abril</EM> a  <EM ID="dav-52390-40001" CATEG="TEMPO">14 de Junho de 1982</EM>? .
-Onde se disputaram os Jogos Mediterrânicos de  <EM ID="dav-52390-40000" CATEG="TEMPO">1997</EM>? .
+Qual foi a distribuidora do filme <EM ID="dav-52390-80000" CATEG="OBRA"> O Planeta dos Macacos</EM>» que estreou em 1968? .
+Que velocidade atingiu  <EM ID="dav-52390-10000" CATEG="PESSOA">Louis Blériot</EM> a 25 de Julho de 1909? .
+Quantos quilos de anchova apanhou a frota do Cantábrico em 1994? .
+Quais são as ilhas cuja posse a Argentina disputou ao Reino Unido de 2 de Abril a 14 de Junho de 1982? .
+Onde se disputaram os Jogos Mediterrânicos de 1997? .
 Que navio é que  <EM ID="dav-52390-10000" CATEG="PESSOA">James Cook</EM> comandou de 1768 a 1769? .
 Quem é o actor principal do filme <EM ID="dav-52390-80000" CATEG="OBRA"> Tarzan</EM>, o Homem-Macaco»? Quanto recordes mundiais é que ele bateu? .
-Quem ganhou o Óscar Honorário em <EM ID="dav-52390-40000" CATEG="TEMPO"> 2007</EM>? .
+Quem ganhou o Óscar Honorário em 2007? .
 Quem roubou as jóias de  <EM ID="dav-52390-10000" CATEG="PESSOA">Bianca Castafiore</EM>? .
 Em que país fica o Lago dos Cisnes? .
 Em que ano morreu o Capitão América? .
 Qual é a capital da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO">  Terra  do Nunca</EM>? .
-Como se chama a mulher de  <EM ID="dav-52390-10000" CATEG="PESSOA">Bill Gates</EM>? Em que universidade é que ele estudava quando criou a Microsoft? Qual o orçamento dessa universidade para  <EM ID="dav-52390-40000" CATEG="TEMPO">2005</EM>? Em que ano foi fundada? .
-Que avião supersónico teve os seus últimos voos comerciais em <EM ID="dav-52390-40000" CATEG="TEMPO"> Maio de 2003</EM>? Quantos passageiros conseguia transportar esse modelo de avião? .
-Qual a capacidade do Estádio  <EM ID="dav-52390-10000" CATEG="PESSOA">Santiago Bernabéu</EM> nos  <EM ID="dav-52390-40000" CATEG="TEMPO">anos 80</EM>? Quem é o dono do estádio? Quanto dinheiro foi gasto na sua ampliação entre <EM ID="dav-52390-40001" CATEG="TEMPO"> 2001</EM> e <EM ID="dav-52390-40002" CATEG="TEMPO"> 2006</EM>? .
-Quantas bombas foram lançadas sobre Dresda a  <EM ID="dav-52390-40000" CATEG="TEMPO">14 de Fevereiro de 1945</EM>? Quanto pesavam as bombas largadas sobre esta cidade a 7 de  <EM ID="dav-52390-40001" CATEG="TEMPO">Outubro de 1944</EM>? .
+Como se chama a mulher de  <EM ID="dav-52390-10000" CATEG="PESSOA">Bill Gates</EM>? Em que universidade é que ele estudava quando criou a Microsoft? Qual o orçamento dessa universidade para 2005? Em que ano foi fundada? .
+Que avião supersónico teve os seus últimos voos comerciais em <EM ID="dav-52390-20000" CATEG="LOCAL"> Maio</EM> de 2003? Quantos passageiros conseguia transportar esse modelo de avião? .
+Qual a capacidade do Estádio  <EM ID="dav-52390-10000" CATEG="PESSOA">Santiago Bernabéu</EM> nos anos 80? Quem é o dono do estádio? Quanto dinheiro foi gasto na sua ampliação entre 2001 e 2006? .
+Quantas bombas foram lançadas sobre Dresda a 14 de Fevereiro de 1945? Quanto pesavam as bombas largadas sobre esta cidade a 7 de Outubro de 1944? .
 Que organismo dirigiu  <EM ID="dav-52390-10000" CATEG="PESSOA">Alan Turing</EM> durante a  <EM ID="dav-52390-70000" CATEG="ACONTECIMENTO">Segunda Guerra Mundial</EM> ? .
 Quem era o czar da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Rússia</EM> czar da <EM ID="dav-52390-30001" CATEG="ORGANIZACAO"> Rússia</EM> ? .
-Quantos pontos marcou a Jugoslávia na final do Mundial de Basquetebol de  <EM ID="dav-52390-40000" CATEG="TEMPO">1990</EM>? .
-Contra que país é que a Espanha jogou a final de basquete das Olímpiadas de  <EM ID="dav-52390-40000" CATEG="TEMPO">1984</EM>? .
+Quantos pontos marcou a Jugoslávia na final do Mundial de Basquetebol de 1990? .
+Contra que país é que a Espanha jogou a final de basquete das Olímpiadas de 1984? .
 Em que ano é que <EM ID="dav-52390-10000" CATEG="PESSOA"> Espanha</EM> ganhou o Mundial de Futebol?.

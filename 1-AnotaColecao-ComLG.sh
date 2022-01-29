@@ -46,7 +46,7 @@ if [ -n "$2" ]; then
 	cd RecursosSegundoHarem/programas/Av_HAREM_XML
 
     #Nova avaliação
-    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim 1 sim $avaliacao
+    ./Avaliacao.sh personalizada Experimentos/$2/Participacao$2.xml Experimentos/$2/$2.xml $avaliacao 4 sim 6 sim $avaliacao
 
     #Para cenários mais específicos na avaliação de relação, modifique o 7º parâmetro
         #1 - Genérico
@@ -54,6 +54,8 @@ if [ -n "$2" ]; then
         #3 - ident;
         #4 - inclui;incluido;
         #5 - sede_de;ocorre_em;
+        #6 - relacao_familiar"
+        #7 - ident;inclui;incluido;sede_de;ocorre_em;relacao_familiar"
 
 	case "$avaliacao" in
 		"5") cenario="cenario4";;
@@ -63,8 +65,11 @@ if [ -n "$2" ]; then
 		"17") cenario="pessoaCargo";;
 		"18") cenario="outro";;
 	esac
-
+    
+        #Resultado da etiquetagem
     iconv -f iso-8859-1 -t utf-8 Experimentos/$2/Participacao$2_t1.xml.personalizada_classico.$cenario.alinhado.avalida.veu.alts.emir.altrel.ida > Resultado_$2.txt
+
+        #Resultado das relações (Obs: O arquivo que está definido é para o cenário 1. Se udar de cenário de relações, redirecione o arquivo para o adequado)
 	iconv -f iso-8859-1 -t utf-8 Experimentos/$2/Participacao$2_t1.xml.personalizada_todas.cenario4.alinhado.avalida.veu.alts.expandido.selec.normalizado.triplas.filtrado.avaliado.resumo > Resultado_$2_ReRelEM.txt
 
     P=`cat Resultado_$2.txt | grep "Precisão Máxima do Sistema:" | cut -d":" -f2 | sed 's/^ \+//'`	

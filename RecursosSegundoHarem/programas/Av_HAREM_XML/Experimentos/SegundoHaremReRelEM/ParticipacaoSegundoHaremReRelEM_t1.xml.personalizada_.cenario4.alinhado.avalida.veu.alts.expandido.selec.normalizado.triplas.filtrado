@@ -1,0 +1,3212 @@
+#ABSTRACCAO:ACONTECIMENTO:COISA:LOCAL:OBRA:ORGANIZACAO:OUTRO:PESSOA:TEMPO:VALOR
+#relacao_familiar
+
+DOC H2-dftre765
+[CD]
+H2-dftre765-89 PESSOA vinculo_inst H2-dftre765-124 ORGANIZACAO
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-78 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-78 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-78 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-78 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-49 ORGANIZACAO vinculo_inst H2-dftre765-55 PESSOA
+H2-dftre765-49 ORGANIZACAO vinculo_inst H2-dftre765-42 PESSOA
+H2-dftre765-49 ORGANIZACAO vinculo_inst H2-dftre765-5 PESSOA
+H2-dftre765-49 ORGANIZACAO vinculo_inst H2-dftre765-53 PESSOA
+H2-dftre765-49 ORGANIZACAO vinculo_inst H2-dftre765-45 PESSOA
+H2-dftre765-10 PESSOA natural_de H2-dftre765-9 LOCAL
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-78 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-55 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-62 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-109 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-42 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-81 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-21 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-75 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-66 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-27 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-5 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-53 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-59 PESSOA
+H2-dftre765-86 LOCAL local_nascimento_de H2-dftre765-45 PESSOA
+H2-dftre765-23 LOCAL local_nascimento_de H2-dftre765-8 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-5 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-75 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-53 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-45 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-109 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-21 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-66 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-27 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-42 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-59 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-78 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-62 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-55 PESSOA
+H2-dftre765-28 LOCAL local_nascimento_de H2-dftre765-81 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-5 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-5 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-5 PESSOA vinculo_inst H2-dftre765-49 ORGANIZACAO
+H2-dftre765-5 PESSOA vinculo_inst H2-dftre765-60 ORGANIZACAO
+H2-dftre765-5 PESSOA vinculo_inst H2-dftre765-87 ORGANIZACAO
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-66 PESSOA
+H2-dftre765-5 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-5 PESSOA vinculo_inst H2-dftre765-54 ORGANIZACAO
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-5 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-109 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-113 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-109 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-109 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-109 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-27 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-27 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-27 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-27 PESSOA relacao_familiar H2-dftre765-44 PESSOA
+H2-dftre765-53 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-53 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-53 PESSOA vinculo_inst H2-dftre765-60 ORGANIZACAO
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-53 PESSOA vinculo_inst H2-dftre765-54 ORGANIZACAO
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-53 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-66 PESSOA
+H2-dftre765-53 PESSOA vinculo_inst H2-dftre765-87 ORGANIZACAO
+H2-dftre765-53 PESSOA vinculo_inst H2-dftre765-49 ORGANIZACAO
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-53 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-7 PESSOA natural_de H2-dftre765-24 LOCAL
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-7 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-124 ORGANIZACAO vinculo_inst H2-dftre765-89 PESSOA
+H2-dftre765-54 ORGANIZACAO vinculo_inst H2-dftre765-45 PESSOA
+H2-dftre765-54 ORGANIZACAO vinculo_inst H2-dftre765-5 PESSOA
+H2-dftre765-54 ORGANIZACAO vinculo_inst H2-dftre765-42 PESSOA
+H2-dftre765-54 ORGANIZACAO vinculo_inst H2-dftre765-55 PESSOA
+H2-dftre765-54 ORGANIZACAO vinculo_inst H2-dftre765-53 PESSOA
+H2-dftre765-60 ORGANIZACAO vinculo_inst H2-dftre765-42 PESSOA
+H2-dftre765-60 ORGANIZACAO vinculo_inst H2-dftre765-55 PESSOA
+H2-dftre765-60 ORGANIZACAO vinculo_inst H2-dftre765-5 PESSOA
+H2-dftre765-60 ORGANIZACAO vinculo_inst H2-dftre765-45 PESSOA
+H2-dftre765-60 ORGANIZACAO vinculo_inst H2-dftre765-53 PESSOA
+H2-dftre765-62 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-62 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-62 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-9 LOCAL local_nascimento_de H2-dftre765-14 PESSOA
+H2-dftre765-9 LOCAL local_nascimento_de H2-dftre765-10 PESSOA
+H2-dftre765-9 LOCAL local_nascimento_de H2-dftre765-13 PESSOA
+H2-dftre765-8 PESSOA natural_de H2-dftre765-23 LOCAL
+H2-dftre765-14 PESSOA natural_de H2-dftre765-9 LOCAL
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-21 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-113 PESSOA
+H2-dftre765-21 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-21 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-21 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-44 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-81 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-81 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-81 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-81 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-13 PESSOA natural_de H2-dftre765-9 LOCAL
+H2-dftre765-113 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-113 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-113 PESSOA natural_de H2-dftre765-24 LOCAL
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-75 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-75 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-44 PESSOA
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-75 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-75 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-59 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-59 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-59 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-66 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-66 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-66 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-66 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-66 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-66 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-66 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-66 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-55 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-55 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-55 PESSOA vinculo_inst H2-dftre765-87 ORGANIZACAO
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-55 PESSOA vinculo_inst H2-dftre765-49 ORGANIZACAO
+H2-dftre765-55 PESSOA vinculo_inst H2-dftre765-60 ORGANIZACAO
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-55 PESSOA vinculo_inst H2-dftre765-54 ORGANIZACAO
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-55 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-66 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-55 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-75 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-45 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-5 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-53 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-81 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-21 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-42 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-66 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-55 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-78 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-27 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-109 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-59 PESSOA
+H2-dftre765-119 LOCAL local_nascimento_de H2-dftre765-62 PESSOA
+H2-dftre765-24 LOCAL local_nascimento_de H2-dftre765-113 PESSOA
+H2-dftre765-24 LOCAL local_nascimento_de H2-dftre765-7 PESSOA
+H2-dftre765-87 ORGANIZACAO vinculo_inst H2-dftre765-42 PESSOA
+H2-dftre765-87 ORGANIZACAO vinculo_inst H2-dftre765-45 PESSOA
+H2-dftre765-87 ORGANIZACAO vinculo_inst H2-dftre765-5 PESSOA
+H2-dftre765-87 ORGANIZACAO vinculo_inst H2-dftre765-55 PESSOA
+H2-dftre765-87 ORGANIZACAO vinculo_inst H2-dftre765-53 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-66 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-45 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-45 PESSOA vinculo_inst H2-dftre765-87 ORGANIZACAO
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-42 PESSOA
+H2-dftre765-45 PESSOA vinculo_inst H2-dftre765-49 ORGANIZACAO
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-45 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-45 PESSOA vinculo_inst H2-dftre765-54 ORGANIZACAO
+H2-dftre765-45 PESSOA vinculo_inst H2-dftre765-60 ORGANIZACAO
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-45 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-45 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-42 PESSOA vinculo_inst H2-dftre765-87 ORGANIZACAO
+H2-dftre765-42 PESSOA natural_de H2-dftre765-86 LOCAL
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-78 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-55 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-53 PESSOA
+H2-dftre765-42 PESSOA vinculo_inst H2-dftre765-54 ORGANIZACAO
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-5 PESSOA
+H2-dftre765-42 PESSOA natural_de H2-dftre765-28 LOCAL
+H2-dftre765-42 PESSOA vinculo_inst H2-dftre765-60 ORGANIZACAO
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-7 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-45 PESSOA
+H2-dftre765-42 PESSOA vinculo_inst H2-dftre765-49 ORGANIZACAO
+H2-dftre765-42 PESSOA natural_de H2-dftre765-119 LOCAL
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-109 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-66 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-21 PESSOA
+H2-dftre765-42 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-44 PESSOA relacao_familiar H2-dftre765-75 PESSOA
+H2-dftre765-44 PESSOA relacao_familiar H2-dftre765-81 PESSOA
+H2-dftre765-44 PESSOA relacao_familiar H2-dftre765-27 PESSOA
+[Part]
+EOD
+
+DOC H2-dhy6432
+[CD]
+[Part]
+EOD
+
+DOC H2-Ren_2001_6414
+[CD]
+H2-Ren_2001_6414-154 PESSOA vinculo_inst H2-Ren_2001_6414-152 ORGANIZACAO
+H2-Ren_2001_6414-152 ORGANIZACAO vinculo_inst H2-Ren_2001_6414-154 PESSOA
+[Part]
+EOD
+
+DOC H2-Ren_2003_6465
+[CD]
+[Part]
+EOD
+
+DOC H2-EFin
+[CD]
+[Part]
+EOD
+
+DOC H2-Ert75
+[CD]
+[Part]
+EOD
+
+DOC H2-bbb
+[CD]
+[Part]
+EOD
+
+DOC H2-gt654
+[CD]
+[Part]
+EOD
+
+DOC Ntyr-78
+[CD]
+[Part]
+EOD
+
+DOC gtqqq
+[CD]
+gtqqq-189 PESSOA natural_de gtqqq-174 LOCAL
+gtqqq-173 LOCAL local_nascimento_de gtqqq-207 PESSOA
+gtqqq-173 LOCAL local_nascimento_de gtqqq-208 PESSOA
+gtqqq-192 LOCAL local_nascimento_de gtqqq-208 PESSOA
+gtqqq-192 LOCAL local_nascimento_de gtqqq-207 PESSOA
+gtqqq-10 LOCAL local_nascimento_de gtqqq-229 PESSOA
+gtqqq-2 LOCAL local_nascimento_de gtqqq-208 PESSOA
+gtqqq-2 LOCAL local_nascimento_de gtqqq-207 PESSOA
+gtqqq-204 LOCAL local_nascimento_de gtqqq-207 PESSOA
+gtqqq-204 LOCAL local_nascimento_de gtqqq-208 PESSOA
+gtqqq-208 PESSOA natural_de gtqqq-12 LOCAL
+gtqqq-208 PESSOA natural_de gtqqq-192 LOCAL
+gtqqq-208 PESSOA natural_de gtqqq-204 LOCAL
+gtqqq-208 PESSOA natural_de gtqqq-2 LOCAL
+gtqqq-208 PESSOA natural_de gtqqq-173 LOCAL
+gtqqq-207 PESSOA natural_de gtqqq-2 LOCAL
+gtqqq-207 PESSOA natural_de gtqqq-12 LOCAL
+gtqqq-207 PESSOA natural_de gtqqq-173 LOCAL
+gtqqq-207 PESSOA natural_de gtqqq-204 LOCAL
+gtqqq-207 PESSOA natural_de gtqqq-192 LOCAL
+gtqqq-234 PESSOA natural_de gtqqq-174 LOCAL
+gtqqq-2450 PESSOA natural_de gtqqq-174 LOCAL
+gtqqq-187 PESSOA natural_de gtqqq-174 LOCAL
+gtqqq-229 PESSOA natural_de gtqqq-10 LOCAL
+gtqqq-12 LOCAL local_nascimento_de gtqqq-207 PESSOA
+gtqqq-12 LOCAL local_nascimento_de gtqqq-208 PESSOA
+gtqqq-174 LOCAL local_nascimento_de gtqqq-2450 PESSOA
+gtqqq-174 LOCAL local_nascimento_de gtqqq-187 PESSOA
+gtqqq-174 LOCAL local_nascimento_de gtqqq-189 PESSOA
+gtqqq-174 LOCAL local_nascimento_de gtqqq-234 PESSOA
+[Part]
+EOD
+
+DOC hjlll
+[CD]
+hjlll-1 ACONTECIMENTO produzido_por hjlll-23 ORGANIZACAO
+hjlll-23 ORGANIZACAO produtor_de hjlll-1 ACONTECIMENTO
+[Part]
+EOD
+
+DOC cver
+[CD]
+[Part]
+EOD
+
+DOC 2ght33
+[CD]
+[Part]
+EOD
+
+DOC 2ght33-2
+[CD]
+2ght33-2-114 PESSOA natural_de 2ght33-2-81 LOCAL
+2ght33-2-114 PESSOA natural_de 2ght33-2-112 LOCAL
+2ght33-2-114 PESSOA relacao_profissional 2ght33-2-87 PESSOA
+2ght33-2-87 PESSOA relacao_profissional 2ght33-2-88 PESSOA
+2ght33-2-87 PESSOA relacao_profissional 2ght33-2-77 PESSOA
+2ght33-2-87 PESSOA relacao_profissional 2ght33-2-114 PESSOA
+2ght33-2-87 PESSOA relacao_profissional 2ght33-2-78 PESSOA
+2ght33-2-112 LOCAL local_nascimento_de 2ght33-2-78 PESSOA
+2ght33-2-112 LOCAL local_nascimento_de 2ght33-2-77 PESSOA
+2ght33-2-112 LOCAL local_nascimento_de 2ght33-2-88 PESSOA
+2ght33-2-112 LOCAL local_nascimento_de 2ght33-2-114 PESSOA
+2ght33-2-88 PESSOA relacao_profissional 2ght33-2-87 PESSOA
+2ght33-2-88 PESSOA natural_de 2ght33-2-81 LOCAL
+2ght33-2-88 PESSOA natural_de 2ght33-2-112 LOCAL
+2ght33-2-81 LOCAL local_nascimento_de 2ght33-2-78 PESSOA
+2ght33-2-81 LOCAL local_nascimento_de 2ght33-2-77 PESSOA
+2ght33-2-81 LOCAL local_nascimento_de 2ght33-2-114 PESSOA
+2ght33-2-81 LOCAL local_nascimento_de 2ght33-2-88 PESSOA
+2ght33-2-77 PESSOA relacao_profissional 2ght33-2-87 PESSOA
+2ght33-2-77 PESSOA natural_de 2ght33-2-81 LOCAL
+2ght33-2-77 PESSOA natural_de 2ght33-2-112 LOCAL
+2ght33-2-78 PESSOA natural_de 2ght33-2-112 LOCAL
+2ght33-2-78 PESSOA natural_de 2ght33-2-81 LOCAL
+2ght33-2-78 PESSOA relacao_profissional 2ght33-2-87 PESSOA
+[Part]
+EOD
+
+DOC gtpppp
+[CD]
+[Part]
+EOD
+
+DOC Ytr433
+[CD]
+Ytr433-132 PESSOA relacao_profissional Ytr433-143 PESSOA
+Ytr433-139 PESSOA relacao_profissional Ytr433-143 PESSOA
+Ytr433-143 PESSOA relacao_profissional Ytr433-139 PESSOA
+Ytr433-143 PESSOA relacao_profissional Ytr433-132 PESSOA
+[Part]
+EOD
+
+DOC relkj7666
+[CD]
+relkj7666-345 PESSOA natural_de relkj7666-343 LOCAL
+relkj7666-324 PESSOA natural_de relkj7666-208 LOCAL
+relkj7666-324 PESSOA natural_de relkj7666-19 LOCAL
+relkj7666-324 PESSOA natural_de relkj7666-15 LOCAL
+relkj7666-343 LOCAL local_nascimento_de relkj7666-345 PESSOA
+relkj7666-208 LOCAL local_nascimento_de relkj7666-324 PESSOA
+relkj7666-42 PESSOA relacao_familiar relkj7666-28 PESSOA
+relkj7666-42 PESSOA relacao_familiar relkj7666-40 PESSOA
+relkj7666-40 PESSOA relacao_familiar relkj7666-43 PESSOA
+relkj7666-40 PESSOA relacao_familiar relkj7666-42 PESSOA
+relkj7666-28 PESSOA relacao_familiar relkj7666-43 PESSOA
+relkj7666-28 PESSOA relacao_familiar relkj7666-42 PESSOA
+relkj7666-297 PESSOA vinculo_inst relkj7666-276 ORGANIZACAO
+relkj7666-297 PESSOA vinculo_inst relkj7666-222 ORGANIZACAO
+relkj7666-297 PESSOA vinculo_inst relkj7666-231 ORGANIZACAO
+relkj7666-297 PESSOA vinculo_inst relkj7666-273 ORGANIZACAO
+relkj7666-15 LOCAL local_nascimento_de relkj7666-324 PESSOA
+relkj7666-43 PESSOA relacao_familiar relkj7666-40 PESSOA
+relkj7666-43 PESSOA relacao_familiar relkj7666-28 PESSOA
+relkj7666-222 ORGANIZACAO vinculo_inst relkj7666-297 PESSOA
+relkj7666-276 ORGANIZACAO vinculo_inst relkj7666-297 PESSOA
+relkj7666-19 LOCAL local_nascimento_de relkj7666-324 PESSOA
+relkj7666-231 ORGANIZACAO vinculo_inst relkj7666-297 PESSOA
+relkj7666-273 ORGANIZACAO vinculo_inst relkj7666-297 PESSOA
+[Part]
+EOD
+
+DOC DR-PT5
+[CD]
+[Part]
+EOD
+
+DOC aa33715
+[CD]
+aa33715-451 ORGANIZACAO vinculo_inst aa33715-465 PESSOA
+aa33715-451 ORGANIZACAO vinculo_inst aa33715-458 PESSOA
+aa33715-451 ORGANIZACAO vinculo_inst aa33715-453 PESSOA
+aa33715-453 PESSOA vinculo_inst aa33715-451 ORGANIZACAO
+aa33715-453 PESSOA vinculo_inst aa33715-436 ORGANIZACAO
+aa33715-453 PESSOA vinculo_inst aa33715-459 ORGANIZACAO
+aa33715-453 PESSOA vinculo_inst aa33715-9 ORGANIZACAO
+aa33715-453 PESSOA vinculo_inst aa33715-466 ORGANIZACAO
+aa33715-436 ORGANIZACAO vinculo_inst aa33715-465 PESSOA
+aa33715-436 ORGANIZACAO vinculo_inst aa33715-453 PESSOA
+aa33715-436 ORGANIZACAO vinculo_inst aa33715-458 PESSOA
+aa33715-9 ORGANIZACAO vinculo_inst aa33715-458 PESSOA
+aa33715-9 ORGANIZACAO vinculo_inst aa33715-465 PESSOA
+aa33715-9 ORGANIZACAO vinculo_inst aa33715-453 PESSOA
+aa33715-465 PESSOA vinculo_inst aa33715-9 ORGANIZACAO
+aa33715-465 PESSOA vinculo_inst aa33715-466 ORGANIZACAO
+aa33715-465 PESSOA vinculo_inst aa33715-451 ORGANIZACAO
+aa33715-465 PESSOA vinculo_inst aa33715-436 ORGANIZACAO
+aa33715-465 PESSOA vinculo_inst aa33715-459 ORGANIZACAO
+aa33715-459 ORGANIZACAO vinculo_inst aa33715-453 PESSOA
+aa33715-459 ORGANIZACAO vinculo_inst aa33715-465 PESSOA
+aa33715-459 ORGANIZACAO vinculo_inst aa33715-458 PESSOA
+aa33715-466 ORGANIZACAO vinculo_inst aa33715-465 PESSOA
+aa33715-466 ORGANIZACAO vinculo_inst aa33715-453 PESSOA
+aa33715-466 ORGANIZACAO vinculo_inst aa33715-458 PESSOA
+aa33715-458 PESSOA vinculo_inst aa33715-436 ORGANIZACAO
+aa33715-458 PESSOA vinculo_inst aa33715-459 ORGANIZACAO
+aa33715-458 PESSOA vinculo_inst aa33715-9 ORGANIZACAO
+aa33715-458 PESSOA vinculo_inst aa33715-466 ORGANIZACAO
+aa33715-458 PESSOA vinculo_inst aa33715-451 ORGANIZACAO
+[Part]
+EOD
+
+DOC aa55968
+[CD]
+[Part]
+EOD
+
+DOC aa66435
+[CD]
+[Part]
+EOD
+
+DOC aa77651
+[CD]
+aa77651-525 PESSOA vinculo_inst aa77651-513 ORGANIZACAO
+aa77651-519 PESSOA vinculo_inst aa77651-513 ORGANIZACAO
+aa77651-513 ORGANIZACAO vinculo_inst aa77651-519 PESSOA
+aa77651-513 ORGANIZACAO vinculo_inst aa77651-540 PESSOA
+aa77651-513 ORGANIZACAO vinculo_inst aa77651-547 PESSOA
+aa77651-513 ORGANIZACAO vinculo_inst aa77651-525 PESSOA
+aa77651-540 PESSOA vinculo_inst aa77651-513 ORGANIZACAO
+aa77651-547 PESSOA vinculo_inst aa77651-513 ORGANIZACAO
+[Part]
+EOD
+
+DOC aa13183
+[CD]
+aa13183-133 ORGANIZACAO vinculo_inst aa13183-135 PESSOA
+aa13183-133 ORGANIZACAO vinculo_inst aa13183-152 PESSOA
+aa13183-155 ORGANIZACAO vinculo_inst aa13183-152 PESSOA
+aa13183-155 ORGANIZACAO vinculo_inst aa13183-135 PESSOA
+aa13183-128 ORGANIZACAO vinculo_inst aa13183-152 PESSOA
+aa13183-128 ORGANIZACAO vinculo_inst aa13183-135 PESSOA
+aa13183-135 PESSOA vinculo_inst aa13183-155 ORGANIZACAO
+aa13183-135 PESSOA vinculo_inst aa13183-133 ORGANIZACAO
+aa13183-135 PESSOA vinculo_inst aa13183-128 ORGANIZACAO
+aa13183-152 PESSOA vinculo_inst aa13183-155 ORGANIZACAO
+aa13183-152 PESSOA vinculo_inst aa13183-128 ORGANIZACAO
+aa13183-152 PESSOA vinculo_inst aa13183-133 ORGANIZACAO
+[Part]
+EOD
+
+DOC aa87333
+[CD]
+aa87333-6 LOCAL local_nascimento_de aa87333-278 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-88 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-5 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-39 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-250 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-31 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-264 PESSOA
+aa87333-6 LOCAL local_nascimento_de aa87333-252 PESSOA
+aa87333-83 LOCAL local_nascimento_de aa87333-13 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-264 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-31 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-5 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-252 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-278 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-250 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-39 PESSOA
+aa87333-37 LOCAL residencia_de aa87333-88 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-23 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-44 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-102 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-252 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-31 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-278 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-250 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-88 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-264 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-5 PESSOA
+aa87333-79 LOCAL residencia_de aa87333-39 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-264 PESSOA residente_de aa87333-79 LOCAL
+aa87333-264 PESSOA residente_de aa87333-224 LOCAL
+aa87333-264 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-264 PESSOA residente_de aa87333-37 LOCAL
+aa87333-264 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-264 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-264 PESSOA natural_de aa87333-6 LOCAL
+aa87333-39 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-39 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-39 PESSOA residente_de aa87333-79 LOCAL
+aa87333-39 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-39 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-39 PESSOA natural_de aa87333-6 LOCAL
+aa87333-39 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-39 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-39 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-39 PESSOA residente_de aa87333-224 LOCAL
+aa87333-39 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-39 PESSOA residente_de aa87333-37 LOCAL
+aa87333-256 OBRA obra_de aa87333-255 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-31 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-252 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-39 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-278 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-250 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-88 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-264 PESSOA
+aa87333-224 LOCAL residencia_de aa87333-5 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-53 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-88 PESSOA residente_de aa87333-79 LOCAL
+aa87333-88 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-88 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-88 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-88 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-88 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-88 PESSOA residente_de aa87333-37 LOCAL
+aa87333-88 PESSOA natural_de aa87333-6 LOCAL
+aa87333-88 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-88 PESSOA residente_de aa87333-224 LOCAL
+aa87333-88 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-88 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-68 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-255 PESSOA autor_de aa87333-256 OBRA
+aa87333-11 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-11 PESSOA natural_de aa87333-29 LOCAL
+aa87333-11 PESSOA natural_de aa87333-89 LOCAL
+aa87333-11 PESSOA natural_de aa87333-78 LOCAL
+aa87333-11 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-11 PESSOA natural_de aa87333-68 LOCAL
+aa87333-11 PESSOA natural_de aa87333-44 LOCAL
+aa87333-11 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-11 PESSOA natural_de aa87333-4 LOCAL
+aa87333-11 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-11 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-5 PESSOA residente_de aa87333-224 LOCAL
+aa87333-5 PESSOA residente_de aa87333-37 LOCAL
+aa87333-5 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-5 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-5 PESSOA residente_de aa87333-79 LOCAL
+aa87333-5 PESSOA natural_de aa87333-6 LOCAL
+aa87333-31 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-31 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-31 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-31 PESSOA residente_de aa87333-79 LOCAL
+aa87333-31 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-31 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-31 PESSOA natural_de aa87333-6 LOCAL
+aa87333-31 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-31 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-31 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-31 PESSOA residente_de aa87333-37 LOCAL
+aa87333-31 PESSOA residente_de aa87333-224 LOCAL
+aa87333-184 LOCAL local_nascimento_de aa87333-13 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-36 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-29 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-13 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-13 PESSOA natural_de aa87333-184 LOCAL
+aa87333-13 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-13 PESSOA natural_de aa87333-83 LOCAL
+aa87333-13 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-89 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-278 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-278 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-278 PESSOA residente_de aa87333-37 LOCAL
+aa87333-278 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-278 PESSOA residente_de aa87333-79 LOCAL
+aa87333-278 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-278 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-278 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-278 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-278 PESSOA natural_de aa87333-6 LOCAL
+aa87333-278 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-278 PESSOA residente_de aa87333-224 LOCAL
+aa87333-78 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-250 PESSOA residente_de aa87333-224 LOCAL
+aa87333-250 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-250 PESSOA residente_de aa87333-37 LOCAL
+aa87333-250 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-250 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-250 PESSOA residente_de aa87333-79 LOCAL
+aa87333-250 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-250 PESSOA natural_de aa87333-6 LOCAL
+aa87333-250 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-250 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-250 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-250 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-81 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-252 PESSOA relacao_familiar aa87333-23 PESSOA
+aa87333-252 PESSOA relacao_familiar aa87333-76 PESSOA
+aa87333-252 PESSOA residente_de aa87333-79 LOCAL
+aa87333-252 PESSOA relacao_familiar aa87333-53 PESSOA
+aa87333-252 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-252 PESSOA relacao_familiar aa87333-36 PESSOA
+aa87333-252 PESSOA natural_de aa87333-6 LOCAL
+aa87333-252 PESSOA residente_de aa87333-37 LOCAL
+aa87333-252 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-252 PESSOA relacao_familiar aa87333-11 PESSOA
+aa87333-252 PESSOA residente_de aa87333-224 LOCAL
+aa87333-252 PESSOA relacao_familiar aa87333-81 PESSOA
+aa87333-4 LOCAL local_nascimento_de aa87333-11 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-250 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-278 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-39 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-5 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-88 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-31 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-252 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-102 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-13 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-264 PESSOA
+aa87333-76 PESSOA relacao_familiar aa87333-81 PESSOA
+[Part]
+EOD
+
+DOC aa46996
+[CD]
+[Part]
+EOD
+
+DOC aa94781
+[CD]
+aa94781-186 PESSOA vinculo_inst aa94781-228 ORGANIZACAO
+aa94781-217 LOCAL local_morte aa94781-177 PESSOA
+aa94781-217 LOCAL local_morte aa94781-204 PESSOA
+aa94781-217 LOCAL local_morte aa94781-203 PESSOA
+aa94781-217 LOCAL local_morte aa94781-199 PESSOA
+aa94781-228 ORGANIZACAO vinculo_inst aa94781-186 PESSOA
+[Part]
+EOD
+
+DOC aa25258
+[CD]
+aa25258-258 ORGANIZACAO vinculo_inst aa25258-237 PESSOA
+aa25258-258 ORGANIZACAO vinculo_inst aa25258-250 PESSOA
+aa25258-258 ORGANIZACAO vinculo_inst aa25258-230 PESSOA
+aa25258-258 ORGANIZACAO vinculo_inst aa25258-233 PESSOA
+aa25258-237 PESSOA vinculo_inst aa25258-258 ORGANIZACAO
+aa25258-230 PESSOA vinculo_inst aa25258-258 ORGANIZACAO
+aa25258-233 PESSOA vinculo_inst aa25258-258 ORGANIZACAO
+aa25258-250 PESSOA vinculo_inst aa25258-258 ORGANIZACAO
+[Part]
+EOD
+
+DOC aa64686
+[CD]
+aa64686-166 LOCAL local_nascimento_de aa64686-193 PESSOA
+aa64686-166 LOCAL local_nascimento_de aa64686-172 PESSOA
+aa64686-172 PESSOA natural_de aa64686-166 LOCAL
+aa64686-193 PESSOA natural_de aa64686-166 LOCAL
+[Part]
+EOD
+
+DOC aa40383
+[CD]
+aa40383-315 ACONTECIMENTO ter_participacao_de aa40383-282 PESSOA
+aa40383-315 ACONTECIMENTO ter_participacao_de aa40383-318 PESSOA
+aa40383-282 PESSOA participante_em aa40383-315 ACONTECIMENTO
+aa40383-282 PESSOA vinculo_inst aa40383-299 ORGANIZACAO
+aa40383-299 ORGANIZACAO vinculo_inst aa40383-282 PESSOA
+aa40383-299 ORGANIZACAO vinculo_inst aa40383-318 PESSOA
+aa40383-318 PESSOA vinculo_inst aa40383-299 ORGANIZACAO
+aa40383-318 PESSOA participante_em aa40383-315 ACONTECIMENTO
+[Part]
+EOD
+
+DOC aa58069
+[CD]
+aa58069-402 PESSOA vinculo_inst aa58069-401 ORGANIZACAO
+aa58069-420 ORGANIZACAO vinculo_inst aa58069-419 PESSOA
+aa58069-401 ORGANIZACAO vinculo_inst aa58069-402 PESSOA
+aa58069-419 PESSOA vinculo_inst aa58069-420 ORGANIZACAO
+[Part]
+EOD
+
+DOC aa56088
+[CD]
+aa56088-514 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-514 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-514 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-514 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-525 ORGANIZACAO vinculo_inst aa56088-465 PESSOA
+aa56088-525 ORGANIZACAO vinculo_inst aa56088-451 PESSOA
+aa56088-525 ORGANIZACAO vinculo_inst aa56088-464-aa PESSOA
+aa56088-522 PESSOA vinculo_inst aa56088-512 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-484 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-10 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-492 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-11 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-467 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-514 ORGANIZACAO
+aa56088-522 PESSOA vinculo_inst aa56088-12 ORGANIZACAO
+aa56088-464-aa PESSOA vinculo_inst aa56088-473 ORGANIZACAO
+aa56088-464-aa PESSOA vinculo_inst aa56088-488 ORGANIZACAO
+aa56088-464-aa PESSOA vinculo_inst aa56088-525 ORGANIZACAO
+aa56088-464-aa PESSOA vinculo_inst aa56088-22 ORGANIZACAO
+aa56088-512 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-512 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-512 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-512 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-481 PESSOA vinculo_inst aa56088-11 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-12 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-514 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-467 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-484 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-492 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-512 ORGANIZACAO
+aa56088-481 PESSOA vinculo_inst aa56088-10 ORGANIZACAO
+aa56088-526 PESSOA vinculo_inst aa56088-527 ORGANIZACAO
+aa56088-526 PESSOA vinculo_inst aa56088-4 ORGANIZACAO
+aa56088-492 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-492 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-492 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-492 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-465 PESSOA vinculo_inst aa56088-22 ORGANIZACAO
+aa56088-465 PESSOA vinculo_inst aa56088-525 ORGANIZACAO
+aa56088-465 PESSOA vinculo_inst aa56088-488 ORGANIZACAO
+aa56088-465 PESSOA vinculo_inst aa56088-473 ORGANIZACAO
+aa56088-539 ORGANIZACAO vinculo_inst aa56088-538 PESSOA
+aa56088-473 ORGANIZACAO vinculo_inst aa56088-451 PESSOA
+aa56088-473 ORGANIZACAO vinculo_inst aa56088-464-aa PESSOA
+aa56088-473 ORGANIZACAO vinculo_inst aa56088-465 PESSOA
+aa56088-527 ORGANIZACAO vinculo_inst aa56088-526 PESSOA
+aa56088-467 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-467 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-467 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-467 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-484 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-484 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-484 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-484 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-488 ORGANIZACAO vinculo_inst aa56088-451 PESSOA
+aa56088-488 ORGANIZACAO vinculo_inst aa56088-465 PESSOA
+aa56088-488 ORGANIZACAO vinculo_inst aa56088-464-aa PESSOA
+aa56088-4 ORGANIZACAO vinculo_inst aa56088-526 PESSOA
+aa56088-11 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-11 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-11 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-11 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-22 ORGANIZACAO vinculo_inst aa56088-451 PESSOA
+aa56088-22 ORGANIZACAO vinculo_inst aa56088-464-aa PESSOA
+aa56088-22 ORGANIZACAO vinculo_inst aa56088-465 PESSOA
+aa56088-452 PESSOA vinculo_inst aa56088-11 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-10 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-484 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-492 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-512 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-467 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-12 ORGANIZACAO
+aa56088-452 PESSOA vinculo_inst aa56088-514 ORGANIZACAO
+aa56088-12 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-12 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-12 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+aa56088-12 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-451 PESSOA vinculo_inst aa56088-22 ORGANIZACAO
+aa56088-451 PESSOA vinculo_inst aa56088-473 ORGANIZACAO
+aa56088-451 PESSOA vinculo_inst aa56088-525 ORGANIZACAO
+aa56088-451 PESSOA vinculo_inst aa56088-488 ORGANIZACAO
+aa56088-538 PESSOA vinculo_inst aa56088-539 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-467 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-11 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-10 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-492 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-512 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-484 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-514 ORGANIZACAO
+aa56088-550 PESSOA vinculo_inst aa56088-12 ORGANIZACAO
+aa56088-10 ORGANIZACAO vinculo_inst aa56088-452 PESSOA
+aa56088-10 ORGANIZACAO vinculo_inst aa56088-481 PESSOA
+aa56088-10 ORGANIZACAO vinculo_inst aa56088-550 PESSOA
+aa56088-10 ORGANIZACAO vinculo_inst aa56088-522 PESSOA
+[Part]
+EOD
+
+DOC bob-14949
+[CD]
+bob-14949-612 LOCAL local_nascimento_de bob-14949-615 PESSOA
+bob-14949-615 PESSOA relacao_familiar bob-14949-616 PESSOA
+bob-14949-615 PESSOA natural_de bob-14949-612 LOCAL
+bob-14949-616 PESSOA relacao_familiar bob-14949-615 PESSOA
+[Part]
+bob-14949-615 PESSOA relacao_familiar bob-14949-616 PESSOA
+bob-14949-616 PESSOA relacao_familiar bob-14949-615 PESSOA
+EOD
+
+DOC bob-37600
+[CD]
+[Part]
+EOD
+
+DOC hub-16268
+[CD]
+hub-16268-21 ORGANIZACAO vinculo_inst hub-16268-22 PESSOA
+hub-16268-22 PESSOA vinculo_inst hub-16268-27 ORGANIZACAO
+hub-16268-22 PESSOA vinculo_inst hub-16268-49 ORGANIZACAO
+hub-16268-22 PESSOA vinculo_inst hub-16268-21 ORGANIZACAO
+hub-16268-22 PESSOA vinculo_inst hub-16268-51 ORGANIZACAO
+hub-16268-27 ORGANIZACAO vinculo_inst hub-16268-22 PESSOA
+hub-16268-51 ORGANIZACAO vinculo_inst hub-16268-22 PESSOA
+hub-16268-49 ORGANIZACAO vinculo_inst hub-16268-22 PESSOA
+[Part]
+EOD
+
+DOC hub-49343
+[CD]
+hub-49343-51 ORGANIZACAO vinculo_inst hub-49343-1 PESSOA
+hub-49343-5 PESSOA relacao_familiar hub-49343-1 PESSOA
+hub-49343-4 PESSOA relacao_profissional hub-49343-1 PESSOA
+hub-49343-6 PESSOA relacao_profissional hub-49343-1 PESSOA
+hub-49343-1 PESSOA relacao_profissional hub-49343-4 PESSOA
+hub-49343-1 PESSOA relacao_familiar hub-49343-5 PESSOA
+hub-49343-1 PESSOA relacao_familiar hub-49343-2 PESSOA
+hub-49343-1 PESSOA vinculo_inst hub-49343-37 ORGANIZACAO
+hub-49343-1 PESSOA relacao_profissional hub-49343-6 PESSOA
+hub-49343-1 PESSOA vinculo_inst hub-49343-51 ORGANIZACAO
+hub-49343-2 PESSOA relacao_familiar hub-49343-1 PESSOA
+hub-49343-37 ORGANIZACAO vinculo_inst hub-49343-1 PESSOA
+[Part]
+EOD
+
+DOC hub-15590
+[CD]
+hub-15590-73 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-73 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-73 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-73 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-73 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-91 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-59 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-80 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-73 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-116 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-110 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-105 PESSOA
+hub-15590-63 PESSOA relacao_familiar hub-15590-93 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-110 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-93 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-105 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-59 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-116 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-80 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-73 PESSOA
+hub-15590-65 PESSOA relacao_familiar hub-15590-91 PESSOA
+hub-15590-59 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-59 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-59 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-59 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-59 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-93 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-105 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-91 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-116 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-73 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-80 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-110 PESSOA
+hub-15590-61 LOCAL local_nascimento_de hub-15590-59 PESSOA
+hub-15590-96 PESSOA relacao_familiar hub-15590-76 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-110 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-59 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-80 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-73 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-116 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-91 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-93 PESSOA
+hub-15590-126 PESSOA relacao_familiar hub-15590-105 PESSOA
+hub-15590-116 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-116 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-116 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-116 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-116 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-76 PESSOA relacao_familiar hub-15590-96 PESSOA
+hub-15590-76 PESSOA relacao_familiar hub-15590-74 PESSOA
+hub-15590-76 PESSOA relacao_familiar hub-15590-79 PESSOA
+hub-15590-76 PESSOA relacao_familiar hub-15590-84 PESSOA
+hub-15590-105 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-105 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-105 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-105 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-105 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-84 PESSOA relacao_familiar hub-15590-76 PESSOA
+hub-15590-74 PESSOA relacao_familiar hub-15590-76 PESSOA
+hub-15590-104 PESSOA relacao_familiar hub-15590-102 PESSOA
+hub-15590-104 PESSOA relacao_familiar hub-15590-122 PESSOA
+hub-15590-79 PESSOA relacao_familiar hub-15590-76 PESSOA
+hub-15590-102 PESSOA relacao_familiar hub-15590-104 PESSOA
+hub-15590-80 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-80 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-80 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-80 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-80 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-91 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-91 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-91 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-91 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-91 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-110 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-110 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-110 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-110 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-110 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-93 PESSOA relacao_familiar hub-15590-128 PESSOA
+hub-15590-93 PESSOA relacao_familiar hub-15590-65 PESSOA
+hub-15590-93 PESSOA natural_de hub-15590-61 LOCAL
+hub-15590-93 PESSOA relacao_familiar hub-15590-126 PESSOA
+hub-15590-93 PESSOA relacao_familiar hub-15590-63 PESSOA
+hub-15590-122 PESSOA relacao_familiar hub-15590-104 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-80 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-129 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-110 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-91 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-116 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-73 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-59 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-105 PESSOA
+hub-15590-128 PESSOA relacao_familiar hub-15590-93 PESSOA
+hub-15590-129 PESSOA relacao_familiar hub-15590-128 PESSOA
+[Part]
+hub-15590-128 PESSOA relacao_familiar hub-15590-129 PESSOA
+hub-15590-129 PESSOA relacao_familiar hub-15590-128 PESSOA
+EOD
+
+DOC hub-67792
+[CD]
+[Part]
+EOD
+
+DOC hub-93257
+[CD]
+[Part]
+EOD
+
+DOC ven-098
+[CD]
+ven-098-140 ORGANIZACAO vinculo_inst ven-098-128 PESSOA
+ven-098-128 PESSOA vinculo_inst ven-098-140 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-71248
+[CD]
+[Part]
+EOD
+
+DOC hub-21881
+[CD]
+[Part]
+EOD
+
+DOC hub-398
+[CD]
+[Part]
+EOD
+
+DOC hub-57257
+[CD]
+[Part]
+EOD
+
+DOC hub-37819
+[CD]
+[Part]
+EOD
+
+DOC hub-22322
+[CD]
+[Part]
+EOD
+
+DOC hub-77558
+[CD]
+[Part]
+EOD
+
+DOC hub-24360
+[CD]
+hub-24360-305 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-305 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-305 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-305 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-305 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-306 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-306 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-306 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-306 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-306 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-311 PESSOA vinculo_inst hub-24360-315 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-307 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-322 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-305 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-306 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-328 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-325 ORGANIZACAO
+hub-24360-311 PESSOA vinculo_inst hub-24360-317 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-307 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-317 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-322 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-325 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-305 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-328 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-315 ORGANIZACAO
+hub-24360-314 PESSOA vinculo_inst hub-24360-306 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-317 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-322 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-325 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-307 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-328 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-305 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-306 ORGANIZACAO
+hub-24360-316 PESSOA vinculo_inst hub-24360-315 ORGANIZACAO
+hub-24360-307 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-307 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-307 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-307 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-307 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-328 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-328 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-328 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-328 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-328 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-317 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-317 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-317 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-317 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-317 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-322 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-322 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-322 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-322 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-322 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-329 PESSOA vinculo_inst hub-24360-325 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-317 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-322 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-307 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-305 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-328 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-315 ORGANIZACAO
+hub-24360-329 PESSOA vinculo_inst hub-24360-306 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-322 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-317 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-325 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-315 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-307 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-305 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-306 ORGANIZACAO
+hub-24360-319 PESSOA vinculo_inst hub-24360-328 ORGANIZACAO
+hub-24360-315 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-315 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-315 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-315 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-315 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+hub-24360-325 ORGANIZACAO vinculo_inst hub-24360-329 PESSOA
+hub-24360-325 ORGANIZACAO vinculo_inst hub-24360-311 PESSOA
+hub-24360-325 ORGANIZACAO vinculo_inst hub-24360-314 PESSOA
+hub-24360-325 ORGANIZACAO vinculo_inst hub-24360-316 PESSOA
+hub-24360-325 ORGANIZACAO vinculo_inst hub-24360-319 PESSOA
+[Part]
+EOD
+
+DOC hub-94890
+[CD]
+[Part]
+EOD
+
+DOC hub-63156
+[CD]
+[Part]
+EOD
+
+DOC hub-41899
+[CD]
+hub-41899-350 PESSOA relacao_familiar hub-41899-349 PESSOA
+hub-41899-349 PESSOA relacao_familiar hub-41899-350 PESSOA
+[Part]
+EOD
+
+DOC hub-822
+[CD]
+[Part]
+EOD
+
+DOC hub-19181
+[CD]
+[Part]
+EOD
+
+DOC hub-2312
+[CD]
+[Part]
+EOD
+
+DOC hub-28874
+[CD]
+[Part]
+EOD
+
+DOC hub-56266
+[CD]
+hub-56266-128 ORGANIZACAO vinculo_inst hub-56266-113 PESSOA
+hub-56266-110 ORGANIZACAO vinculo_inst hub-56266-113 PESSOA
+hub-56266-113 PESSOA vinculo_inst hub-56266-128 ORGANIZACAO
+hub-56266-113 PESSOA vinculo_inst hub-56266-110 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-60905
+[CD]
+[Part]
+EOD
+
+DOC hub-64260
+[CD]
+[Part]
+EOD
+
+DOC hub-60382
+[CD]
+[Part]
+EOD
+
+DOC hub-78051
+[CD]
+[Part]
+EOD
+
+DOC hub-94570
+[CD]
+hub-94570-113 PESSOA relacao_profissional hub-94570-112 PESSOA
+hub-94570-116 PESSOA natural_de hub-94570-128 LOCAL
+hub-94570-112 PESSOA relacao_profissional hub-94570-113 PESSOA
+hub-94570-128 LOCAL local_nascimento_de hub-94570-116 PESSOA
+[Part]
+EOD
+
+DOC hub-18050
+[CD]
+[Part]
+EOD
+
+DOC hub-83689
+[CD]
+hub-83689-156 LOCAL local_morte hub-83689-132 PESSOA
+hub-83689-156 LOCAL local_morte hub-83689-131 PESSOA
+hub-83689-156 LOCAL local_morte hub-83689-133 PESSOA
+hub-83689-156 LOCAL local_morte hub-83689-143 PESSOA
+[Part]
+EOD
+
+DOC hub-16632
+[CD]
+[Part]
+EOD
+
+DOC hub-39869
+[CD]
+hub-39869-194 PESSOA vinculo_inst hub-39869-213 ORGANIZACAO
+hub-39869-194 PESSOA vinculo_inst hub-39869-199 ORGANIZACAO
+hub-39869-194 PESSOA vinculo_inst hub-39869-217 ORGANIZACAO
+hub-39869-194 PESSOA vinculo_inst hub-39869-204 ORGANIZACAO
+hub-39869-194 PESSOA vinculo_inst hub-39869-200 ORGANIZACAO
+hub-39869-193 PESSOA vinculo_inst hub-39869-217 ORGANIZACAO
+hub-39869-193 PESSOA vinculo_inst hub-39869-213 ORGANIZACAO
+hub-39869-193 PESSOA vinculo_inst hub-39869-199 ORGANIZACAO
+hub-39869-193 PESSOA vinculo_inst hub-39869-200 ORGANIZACAO
+hub-39869-193 PESSOA vinculo_inst hub-39869-204 ORGANIZACAO
+hub-39869-197 PESSOA vinculo_inst hub-39869-204 ORGANIZACAO
+hub-39869-197 PESSOA vinculo_inst hub-39869-213 ORGANIZACAO
+hub-39869-197 PESSOA vinculo_inst hub-39869-199 ORGANIZACAO
+hub-39869-197 PESSOA vinculo_inst hub-39869-200 ORGANIZACAO
+hub-39869-197 PESSOA vinculo_inst hub-39869-217 ORGANIZACAO
+hub-39869-213 ORGANIZACAO vinculo_inst hub-39869-194 PESSOA
+hub-39869-213 ORGANIZACAO vinculo_inst hub-39869-193 PESSOA
+hub-39869-213 ORGANIZACAO vinculo_inst hub-39869-197 PESSOA
+hub-39869-200 ORGANIZACAO vinculo_inst hub-39869-197 PESSOA
+hub-39869-200 ORGANIZACAO vinculo_inst hub-39869-194 PESSOA
+hub-39869-200 ORGANIZACAO vinculo_inst hub-39869-193 PESSOA
+hub-39869-217 ORGANIZACAO vinculo_inst hub-39869-197 PESSOA
+hub-39869-217 ORGANIZACAO vinculo_inst hub-39869-193 PESSOA
+hub-39869-217 ORGANIZACAO vinculo_inst hub-39869-194 PESSOA
+hub-39869-199 ORGANIZACAO vinculo_inst hub-39869-194 PESSOA
+hub-39869-199 ORGANIZACAO vinculo_inst hub-39869-193 PESSOA
+hub-39869-199 ORGANIZACAO vinculo_inst hub-39869-197 PESSOA
+hub-39869-204 ORGANIZACAO vinculo_inst hub-39869-193 PESSOA
+hub-39869-204 ORGANIZACAO vinculo_inst hub-39869-194 PESSOA
+hub-39869-204 ORGANIZACAO vinculo_inst hub-39869-197 PESSOA
+[Part]
+EOD
+
+DOC hub-68694
+[CD]
+[Part]
+EOD
+
+DOC hub-47914
+[CD]
+hub-47914-2 PESSOA autor_de hub-47914-234 OBRA
+hub-47914-2 PESSOA autor_de hub-47914-239 OBRA
+hub-47914-225 ORGANIZACAO vinculo_inst hub-47914-221 PESSOA
+hub-47914-225 ORGANIZACAO vinculo_inst hub-47914-233 PESSOA
+hub-47914-225 ORGANIZACAO vinculo_inst hub-47914-240 PESSOA
+hub-47914-221 PESSOA vinculo_inst hub-47914-225 ORGANIZACAO
+hub-47914-233 PESSOA vinculo_inst hub-47914-225 ORGANIZACAO
+hub-47914-239 OBRA obra_de hub-47914-2 PESSOA
+hub-47914-234 OBRA obra_de hub-47914-2 PESSOA
+hub-47914-240 PESSOA vinculo_inst hub-47914-225 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-2701
+[CD]
+hub-2701-250 PESSOA vinculo_inst hub-2701-254 ORGANIZACAO
+hub-2701-250 PESSOA vinculo_inst hub-2701-243 ORGANIZACAO
+hub-2701-250 PESSOA vinculo_inst hub-2701-247 ORGANIZACAO
+hub-2701-243 ORGANIZACAO vinculo_inst hub-2701-246 PESSOA
+hub-2701-243 ORGANIZACAO vinculo_inst hub-2701-250 PESSOA
+hub-2701-254 ORGANIZACAO vinculo_inst hub-2701-246 PESSOA
+hub-2701-254 ORGANIZACAO vinculo_inst hub-2701-250 PESSOA
+hub-2701-247 ORGANIZACAO vinculo_inst hub-2701-250 PESSOA
+hub-2701-247 ORGANIZACAO vinculo_inst hub-2701-246 PESSOA
+hub-2701-246 PESSOA vinculo_inst hub-2701-247 ORGANIZACAO
+hub-2701-246 PESSOA vinculo_inst hub-2701-254 ORGANIZACAO
+hub-2701-246 PESSOA vinculo_inst hub-2701-243 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-4171
+[CD]
+[Part]
+EOD
+
+DOC hub-55847
+[CD]
+hub-55847-347 PESSOA relacao_familiar hub-55847-273 PESSOA
+hub-55847-273 PESSOA relacao_familiar hub-55847-347 PESSOA
+hub-55847-311 PESSOA relacao_familiar hub-55847-313 PESSOA
+hub-55847-313 PESSOA relacao_familiar hub-55847-311 PESSOA
+[Part]
+EOD
+
+DOC hub-51467
+[CD]
+hub-51467-294 ORGANIZACAO vinculo_inst hub-51467-293 PESSOA
+hub-51467-293 PESSOA vinculo_inst hub-51467-291 ORGANIZACAO
+hub-51467-293 PESSOA vinculo_inst hub-51467-294 ORGANIZACAO
+hub-51467-291 ORGANIZACAO vinculo_inst hub-51467-293 PESSOA
+[Part]
+EOD
+
+DOC hub-66746
+[CD]
+hub-66746-349 PESSOA vinculo_inst hub-66746-355 ORGANIZACAO
+hub-66746-349 PESSOA vinculo_inst hub-66746-361 ORGANIZACAO
+hub-66746-349 PESSOA vinculo_inst hub-66746-378 ORGANIZACAO
+hub-66746-349 PESSOA vinculo_inst hub-66746-351 ORGANIZACAO
+hub-66746-375 PESSOA vinculo_inst hub-66746-351 ORGANIZACAO
+hub-66746-375 PESSOA vinculo_inst hub-66746-361 ORGANIZACAO
+hub-66746-375 PESSOA vinculo_inst hub-66746-355 ORGANIZACAO
+hub-66746-375 PESSOA vinculo_inst hub-66746-378 ORGANIZACAO
+hub-66746-356 PESSOA vinculo_inst hub-66746-361 ORGANIZACAO
+hub-66746-356 PESSOA vinculo_inst hub-66746-355 ORGANIZACAO
+hub-66746-356 PESSOA vinculo_inst hub-66746-351 ORGANIZACAO
+hub-66746-356 PESSOA vinculo_inst hub-66746-378 ORGANIZACAO
+hub-66746-355 ORGANIZACAO vinculo_inst hub-66746-349 PESSOA
+hub-66746-355 ORGANIZACAO vinculo_inst hub-66746-356 PESSOA
+hub-66746-355 ORGANIZACAO vinculo_inst hub-66746-375 PESSOA
+hub-66746-355 ORGANIZACAO vinculo_inst hub-66746-360 PESSOA
+hub-66746-355 ORGANIZACAO vinculo_inst hub-66746-370 PESSOA
+hub-66746-378 ORGANIZACAO vinculo_inst hub-66746-375 PESSOA
+hub-66746-378 ORGANIZACAO vinculo_inst hub-66746-370 PESSOA
+hub-66746-378 ORGANIZACAO vinculo_inst hub-66746-356 PESSOA
+hub-66746-378 ORGANIZACAO vinculo_inst hub-66746-349 PESSOA
+hub-66746-378 ORGANIZACAO vinculo_inst hub-66746-360 PESSOA
+hub-66746-351 ORGANIZACAO vinculo_inst hub-66746-360 PESSOA
+hub-66746-351 ORGANIZACAO vinculo_inst hub-66746-375 PESSOA
+hub-66746-351 ORGANIZACAO vinculo_inst hub-66746-349 PESSOA
+hub-66746-351 ORGANIZACAO vinculo_inst hub-66746-356 PESSOA
+hub-66746-351 ORGANIZACAO vinculo_inst hub-66746-370 PESSOA
+hub-66746-360 PESSOA vinculo_inst hub-66746-361 ORGANIZACAO
+hub-66746-360 PESSOA vinculo_inst hub-66746-355 ORGANIZACAO
+hub-66746-360 PESSOA vinculo_inst hub-66746-378 ORGANIZACAO
+hub-66746-360 PESSOA vinculo_inst hub-66746-351 ORGANIZACAO
+hub-66746-361 ORGANIZACAO vinculo_inst hub-66746-360 PESSOA
+hub-66746-361 ORGANIZACAO vinculo_inst hub-66746-375 PESSOA
+hub-66746-361 ORGANIZACAO vinculo_inst hub-66746-349 PESSOA
+hub-66746-361 ORGANIZACAO vinculo_inst hub-66746-370 PESSOA
+hub-66746-361 ORGANIZACAO vinculo_inst hub-66746-356 PESSOA
+hub-66746-370 PESSOA vinculo_inst hub-66746-351 ORGANIZACAO
+hub-66746-370 PESSOA vinculo_inst hub-66746-378 ORGANIZACAO
+hub-66746-370 PESSOA vinculo_inst hub-66746-355 ORGANIZACAO
+hub-66746-370 PESSOA vinculo_inst hub-66746-361 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-74208
+[CD]
+[Part]
+EOD
+
+DOC hub-43823
+[CD]
+hub-43823-392 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-392 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-392 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-392 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-392 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-394 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-394 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-394 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-385 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-385 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-385 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-385 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-385 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-384 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-384 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-384 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-384 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-384 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-459 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-459 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-459 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-459 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-459 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-386 PESSOA vinculo_inst hub-43823-424 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-440 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-392 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-459 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-406 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-415 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-401 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-446 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-384 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-445 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-385 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-412 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-428 ORGANIZACAO
+hub-43823-386 PESSOA vinculo_inst hub-43823-456 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-446 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-401 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-456 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-412 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-406 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-440 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-459 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-424 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-415 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-392 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-385 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-428 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-384 ORGANIZACAO
+hub-43823-418 PESSOA vinculo_inst hub-43823-445 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-412 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-415 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-406 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-385 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-459 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-424 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-384 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-392 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-445 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-446 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-428 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-440 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-401 ORGANIZACAO
+hub-43823-419 PESSOA vinculo_inst hub-43823-456 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-454 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-394 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-443 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-461 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-403 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-413 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-398 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-429 ORGANIZACAO
+hub-43823-397 PESSOA vinculo_inst hub-43823-407 ORGANIZACAO
+hub-43823-415 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-415 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-415 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-415 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-415 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-446 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-446 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-446 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-446 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-446 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-413 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-413 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-413 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-403 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-403 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-403 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-445 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-445 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-445 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-445 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-445 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-456 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-456 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-456 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-456 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-456 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-7 PESSOA vinculo_inst hub-43823-394 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-443 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-413 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-407 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-403 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-398 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-461 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-454 ORGANIZACAO
+hub-43823-7 PESSOA vinculo_inst hub-43823-429 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-412 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-385 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-428 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-456 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-401 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-446 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-445 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-384 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-440 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-459 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-392 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-424 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-415 ORGANIZACAO
+hub-43823-9 PESSOA vinculo_inst hub-43823-406 ORGANIZACAO
+hub-43823-424 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-424 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-424 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-424 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-424 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-401 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-401 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-401 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-401 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-401 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-443 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-443 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-443 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-454 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-454 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-454 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-412 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-412 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-412 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-412 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-412 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-440 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-440 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-440 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-440 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-440 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-461 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-461 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-461 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-409 PESSOA vinculo_inst hub-43823-429 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-407 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-443 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-461 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-398 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-403 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-394 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-413 ORGANIZACAO
+hub-43823-409 PESSOA vinculo_inst hub-43823-454 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-392 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-459 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-424 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-415 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-406 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-456 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-440 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-412 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-445 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-446 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-428 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-401 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-385 ORGANIZACAO
+hub-43823-410 PESSOA vinculo_inst hub-43823-384 ORGANIZACAO
+hub-43823-406 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-406 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-406 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-406 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-406 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-428 ORGANIZACAO vinculo_inst hub-43823-419 PESSOA
+hub-43823-428 ORGANIZACAO vinculo_inst hub-43823-418 PESSOA
+hub-43823-428 ORGANIZACAO vinculo_inst hub-43823-386 PESSOA
+hub-43823-428 ORGANIZACAO vinculo_inst hub-43823-9 PESSOA
+hub-43823-428 ORGANIZACAO vinculo_inst hub-43823-410 PESSOA
+hub-43823-407 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-407 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-407 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-429 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-429 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-429 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-398 ORGANIZACAO vinculo_inst hub-43823-409 PESSOA
+hub-43823-398 ORGANIZACAO vinculo_inst hub-43823-7 PESSOA
+hub-43823-398 ORGANIZACAO vinculo_inst hub-43823-397 PESSOA
+hub-43823-442 LOCAL praticante_de hub-43823-413 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-443 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-429 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-461 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-394 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-407 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-403 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-398 ORGANIZACAO
+hub-43823-442 LOCAL praticante_de hub-43823-454 ORGANIZACAO
+[Part]
+EOD
+
+DOC hub-96408
+[CD]
+hub-96408-396 PESSOA relacao_profissional hub-96408-390 PESSOA
+hub-96408-396 PESSOA relacao_profissional hub-96408-388 PESSOA
+hub-96408-396 PESSOA relacao_profissional hub-96408-392 PESSOA
+hub-96408-396 PESSOA relacao_profissional hub-96408-391 PESSOA
+hub-96408-388 PESSOA relacao_profissional hub-96408-389 PESSOA
+hub-96408-388 PESSOA relacao_profissional hub-96408-396 PESSOA
+hub-96408-388 PESSOA relacao_profissional hub-96408-393 PESSOA
+hub-96408-389 PESSOA relacao_profissional hub-96408-391 PESSOA
+hub-96408-389 PESSOA relacao_profissional hub-96408-388 PESSOA
+hub-96408-389 PESSOA relacao_profissional hub-96408-392 PESSOA
+hub-96408-389 PESSOA relacao_profissional hub-96408-390 PESSOA
+hub-96408-390 PESSOA relacao_profissional hub-96408-393 PESSOA
+hub-96408-390 PESSOA relacao_profissional hub-96408-389 PESSOA
+hub-96408-390 PESSOA relacao_profissional hub-96408-396 PESSOA
+hub-96408-391 PESSOA relacao_profissional hub-96408-396 PESSOA
+hub-96408-391 PESSOA relacao_profissional hub-96408-389 PESSOA
+hub-96408-391 PESSOA relacao_profissional hub-96408-393 PESSOA
+hub-96408-392 PESSOA relacao_profissional hub-96408-393 PESSOA
+hub-96408-392 PESSOA relacao_profissional hub-96408-396 PESSOA
+hub-96408-392 PESSOA relacao_profissional hub-96408-389 PESSOA
+hub-96408-393 PESSOA relacao_profissional hub-96408-390 PESSOA
+hub-96408-393 PESSOA relacao_profissional hub-96408-392 PESSOA
+hub-96408-393 PESSOA relacao_profissional hub-96408-391 PESSOA
+hub-96408-393 PESSOA relacao_profissional hub-96408-388 PESSOA
+[Part]
+EOD
+
+DOC hub-31642
+[CD]
+[Part]
+EOD
+
+DOC hub-30518
+[CD]
+[Part]
+EOD
+
+DOC hub-83020
+[CD]
+[Part]
+EOD
+
+DOC hub-62214
+[CD]
+[Part]
+EOD
+
+DOC hub-66526
+[CD]
+hub-66526-561 PESSOA relacao_familiar hub-66526-25 PESSOA
+hub-66526-561 PESSOA relacao_familiar hub-66526-544 PESSOA
+hub-66526-561 PESSOA relacao_familiar hub-66526-560 PESSOA
+hub-66526-25 PESSOA relacao_familiar hub-66526-545 PESSOA
+hub-66526-25 PESSOA relacao_familiar hub-66526-561 PESSOA
+hub-66526-560 PESSOA relacao_familiar hub-66526-561 PESSOA
+hub-66526-560 PESSOA relacao_familiar hub-66526-545 PESSOA
+hub-66526-563 PESSOA relacao_familiar hub-66526-565 PESSOA
+hub-66526-565 PESSOA relacao_familiar hub-66526-563 PESSOA
+hub-66526-545 PESSOA relacao_familiar hub-66526-544 PESSOA
+hub-66526-545 PESSOA relacao_familiar hub-66526-560 PESSOA
+hub-66526-545 PESSOA relacao_familiar hub-66526-25 PESSOA
+hub-66526-544 PESSOA relacao_familiar hub-66526-561 PESSOA
+hub-66526-544 PESSOA relacao_familiar hub-66526-545 PESSOA
+[Part]
+EOD
+
+DOC hub-37295
+[CD]
+[Part]
+EOD
+
+DOC hub-97297
+[CD]
+[Part]
+EOD
+
+DOC hub-65266
+[CD]
+hub-65266-59 ORGANIZACAO vinculo_inst hub-65266-517 PESSOA
+hub-65266-59 ORGANIZACAO vinculo_inst hub-65266-503 PESSOA
+hub-65266-59 ORGANIZACAO vinculo_inst hub-65266-510 PESSOA
+hub-65266-492 ORGANIZACAO vinculo_inst hub-65266-515 PESSOA
+hub-65266-492 ORGANIZACAO vinculo_inst hub-65266-519 PESSOA
+hub-65266-492 ORGANIZACAO vinculo_inst hub-65266-516 PESSOA
+hub-65266-492 ORGANIZACAO vinculo_inst hub-65266-518 PESSOA
+hub-65266-500 ORGANIZACAO vinculo_inst hub-65266-517 PESSOA
+hub-65266-500 ORGANIZACAO vinculo_inst hub-65266-503 PESSOA
+hub-65266-500 ORGANIZACAO vinculo_inst hub-65266-510 PESSOA
+hub-65266-519 PESSOA vinculo_inst hub-65266-492 ORGANIZACAO
+hub-65266-503 PESSOA vinculo_inst hub-65266-499 ORGANIZACAO
+hub-65266-503 PESSOA vinculo_inst hub-65266-500 ORGANIZACAO
+hub-65266-503 PESSOA vinculo_inst hub-65266-59 ORGANIZACAO
+hub-65266-503 PESSOA vinculo_inst hub-65266-69 ORGANIZACAO
+hub-65266-503 PESSOA vinculo_inst hub-65266-65 ORGANIZACAO
+hub-65266-499 ORGANIZACAO vinculo_inst hub-65266-517 PESSOA
+hub-65266-499 ORGANIZACAO vinculo_inst hub-65266-503 PESSOA
+hub-65266-499 ORGANIZACAO vinculo_inst hub-65266-510 PESSOA
+hub-65266-510 PESSOA vinculo_inst hub-65266-59 ORGANIZACAO
+hub-65266-510 PESSOA vinculo_inst hub-65266-65 ORGANIZACAO
+hub-65266-510 PESSOA vinculo_inst hub-65266-499 ORGANIZACAO
+hub-65266-510 PESSOA vinculo_inst hub-65266-69 ORGANIZACAO
+hub-65266-510 PESSOA vinculo_inst hub-65266-500 ORGANIZACAO
+hub-65266-518 PESSOA vinculo_inst hub-65266-492 ORGANIZACAO
+hub-65266-69 ORGANIZACAO vinculo_inst hub-65266-503 PESSOA
+hub-65266-69 ORGANIZACAO vinculo_inst hub-65266-517 PESSOA
+hub-65266-69 ORGANIZACAO vinculo_inst hub-65266-510 PESSOA
+hub-65266-515 PESSOA vinculo_inst hub-65266-492 ORGANIZACAO
+hub-65266-516 PESSOA vinculo_inst hub-65266-492 ORGANIZACAO
+hub-65266-517 PESSOA vinculo_inst hub-65266-499 ORGANIZACAO
+hub-65266-517 PESSOA vinculo_inst hub-65266-500 ORGANIZACAO
+hub-65266-517 PESSOA vinculo_inst hub-65266-69 ORGANIZACAO
+hub-65266-517 PESSOA vinculo_inst hub-65266-59 ORGANIZACAO
+hub-65266-517 PESSOA vinculo_inst hub-65266-65 ORGANIZACAO
+hub-65266-65 ORGANIZACAO vinculo_inst hub-65266-517 PESSOA
+hub-65266-65 ORGANIZACAO vinculo_inst hub-65266-503 PESSOA
+hub-65266-65 ORGANIZACAO vinculo_inst hub-65266-510 PESSOA
+[Part]
+EOD
+
+DOC hub-77889
+[CD]
+[Part]
+EOD
+
+DOC hub-81551
+[CD]
+[Part]
+EOD
+
+DOC hub-44595
+[CD]
+[Part]
+EOD
+
+DOC hub-5080
+[CD]
+[Part]
+EOD
+
+DOC hub-15425
+[CD]
+[Part]
+EOD
+
+DOC hub-28306
+[CD]
+[Part]
+EOD
+
+DOC ric-74122
+[CD]
+ric-74122-31 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-31 PESSOA relacao_familiar ric-74122-8 PESSOA
+ric-74122-159 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-8 PESSOA relacao_familiar ric-74122-31 PESSOA
+ric-74122-8 PESSOA relacao_familiar ric-74122-1 PESSOA
+ric-74122-160 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-1 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-1 PESSOA relacao_familiar ric-74122-8 PESSOA
+ric-74122-36 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-37 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-38 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-79 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-81 PESSOA vinculo_inst ric-74122-65 ORGANIZACAO
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-31 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-38 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-159 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-81 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-37 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-1 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-36 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-160 PESSOA
+ric-74122-65 ORGANIZACAO vinculo_inst ric-74122-79 PESSOA
+[Part]
+EOD
+
+DOC ric-81275
+[CD]
+[Part]
+EOD
+
+DOC ric-33939
+[CD]
+ric-33939-58 ORGANIZACAO vinculo_inst ric-33939-23 PESSOA
+ric-33939-24 ORGANIZACAO vinculo_inst ric-33939-23 PESSOA
+ric-33939-26 ORGANIZACAO vinculo_inst ric-33939-23 PESSOA
+ric-33939-14 ORGANIZACAO vinculo_inst ric-33939-23 PESSOA
+ric-33939-23 PESSOA vinculo_inst ric-33939-24 ORGANIZACAO
+ric-33939-23 PESSOA vinculo_inst ric-33939-26 ORGANIZACAO
+ric-33939-23 PESSOA vinculo_inst ric-33939-58 ORGANIZACAO
+ric-33939-23 PESSOA vinculo_inst ric-33939-14 ORGANIZACAO
+[Part]
+EOD
+
+DOC ric-40040
+[CD]
+ric-40040-54 ORGANIZACAO vinculo_inst ric-40040-30 PESSOA
+ric-40040-54 ORGANIZACAO vinculo_inst ric-40040-32 PESSOA
+ric-40040-667 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-667 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-667 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-32 PESSOA vinculo_inst ric-40040-54 ORGANIZACAO
+ric-40040-33 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-33 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-33 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-30 PESSOA vinculo_inst ric-40040-54 ORGANIZACAO
+ric-40040-17 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-17 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-17 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-33 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-667 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-40 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-37 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-4 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-25 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-42 PESSOA
+ric-40040-58 ACONTECIMENTO ter_participacao_de ric-40040-17 PESSOA
+ric-40040-25 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-25 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-25 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-37 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-17 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-4 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-667 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-40 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-33 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-42 PESSOA
+ric-40040-22 ACONTECIMENTO ter_participacao_de ric-40040-25 PESSOA
+ric-40040-37 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-37 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-37 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-42 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-42 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-42 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-40 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-40 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-40 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-37 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-42 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-25 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-40 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-33 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-667 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-17 PESSOA
+ric-40040-49 ACONTECIMENTO ter_participacao_de ric-40040-4 PESSOA
+ric-40040-4 PESSOA participante_em ric-40040-58 ACONTECIMENTO
+ric-40040-4 PESSOA participante_em ric-40040-22 ACONTECIMENTO
+ric-40040-4 PESSOA participante_em ric-40040-49 ACONTECIMENTO
+[Part]
+EOD
+
+DOC ric-76632
+[CD]
+ric-76632-99 PESSOA participante_em ric-76632-73 ACONTECIMENTO
+ric-76632-73 ACONTECIMENTO ter_participacao_de ric-76632-99 PESSOA
+ric-76632-73 ACONTECIMENTO ter_participacao_de ric-76632-101 PESSOA
+ric-76632-73 ACONTECIMENTO ter_participacao_de ric-76632-74 PESSOA
+ric-76632-73 ACONTECIMENTO ter_participacao_de ric-76632-97 PESSOA
+ric-76632-73 ACONTECIMENTO ter_participacao_de ric-76632-105 PESSOA
+ric-76632-105 PESSOA participante_em ric-76632-73 ACONTECIMENTO
+ric-76632-101 PESSOA participante_em ric-76632-73 ACONTECIMENTO
+ric-76632-74 PESSOA participante_em ric-76632-73 ACONTECIMENTO
+ric-76632-97 PESSOA participante_em ric-76632-73 ACONTECIMENTO
+[Part]
+EOD
+
+DOC ric-78733
+[CD]
+[Part]
+EOD
+
+DOC ric-54609
+[CD]
+ric-54609-188 PESSOA vinculo_inst ric-54609-14 ORGANIZACAO
+ric-54609-188 PESSOA relacao_profissional ric-54609-195 PESSOA
+ric-54609-188 PESSOA residente_de ric-54609-189 LOCAL
+ric-54609-189 LOCAL residencia_de ric-54609-188 PESSOA
+ric-54609-195 PESSOA relacao_profissional ric-54609-188 PESSOA
+ric-54609-195 PESSOA vinculo_inst ric-54609-14 ORGANIZACAO
+ric-54609-14 ORGANIZACAO vinculo_inst ric-54609-195 PESSOA
+ric-54609-14 ORGANIZACAO vinculo_inst ric-54609-188 PESSOA
+[Part]
+EOD
+
+DOC ric-18999
+[CD]
+[Part]
+EOD
+
+DOC ric-85133
+[CD]
+[Part]
+EOD
+
+DOC ric-11625
+[CD]
+ric-11625-325 LOCAL local_nascimento_de ric-11625-387 PESSOA
+ric-11625-325 LOCAL local_nascimento_de ric-11625-385 PESSOA
+ric-11625-387 PESSOA natural_de ric-11625-325 LOCAL
+ric-11625-371 LOCAL nome_de_pratica_se ric-11625-373 ABSTRACCAO
+ric-11625-328 ABSTRACCAO nome_de_inclui ric-11625-310 LOCAL
+ric-11625-328 ABSTRACCAO nome_de_inclui ric-11625-362 LOCAL
+ric-11625-385 PESSOA natural_de ric-11625-325 LOCAL
+[Part]
+EOD
+
+DOC exp-76321
+[CD]
+[Part]
+EOD
+
+DOC ric-39610
+[CD]
+[Part]
+EOD
+
+DOC ric-92221
+[CD]
+ric-92221-68 PESSOA relacao_familiar ric-92221-82 PESSOA
+ric-92221-68 PESSOA relacao_familiar ric-92221-48 PESSOA
+ric-92221-81 PESSOA relacao_familiar ric-92221-82 PESSOA
+ric-92221-81 PESSOA relacao_familiar ric-92221-48 PESSOA
+ric-92221-82 PESSOA relacao_familiar ric-92221-81 PESSOA
+ric-92221-82 PESSOA relacao_familiar ric-92221-68 PESSOA
+ric-92221-48 PESSOA relacao_familiar ric-92221-68 PESSOA
+ric-92221-48 PESSOA relacao_familiar ric-92221-81 PESSOA
+[Part]
+EOD
+
+DOC ric-22961
+[CD]
+[Part]
+EOD
+
+DOC ric-53646
+[CD]
+ric-53646-2 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+ric-53646-39 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+ric-53646-49 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+ric-53646-37 PESSOA vinculo_inst ric-53646-11 ORGANIZACAO
+ric-53646-37 PESSOA vinculo_inst ric-53646-49 ORGANIZACAO
+ric-53646-37 PESSOA vinculo_inst ric-53646-39 ORGANIZACAO
+ric-53646-37 PESSOA vinculo_inst ric-53646-2 ORGANIZACAO
+ric-53646-37 PESSOA vinculo_inst ric-53646-168 ORGANIZACAO
+ric-53646-37 PESSOA vinculo_inst ric-53646-166 ORGANIZACAO
+ric-53646-168 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+ric-53646-166 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+ric-53646-11 ORGANIZACAO vinculo_inst ric-53646-37 PESSOA
+[Part]
+EOD
+
+DOC ric-12366
+[CD]
+ric-12366-79 PESSOA vinculo_inst ric-12366-103 ORGANIZACAO
+ric-12366-78 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+ric-12366-109 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+ric-12366-61 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+ric-12366-77 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+ric-12366-70 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+ric-12366-103 ORGANIZACAO vinculo_inst ric-12366-79 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-55 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-70 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-78 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-61 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-109 PESSOA
+ric-12366-62 ORGANIZACAO vinculo_inst ric-12366-77 PESSOA
+ric-12366-55 PESSOA vinculo_inst ric-12366-62 ORGANIZACAO
+[Part]
+EOD
+
+DOC ric-58766
+[CD]
+[Part]
+EOD
+
+DOC ric-47441
+[CD]
+ric-47441-11 PESSOA natural_de ric-47441-13 LOCAL
+ric-47441-13 LOCAL local_nascimento_de ric-47441-11 PESSOA
+ric-47441-23 ABSTRACCAO praticado_por ric-47441-15 PESSOA
+[Part]
+EOD
+
+DOC rica-474415
+[CD]
+[Part]
+EOD
+
+DOC ric-42664
+[CD]
+ric-42664-142 LOCAL local_nascimento_de ric-42664-163 PESSOA
+ric-42664-163 PESSOA natural_de ric-42664-171 LOCAL
+ric-42664-163 PESSOA natural_de ric-42664-142 LOCAL
+ric-42664-171 LOCAL local_nascimento_de ric-42664-163 PESSOA
+[Part]
+EOD
+
+DOC ric-46913
+[CD]
+[Part]
+EOD
+
+DOC ric-19806
+[CD]
+ric-19806-171 PESSOA nome_de ric-19806-180 ABSTRACCAO
+ric-19806-171 PESSOA natural_de ric-19806-254 LOCAL
+ric-19806-171 PESSOA natural_de ric-19806-220 LOCAL
+ric-19806-171 PESSOA natural_de ric-19806-247 LOCAL
+ric-19806-171 PESSOA nome_de ric-19806-172 ABSTRACCAO
+ric-19806-171 PESSOA nome_de ric-19806-170 ABSTRACCAO
+ric-19806-171 PESSOA natural_de ric-19806-207 LOCAL
+ric-19806-172 ABSTRACCAO nomeado_por ric-19806-179 PESSOA
+ric-19806-172 ABSTRACCAO nomeado_por ric-19806-173 PESSOA
+ric-19806-172 ABSTRACCAO nomeado_por ric-19806-171 PESSOA
+ric-19806-172 ABSTRACCAO nomeado_por ric-19806-174 PESSOA
+ric-19806-172 ABSTRACCAO nomeado_por ric-19806-176 PESSOA
+ric-19806-173 PESSOA natural_de ric-19806-220 LOCAL
+ric-19806-173 PESSOA nome_de ric-19806-172 ABSTRACCAO
+ric-19806-173 PESSOA natural_de ric-19806-247 LOCAL
+ric-19806-173 PESSOA nome_de ric-19806-170 ABSTRACCAO
+ric-19806-173 PESSOA natural_de ric-19806-207 LOCAL
+ric-19806-173 PESSOA nome_de ric-19806-180 ABSTRACCAO
+ric-19806-173 PESSOA natural_de ric-19806-254 LOCAL
+ric-19806-174 PESSOA natural_de ric-19806-254 LOCAL
+ric-19806-174 PESSOA nome_de ric-19806-180 ABSTRACCAO
+ric-19806-174 PESSOA natural_de ric-19806-207 LOCAL
+ric-19806-174 PESSOA natural_de ric-19806-220 LOCAL
+ric-19806-174 PESSOA nome_de ric-19806-170 ABSTRACCAO
+ric-19806-174 PESSOA natural_de ric-19806-247 LOCAL
+ric-19806-174 PESSOA nome_de ric-19806-172 ABSTRACCAO
+ric-19806-170 ABSTRACCAO nomeado_por ric-19806-176 PESSOA
+ric-19806-170 ABSTRACCAO nomeado_por ric-19806-171 PESSOA
+ric-19806-170 ABSTRACCAO nomeado_por ric-19806-179 PESSOA
+ric-19806-170 ABSTRACCAO nomeado_por ric-19806-173 PESSOA
+ric-19806-170 ABSTRACCAO nomeado_por ric-19806-174 PESSOA
+ric-19806-220 LOCAL local_nascimento_de ric-19806-176 PESSOA
+ric-19806-220 LOCAL local_nascimento_de ric-19806-171 PESSOA
+ric-19806-220 LOCAL local_nascimento_de ric-19806-179 PESSOA
+ric-19806-220 LOCAL local_nascimento_de ric-19806-173 PESSOA
+ric-19806-220 LOCAL local_nascimento_de ric-19806-174 PESSOA
+ric-19806-247 LOCAL local_nascimento_de ric-19806-171 PESSOA
+ric-19806-247 LOCAL local_nascimento_de ric-19806-173 PESSOA
+ric-19806-247 LOCAL local_nascimento_de ric-19806-179 PESSOA
+ric-19806-247 LOCAL local_nascimento_de ric-19806-176 PESSOA
+ric-19806-247 LOCAL local_nascimento_de ric-19806-174 PESSOA
+ric-19806-179 PESSOA natural_de ric-19806-220 LOCAL
+ric-19806-179 PESSOA nome_de ric-19806-172 ABSTRACCAO
+ric-19806-179 PESSOA natural_de ric-19806-207 LOCAL
+ric-19806-179 PESSOA nome_de ric-19806-170 ABSTRACCAO
+ric-19806-179 PESSOA natural_de ric-19806-247 LOCAL
+ric-19806-179 PESSOA nome_de ric-19806-180 ABSTRACCAO
+ric-19806-179 PESSOA natural_de ric-19806-254 LOCAL
+ric-19806-207 LOCAL local_nascimento_de ric-19806-174 PESSOA
+ric-19806-207 LOCAL local_nascimento_de ric-19806-173 PESSOA
+ric-19806-207 LOCAL local_nascimento_de ric-19806-179 PESSOA
+ric-19806-207 LOCAL local_nascimento_de ric-19806-171 PESSOA
+ric-19806-207 LOCAL local_nascimento_de ric-19806-176 PESSOA
+ric-19806-176 PESSOA natural_de ric-19806-220 LOCAL
+ric-19806-176 PESSOA natural_de ric-19806-254 LOCAL
+ric-19806-176 PESSOA nome_de ric-19806-170 ABSTRACCAO
+ric-19806-176 PESSOA natural_de ric-19806-247 LOCAL
+ric-19806-176 PESSOA nome_de ric-19806-180 ABSTRACCAO
+ric-19806-176 PESSOA natural_de ric-19806-207 LOCAL
+ric-19806-176 PESSOA nome_de ric-19806-172 ABSTRACCAO
+ric-19806-180 ABSTRACCAO nomeado_por ric-19806-179 PESSOA
+ric-19806-180 ABSTRACCAO nomeado_por ric-19806-171 PESSOA
+ric-19806-180 ABSTRACCAO nomeado_por ric-19806-173 PESSOA
+ric-19806-180 ABSTRACCAO nomeado_por ric-19806-174 PESSOA
+ric-19806-180 ABSTRACCAO nomeado_por ric-19806-176 PESSOA
+ric-19806-254 LOCAL local_nascimento_de ric-19806-171 PESSOA
+ric-19806-254 LOCAL local_nascimento_de ric-19806-179 PESSOA
+ric-19806-254 LOCAL local_nascimento_de ric-19806-173 PESSOA
+ric-19806-254 LOCAL local_nascimento_de ric-19806-174 PESSOA
+ric-19806-254 LOCAL local_nascimento_de ric-19806-176 PESSOA
+[Part]
+EOD
+
+DOC ric-30606
+[CD]
+[Part]
+EOD
+
+DOC ric-46546
+[CD]
+ric-46546-395 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-395 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-395 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-395 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-544 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-544 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-544 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-544 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-421 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-308 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-474 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-375 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-451 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-436 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-583 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-370 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-364 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-449 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-365 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-501 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-428 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-477 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-530 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-348 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-395 PESSOA
+ric-46546-416 ORGANIZACAO vinculo_inst ric-46546-480 PESSOA
+ric-46546-356 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-356 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-356 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-356 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-583 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-583 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-583 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-583 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-435 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-528 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-319 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-425 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-356 PESSOA
+ric-46546-418 PESSOA relacao_familiar ric-46546-544 PESSOA
+ric-46546-456 PESSOA relacao_familiar ric-46546-457 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-395 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-365 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-501 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-428 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-530 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-480 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-348 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-477 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-308 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-364 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-451 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-436 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-583 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-375 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-474 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-449 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-421 PESSOA
+ric-46546-454 PESSOA relacao_familiar ric-46546-370 PESSOA
+ric-46546-449 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-449 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-449 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-449 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-323 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-570 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-364 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-364 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-364 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-364 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-365 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-365 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-365 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-365 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-530 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-530 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-530 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-530 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-361 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-425 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-425 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-425 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-425 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-421 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-421 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-421 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-421 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-403 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-480 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-480 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-480 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-480 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-459 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-501 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-501 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-501 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-501 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-451 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-451 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-451 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-451 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-480 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-364 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-421 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-395 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-436 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-428 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-348 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-583 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-477 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-530 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-370 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-308 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-449 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-474 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-451 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-365 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-375 PESSOA
+ric-46546-430 ORGANIZACAO vinculo_inst ric-46546-501 PESSOA
+ric-46546-477 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-477 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-477 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-477 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-375 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-375 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-375 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-375 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-528 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-528 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-528 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-528 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-370 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-370 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-370 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-370 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-566 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-438 PESSOA relacao_familiar ric-46546-319 PESSOA
+ric-46546-438 PESSOA relacao_familiar ric-46546-356 PESSOA
+ric-46546-438 PESSOA relacao_familiar ric-46546-435 PESSOA
+ric-46546-438 PESSOA relacao_familiar ric-46546-528 PESSOA
+ric-46546-438 PESSOA relacao_familiar ric-46546-425 PESSOA
+ric-46546-438 PESSOA relacao_familiar ric-46546-544 PESSOA
+ric-46546-436 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-436 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-436 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-436 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-474 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-474 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-474 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-474 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-317 LOCAL local_nascimento_de ric-46546-583 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-583 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-403 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-480 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-474 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-435 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-365 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-544 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-375 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-395 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-348 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-530 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-365 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-425 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-348 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-451 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-319 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-573 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-566 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-480 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-477 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-449 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-370 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-323 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-475 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-370 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-477 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-449 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-421 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-451 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-308 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-436 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-436 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-528 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-364 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-364 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-501 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-501 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-428 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-530 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-421 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-375 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-395 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-361 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-428 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-459 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-308 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-356 PESSOA
+ric-46546-317 LOCAL local_nascimento_de ric-46546-570 PESSOA
+ric-46546-317 LOCAL local_morte ric-46546-474 PESSOA
+ric-46546-348 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-348 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-348 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-348 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-573 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-424 PESSOA relacao_familiar ric-46546-425 PESSOA
+ric-46546-424 PESSOA relacao_familiar ric-46546-319 PESSOA
+ric-46546-424 PESSOA relacao_familiar ric-46546-528 PESSOA
+ric-46546-424 PESSOA relacao_familiar ric-46546-544 PESSOA
+ric-46546-424 PESSOA relacao_familiar ric-46546-435 PESSOA
+ric-46546-424 PESSOA relacao_familiar ric-46546-356 PESSOA
+ric-46546-428 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-428 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-428 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-428 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-457 PESSOA relacao_familiar ric-46546-456 PESSOA
+ric-46546-308 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-308 PESSOA vinculo_inst ric-46546-430 ORGANIZACAO
+ric-46546-308 PESSOA vinculo_inst ric-46546-416 ORGANIZACAO
+ric-46546-308 PESSOA relacao_familiar ric-46546-454 PESSOA
+ric-46546-435 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-435 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-435 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-435 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-319 PESSOA relacao_familiar ric-46546-438 PESSOA
+ric-46546-319 PESSOA natural_de ric-46546-317 LOCAL
+ric-46546-319 PESSOA relacao_familiar ric-46546-424 PESSOA
+ric-46546-319 PESSOA relacao_familiar ric-46546-418 PESSOA
+ric-46546-475 PESSOA natural_de ric-46546-317 LOCAL
+[Part]
+ric-46546-456 PESSOA relacao_familiar ric-46546-457 PESSOA
+ric-46546-457 PESSOA relacao_familiar ric-46546-456 PESSOA
+EOD
+
+DOC dav-52390
+[CD]
+[Part]
+EOD
+
+DOC dav-522210
+[CD]
+dav-522210-600 ORGANIZACAO propriedade_de dav-522210-597 ORGANIZACAO
+dav-522210-600 ORGANIZACAO propriedade_de dav-522210-599 ORGANIZACAO
+dav-522210-600 ORGANIZACAO propriedade_de dav-522210-601 ORGANIZACAO
+dav-522210-709 ACONTECIMENTO ter_participacao_de dav-522210-707 ORGANIZACAO
+dav-522210-709 ACONTECIMENTO ter_participacao_de dav-522210-365 ORGANIZACAO
+dav-522210-128 ORGANIZACAO vinculo_inst dav-522210-127 PESSOA
+dav-522210-601 ORGANIZACAO proprietario_de dav-522210-600 ORGANIZACAO
+dav-522210-87 PESSOA relacao_familiar dav-522210-88 PESSOA
+dav-522210-599 ORGANIZACAO proprietario_de dav-522210-600 ORGANIZACAO
+dav-522210-127 PESSOA vinculo_inst dav-522210-128 ORGANIZACAO
+dav-522210-597 ORGANIZACAO proprietario_de dav-522210-600 ORGANIZACAO
+dav-522210-49 ACONTECIMENTO ter_participacao_de dav-522210-707 ORGANIZACAO
+dav-522210-49 ACONTECIMENTO ter_participacao_de dav-522210-365 ORGANIZACAO
+dav-522210-99 OBRA obra_de dav-522210-95 PESSOA
+dav-522210-82 ORGANIZACAO nome_de_ident dav-522210-83 ORGANIZACAO
+dav-522210-707 ORGANIZACAO participante_em dav-522210-49 ACONTECIMENTO
+dav-522210-707 ORGANIZACAO participante_em dav-522210-47 ACONTECIMENTO
+dav-522210-707 ORGANIZACAO participante_em dav-522210-709 ACONTECIMENTO
+dav-522210-47 ACONTECIMENTO ter_participacao_de dav-522210-707 ORGANIZACAO
+dav-522210-47 ACONTECIMENTO ter_participacao_de dav-522210-365 ORGANIZACAO
+dav-522210-88 PESSOA relacao_familiar dav-522210-87 PESSOA
+dav-522210-95 PESSOA autor_de dav-522210-99 OBRA
+dav-522210-365 ORGANIZACAO participante_em dav-522210-49 ACONTECIMENTO
+dav-522210-365 ORGANIZACAO participante_em dav-522210-47 ACONTECIMENTO
+dav-522210-365 ORGANIZACAO participante_em dav-522210-709 ACONTECIMENTO
+[Part]
+dav-522210-88 PESSOA relacao_familiar dav-522210-87 PESSOA
+dav-522210-87 PESSOA relacao_familiar dav-522210-88 PESSOA
+EOD
+
+DOC dav-100932
+[CD]
+dav-100932-458 PESSOA relacao_familiar dav-100932-368 PESSOA
+dav-100932-113 ACONTECIMENTO ter_participacao_de dav-100932-44 OBRA
+dav-100932-368 PESSOA relacao_familiar dav-100932-458 PESSOA
+dav-100932-118 ORGANIZACAO vinculo_inst dav-100932-388 PESSOA
+dav-100932-388 PESSOA vinculo_inst dav-100932-118 ORGANIZACAO
+dav-100932-44 OBRA participante_em dav-100932-113 ACONTECIMENTO
+[Part]
+dav-100932-368 PESSOA relacao_familiar dav-100932-458 PESSOA
+dav-100932-458 PESSOA relacao_familiar dav-100932-368 PESSOA
+EOD
+
+DOC dav-188222
+[CD]
+[Part]
+EOD
+
+DOC dav-844651
+[CD]
+[Part]
+EOD
+
+DOC dav-833351
+[CD]
+dav-833351-488 PESSOA participante_em dav-833351-489 ACONTECIMENTO
+dav-833351-489 ACONTECIMENTO ter_participacao_de dav-833351-488 PESSOA
+[Part]
+EOD
+
+DOC wpt-1011130529557294176
+[CD]
+wpt-1011130529557294176-6 ABSTRACCAO outrarel wpt-1011130529557294176-4 ORGANIZACAO
+[Part]
+EOD
+
+DOC wpt-1001819342220711712
+[CD]
+[Part]
+EOD
+
+DOC wpt-1005220936254463458
+[CD]
+[Part]
+EOD
+
+DOC wpt-1016797200209519613
+[CD]
+[Part]
+EOD
+
+DOC wpt-101789548982731354
+[CD]
+[Part]
+EOD
+
+DOC wpt-10034934164544455
+[CD]
+[Part]
+EOD
+
+DOC wpt-1014517543841152414
+[CD]
+[Part]
+EOD
+
+DOC wpt-1001951616378060469
+[CD]
+[Part]
+EOD
+
+DOC wpt-101306633536471708
+[CD]
+wpt-101306633536471708-288 ORGANIZACAO vinculo_inst wpt-101306633536471708-278 PESSOA
+wpt-101306633536471708-260 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-260 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-260 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-260 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-260 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-108 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-108 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-108 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-108 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-108 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-109 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-109 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-109 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-109 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-109 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-80 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-80 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-80 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-80 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-80 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-82 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-82 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-82 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-82 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-82 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-183 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-183 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-183 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-183 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-183 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-184 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-184 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-184 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-184 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-184 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-85 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-87 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-194 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-115 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-66 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-83 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-184 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-259 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-113 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-99 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-295 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-79 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-97 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-260 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-100 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-312 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-78 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-152 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-103 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-76 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-104 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-106 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-107 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-108 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-75 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-105 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-118 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-117 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-116 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-119 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-89 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-70 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-101 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-88 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-147 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-86 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-84 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-149 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-67 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-114 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-82 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-195 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-65 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-124 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-183 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-109 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-131 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-63 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-98 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-80 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-112 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-96 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-110 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-91 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-90 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-93 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-94 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-95 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-134 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-68 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-69 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-120 ORGANIZACAO
+wpt-101306633536471708-237 ACONTECIMENTO produtor_de wpt-101306633536471708-139 ORGANIZACAO
+wpt-101306633536471708-312 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-312 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-312 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-312 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-312 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-285 PESSOA participante_em wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-285 PESSOA participante_em wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-278 PESSOA vinculo_inst wpt-101306633536471708-288 ORGANIZACAO
+wpt-101306633536471708-314 ORGANIZACAO vinculo_inst wpt-101306633536471708-279 PESSOA
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-89 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-295 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-113 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-85 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-117 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-115 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-83 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-259 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-184 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-260 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-97 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-79 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-104 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-103 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-312 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-98 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-105 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-99 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-108 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-109 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-152 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-107 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-75 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-106 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-70 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-118 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-194 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-100 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-87 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-119 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-101 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-88 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-86 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-112 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-149 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-84 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-116 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO ter_participacao_de wpt-101306633536471708-285 PESSOA
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-114 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-82 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-195 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-63 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-80 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-131 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-76 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-78 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-183 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-147 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-110 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-96 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-95 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-93 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-94 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-90 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-91 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-124 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-65 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-66 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-67 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-69 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-134 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-68 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-120 ORGANIZACAO
+wpt-101306633536471708-234 ACONTECIMENTO produtor_de wpt-101306633536471708-139 ORGANIZACAO
+wpt-101306633536471708-295 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-295 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-295 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-295 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-295 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-214 ORGANIZACAO proprietario_de wpt-101306633536471708-304 OBRA
+wpt-101306633536471708-304 OBRA propriedade_de wpt-101306633536471708-214 ORGANIZACAO
+wpt-101306633536471708-119 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-119 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-119 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-119 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-119 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-91 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-91 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-91 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-91 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-91 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-93 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-93 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-93 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-93 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-93 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-259 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-259 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-259 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-259 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-259 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-124 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-120 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-98 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-107 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-96 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-67 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-94 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-69 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-109 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-90 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-88 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-101 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-75 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-105 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-103 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-195 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-184 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-183 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-134 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-295 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-79 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-78 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-147 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-65 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-131 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-149 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-63 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-108 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-66 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-68 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-97 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-95 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-259 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-100 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-91 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-76 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-93 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-312 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-139 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-89 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-104 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-106 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-194 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-117 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-260 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-115 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-70 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-116 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-110 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-119 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-87 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-86 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-118 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-84 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-152 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-83 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-85 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-112 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-99 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-80 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-113 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-82 ORGANIZACAO
+wpt-101306633536471708-235 ACONTECIMENTO produtor_de wpt-101306633536471708-114 ORGANIZACAO
+wpt-101306633536471708-70 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-70 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-70 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-70 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-70 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-195 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-195 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-195 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-195 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-195 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-78 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-152 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-91 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-76 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-100 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-95 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-104 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-97 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-99 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-312 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-139 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-183 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-70 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO ter_participacao_de wpt-101306633536471708-285 PESSOA
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-114 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-118 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-131 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-66 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-116 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-84 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-147 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-85 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-149 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-87 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-195 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-194 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-86 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-295 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-88 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-89 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-109 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-259 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-105 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-106 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-108 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-75 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-107 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-79 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-90 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-96 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-103 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-184 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-101 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-120 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-98 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-115 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-117 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-113 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-63 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-119 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-67 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-134 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-65 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-83 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-82 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-69 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-68 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-110 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-80 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-112 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-260 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-94 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-93 ORGANIZACAO
+wpt-101306633536471708-264 ACONTECIMENTO produtor_de wpt-101306633536471708-124 ORGANIZACAO
+wpt-101306633536471708-152 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-152 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-152 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-152 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-152 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-194 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-194 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-194 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-194 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-194 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-90 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-90 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-90 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-90 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-90 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-68 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-68 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-68 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-68 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-68 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-79 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-79 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-79 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-79 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-79 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-99 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-99 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-99 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-99 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-99 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-88 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-88 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-88 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-88 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-88 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-120 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-120 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-120 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-120 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-120 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-131 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-131 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-131 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-131 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-131 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-67 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-67 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-67 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-67 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-67 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-78 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-78 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-78 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-78 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-78 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-89 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-89 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-89 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-89 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-89 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-110 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-110 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-110 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-110 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-110 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-101 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-101 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-101 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-101 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-101 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-95 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-95 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-95 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-95 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-95 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-100 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-100 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-100 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-100 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-100 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-84 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-84 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-84 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-84 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-84 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-113 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-113 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-113 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-113 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-113 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-279 PESSOA vinculo_inst wpt-101306633536471708-314 ORGANIZACAO
+wpt-101306633536471708-94 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-94 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-94 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-94 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-94 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-134 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-134 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-134 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-134 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-134 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-69 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-69 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-69 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-69 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-69 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-83 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-83 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-83 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-83 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-83 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-112 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-112 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-112 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-112 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-112 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-147 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-147 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-147 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-147 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-147 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-104 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-104 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-104 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-104 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-104 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-106 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-106 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-106 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-106 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-106 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-115 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-115 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-115 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-115 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-115 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-117 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-117 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-117 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-117 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-117 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-124 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-124 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-124 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-124 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-124 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-63 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-63 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-63 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-63 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-63 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-139 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-139 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-139 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-139 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-139 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-85 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-85 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-85 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-85 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-85 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-103 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-103 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-103 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-103 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-103 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-107 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-107 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-107 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-107 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-107 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-114 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-114 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-114 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-114 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-114 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-118 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-118 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-118 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-118 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-118 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-75 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-75 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-75 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-75 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-75 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-96 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-96 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-96 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-96 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-96 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-65 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-65 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-65 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-65 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-65 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-131 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-78 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-183 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-312 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-70 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-139 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-112 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-114 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-88 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-100 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-152 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-84 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-116 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-118 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-86 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-68 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-82 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-69 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-120 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-99 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-80 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-97 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-98 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-110 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-95 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-91 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-96 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-124 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-94 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-93 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-134 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-75 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-119 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-260 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-79 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-90 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-103 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-184 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-113 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-101 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-115 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-87 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-85 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-117 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-83 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-67 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-259 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-66 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-194 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-65 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-195 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-147 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-63 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-149 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-89 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-105 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-295 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-106 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-107 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-104 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-109 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-76 ORGANIZACAO
+wpt-101306633536471708-236 ACONTECIMENTO produtor_de wpt-101306633536471708-108 ORGANIZACAO
+wpt-101306633536471708-97 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-97 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-97 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-97 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-97 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-86 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-86 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-86 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-86 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-86 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-149 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-149 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-149 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-149 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-149 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-98 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-98 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-98 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-98 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-98 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-66 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-66 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-66 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-66 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-66 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-76 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-76 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-76 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-76 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-76 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-87 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-87 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-87 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-87 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-87 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-105 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-105 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-105 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-105 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+wpt-101306633536471708-105 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-116 ORGANIZACAO produzido_por wpt-101306633536471708-235 ACONTECIMENTO
+wpt-101306633536471708-116 ORGANIZACAO produzido_por wpt-101306633536471708-234 ACONTECIMENTO
+wpt-101306633536471708-116 ORGANIZACAO produzido_por wpt-101306633536471708-264 ACONTECIMENTO
+wpt-101306633536471708-116 ORGANIZACAO produzido_por wpt-101306633536471708-237 ACONTECIMENTO
+wpt-101306633536471708-116 ORGANIZACAO produzido_por wpt-101306633536471708-236 ACONTECIMENTO
+[Part]
+EOD
+
+DOC wpt-1000772700099419796
+[CD]
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-168 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-167 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-137 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-177 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-170 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-166 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-135 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-142 PESSOA
+wpt-1000772700099419796-121 PESSOA participante_em wpt-1000772700099419796-174 PESSOA
+wpt-1000772700099419796-168 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-168 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-168 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-142 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-142 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-142 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-150 PESSOA ter_participacao_de wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-150 PESSOA ter_participacao_de wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-145 PESSOA ter_participacao_de wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-145 PESSOA ter_participacao_de wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-133 ACONTECIMENTO participante_em wpt-1000772700099419796-150 PESSOA
+wpt-1000772700099419796-133 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-133 ACONTECIMENTO participante_em wpt-1000772700099419796-145 PESSOA
+wpt-1000772700099419796-133 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-133 ACONTECIMENTO participante_em wpt-1000772700099419796-149 PESSOA
+wpt-1000772700099419796-133 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-149 PESSOA ter_participacao_de wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-149 PESSOA ter_participacao_de wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-137 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-137 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-137 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-166 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-174 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-137 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-142 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-168 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-177 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-170 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-167 PESSOA
+wpt-1000772700099419796-128 PESSOA participante_em wpt-1000772700099419796-135 PESSOA
+wpt-1000772700099419796-135 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-135 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-135 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-166 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-166 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-166 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-167 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-167 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-167 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO participante_em wpt-1000772700099419796-145 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO participante_em wpt-1000772700099419796-150 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-124 ACONTECIMENTO participante_em wpt-1000772700099419796-149 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-142 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-170 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-124 ACONTECIMENTO
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-137 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-177 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-168 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-133 ACONTECIMENTO
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-167 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-135 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-174 PESSOA
+wpt-1000772700099419796-119 PESSOA participante_em wpt-1000772700099419796-166 PESSOA
+wpt-1000772700099419796-170 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-170 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-170 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-174 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-174 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+wpt-1000772700099419796-174 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-177 PESSOA ter_participacao_de wpt-1000772700099419796-121 PESSOA
+wpt-1000772700099419796-177 PESSOA ter_participacao_de wpt-1000772700099419796-119 PESSOA
+wpt-1000772700099419796-177 PESSOA ter_participacao_de wpt-1000772700099419796-128 PESSOA
+[Part]
+EOD
+
+DOC wpt-1019468604217317242
+[CD]
+[Part]
+EOD

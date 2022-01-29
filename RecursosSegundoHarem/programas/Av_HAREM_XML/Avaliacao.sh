@@ -130,6 +130,8 @@ cenario_rerelem[2]="-filtro ident;inclui;incluido;sede_de;ocorre_em"
 cenario_rerelem[3]="-filtro ident"
 cenario_rerelem[4]="-filtro inclui;incluido"
 cenario_rerelem[5]="-filtro sede_de;ocorre_em"
+cenario_rerelem[6]="-filtro relacao_familiar"
+cenario_rerelem[7]="-filtro ident;inclui;incluido;sede_de;ocorre_em;relacao_familiar"
 
 declare -a str_alt
 str_alt[1]=""

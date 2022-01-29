@@ -1,6 +1,3 @@
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Horas.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Meses.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Numero.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/NumRomanos.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Valor.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Datas_Def.fst2" Merge Enabled 1 0
@@ -13,8 +10,6 @@
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Outro.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Obra.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/palavrasMinusculasFamilia.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoEstavaCom.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoCasamento.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Abstraccao.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Local.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacao-LocalNascimento.fst2" Merge Enabled 1 0
@@ -36,6 +31,8 @@
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Organizacao.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/12-ReconheceNomeSemContexto.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Enumeracao.fst2" Merge Enabled 1 0
-"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacoes-Paternidade-Biblia.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Paralelismo.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacoes-Paternidade-Biblia.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacao-Ocorre_Em.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoEstavaCom.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoCasamento.fst2" Merge Enabled 1 0

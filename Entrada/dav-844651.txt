@@ -1,6 +1,6 @@
-Que país declarou a independência em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1291</EM>? .
-O que se passou a 4 de  <EM ID="dav-844651-40000" CATEG="TEMPO">Julho de 1776</EM>? .
-De quem trata o filme  <EM ID="dav-844651-50000" CATEG="VALOR">2</EM> filhos de Francisco? .
+Que país declarou a independência em 1291? .
+O que se passou a 4 de Julho de 1776? .
+De quem trata o filme 2 filhos de Francisco? .
 Quais são as sete colinas de Roma? Qual é a mais pequena delas? Quem é o dono delas? Em qual delas fica a residência do presidente? .
 De que estado foi governador <EM ID="dav-844651-10000" CATEG="PESSOA"> Adhemar de Barros</EM>? .
 Quem eram os almóadas? .
@@ -23,23 +23,23 @@ O que é um caiaque? .
 Como se chama <EM ID="dav-844651-60000" CATEG="ABSTRACCAO"> Cayenne</EM> em português? .
 Quem viajava no avião que se despenhou em <EM ID="dav-844651-20000" CATEG="LOCAL"> Camarate</EM>? .
 Que cidade era capital do <EM ID="dav-844651-10000" CATEG="PESSOA"> Brasil</EM> antes do governo ser transferido para Brasília? .
-Que rei morreu em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1718</EM>? .
+Que rei morreu em 1718? .
 O que eram cartas de alforria? .
 Que cidade francesa foi residência dos Papas? .
 Quando foi fundado o Nacional da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Madeira</EM>? Onde? .
 Qual o diâmetro de Ceres? .
 Diga o nome de um chá branco. .
-Em que distrito fica Chaves? Quantas freguesias tem o concelho? Que municípios ficam a oeste? Quantos habitantes tinha em <EM ID="dav-844651-40000" CATEG="TEMPO"> 2006</EM>? .
+Em que distrito fica Chaves? Quantas freguesias tem o concelho? Que municípios ficam a oeste? Quantos habitantes tinha em 2006? .
 Quais são as cidades-estado da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Alemanha</EM>? .
 De onde é nativo o cisne branco? .
 A quem pertence o Cisne Branco? .
 Quando foi registado pela primeira vez o cometa Halley? Em que famosa obra aparece o cometa? Que batalha aparece nessa obra? .
-Quem venceu o  <EM ID="dav-844651-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo de Contra</EM>-Relógio em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1995</EM>? Em que país se disputou a prova? Qual o tempo do vencedor? E quem venceu em <EM ID="dav-844651-40001" CATEG="TEMPO"> 1994</EM>? .
+Quem venceu o  <EM ID="dav-844651-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo de Contra</EM>-Relógio em 1995? Em que país se disputou a prova? Qual o tempo do vencedor? E quem venceu em 1994? .
 Com quem se casou a rainha <EM ID="dav-844651-10000" CATEG="PESSOA"> Cristina</EM>? Que idade tinha ela quando morreu? .
-Quem foi o  <EM ID="dav-844651-50000" CATEG="VALOR">13º</EM> rei de Portugal ? .
+Quem foi o 13º rei de Portugal ? .
 O que é a defesa siciliana? .
 Que empresa editou a Diciopédia? .
-Que dinastia reinava em <EM ID="dav-844651-20000" CATEG="LOCAL"> Portugal</EM> em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1500</EM>? .
+Que dinastia reinava em <EM ID="dav-844651-20000" CATEG="LOCAL"> Portugal</EM> em 1500? .
 O que são os DOM franceses? Quantos são eles? Qual deles fica na <EM ID="dav-844651-20000" CATEG="LOCAL"> Europa</EM>? .
 Em que zona de <EM ID="dav-844651-10000" CATEG="PESSOA"> Espanha</EM> nasce o rio <EM ID="dav-844651-20000" CATEG="LOCAL"> Douro</EM>? .
 Onde fica o parque  <EM ID="dav-844651-10000" CATEG="PESSOA">Eduardo VII</EM>? .
@@ -52,7 +52,7 @@ Quem foi <EM ID="dav-844651-10000" CATEG="PESSOA"> Ésquilo</EM>? .
 Em que constelação fica Vega? E Régulo? .
 Qual a freguesia mais populosa de Évora? .
 Que equipa é treinada por  <EM ID="dav-844651-10000" CATEG="PESSOA">Fernando Santos</EM>? .
-Que equipa era treinada por  <EM ID="dav-844651-10000" CATEG="PESSOA">Fernando Santos</EM> em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1994</EM>? .
+Que equipa era treinada por  <EM ID="dav-844651-10000" CATEG="PESSOA">Fernando Santos</EM> em 1994? .
 Em que estado brasileiro fica Faro? .
 Em que época é que o  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">FC</EM> Porto ganhou a  <EM ID="dav-844651-70000" CATEG="ACONTECIMENTO">Liga dos Campeões</EM>? .
 Que pássaro renascia das próprias cinzas? .
@@ -86,9 +86,9 @@ Que é o que <EM ID="dav-844651-10000" CATEG="PESSOA"> Arafat</EM> usava na cabe
 Em que ano foi fundada a Bertrand? .
 Quem era a locomotiva humana? .
 Em que concelho fica Loivos do Monte? .
-Quem abriu os Jogos Olímpicos de  <EM ID="dav-844651-40000" CATEG="TEMPO">1948</EM> ? .
-O que é M31? .
-Quando nasceu Machado de Assis? .
+Quem abriu os Jogos Olímpicos de 1948 ? .
+O que é  <EM ID="dav-844651-90000" CATEG="COISA">M31</EM>? .
+ <EM ID="dav-844651-10000" CATEG="PESSOA">Quando</EM> nasceu <EM ID="dav-844651-10001" CATEG="PESSOA"> Machado de Assis</EM>? .
 O que é a  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">Igreja Maronita</EM>? .
 Quanto custou a Mars Observer? .
 O que é o mascarpone? De que região provêm? Em que sobremesa se usa? .
@@ -96,20 +96,20 @@ Quando foi inaugurado o metropolitano de Lisboa? Quantas estações tem agora? .
 Qual o verdadeiro nome de  <EM ID="dav-844651-10000" CATEG="PESSOA">Michael Caine</EM>? .
 A que altitude está  <EM ID="dav-844651-10000" CATEG="PESSOA">Miguel Pereira</EM>? .
 O que é que  <EM ID="dav-844651-10000" CATEG="PESSOA">Jean Valjean</EM> roubou? .
-Qual era a divisa austríaca antes de  <EM ID="dav-844651-40000" CATEG="TEMPO">2002</EM>? .
+Qual era a divisa austríaca antes de 2002? .
 Quem foi <EM ID="dav-844651-10000" CATEG="PESSOA">  Monteiro Lobato </EM>? Em que instituição estudou? O que é que ele estudou? Quando é que ele criou a Emília? .
 Quantos municípios tem o distrito do Porto? .
-Quem ganhou a  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">NBA</EM> em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1995</EM>? .
+Quem ganhou a  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">NBA</EM> em 1995? .
 O que é a constante de Néper? .
 O que são os números E? .
 Qual o período de gestação de ocapi? Qual o seu peso? .
 Que concelho fica a leste de Oeiras? .
-Que cidades realizaram Jogos Olímpicos antes de  <EM ID="dav-844651-40000" CATEG="TEMPO">1900</EM>? .
+Que cidades realizaram Jogos Olímpicos antes de 1900? .
 Diga um recipiente da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Grande Cruz do Mérito</EM>. .
 Quando começa o outono no hemisfério sul? .
 Quem é <EM ID="dav-844651-10000" CATEG="PESSOA">  José Eduardo Pinto da Costa </EM>? Onde é que ele nasceu? .
 Quantos centímetros há em um pé? .
-Quem era rei de <EM ID="dav-844651-10000" CATEG="PESSOA"> Portugal</EM> em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1860</EM>? .
+Quem era rei de <EM ID="dav-844651-10000" CATEG="PESSOA"> Portugal</EM> em 1860? .
 Qual a área do Parque Nacional da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Peneda-Gerês</EM>? .
 Em que anos foi  <EM ID="dav-844651-10000" CATEG="PESSOA">Nelson Piquet</EM> campeão do mundo? .
 Quem foi <EM ID="dav-844651-10000" CATEG="PESSOA"> Pirro</EM>? .
@@ -124,13 +124,13 @@ Quem comandou os gregos em <EM ID="dav-844651-20000" CATEG="LOCAL"> Salamina</EM
 Quem se tornou rei após a morte de  <EM ID="dav-844651-10000" CATEG="PESSOA">D.  Afonso Henriques </EM>? .
 Que ordem foi fundada por <EM ID="dav-844651-10000" CATEG="PESSOA"> Santa Clara</EM>? .
 O que é o Saquê ? .
-Quantos senadores tem o Senado brasileiro actualmente? Quantos anos tem os seus mandatos? Quantos senadores tem cada estado? Quantos senadores havia em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1972</EM>? .
+Quantos senadores tem o Senado brasileiro actualmente? Quantos anos tem os seus mandatos? Quantos senadores tem cada estado? Quantos senadores havia em 1972? .
 Quem foi o último rei da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Bulgária</EM> ? .
 Diga uma catedral de Sófia. .
 Em que jornal escreve o  <EM ID="dav-844651-10000" CATEG="PESSOA">Miguel Sousa Tavares</EM>? .
 A que partido pertencia Spadolini? .
 Quais são as línguas oficiais da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO"> Suíça</EM>? E quantos cantões tem? Quando é que <EM ID="dav-844651-10000" CATEG="PESSOA"> Berna</EM> aderiu à Confederação? .
-Que selecções disputaram a final da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">  Taça América </EM> de  <EM ID="dav-844651-40000" CATEG="TEMPO">1995</EM>? .
+Que selecções disputaram a final da <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">  Taça América </EM> de 1995? .
 Quantos espartanos lutaram na <EM ID="dav-844651-20000" CATEG="LOCAL"> Batalha das Termópilas</EM>? .
 Quem sucedeu a Augusto? .
 Qual é a capital de Timor Ocidental? .
@@ -139,12 +139,12 @@ O que era uma trirreme? .
 Como se chamava o avião supersónico russo? .
 Qual o túnel ferroviário mais comprido do mundo? E qual o seu comprimento? Em que país fica? .
 O que é o Tux? Que animal é? Quem o criou? Quando? .
-Diga uma emissora de televisão brasileira que tenha iniciado as suas actividades antes de  <EM ID="dav-844651-40000" CATEG="TEMPO">1970</EM>. .
+Diga uma emissora de televisão brasileira que tenha iniciado as suas actividades antes de 1970. .
 O que é a  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">TVI</EM>? .
 O que é a Union Jack? .
 Onde é que nasceu o  <EM ID="dav-844651-10000" CATEG="PESSOA">Vítor Baía</EM>? Onde é que começou a jogar futebol? Quantos golos é que marcou na sua carreira? Que idade tinha ele quando se mudou para o  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">FC</EM> Porto? .
 Quem é <EM ID="dav-844651-10000" CATEG="PESSOA">  George Vassiliou </EM>? .
 Quero o nome de um vinho húngaro. .
-Que clube foi campeão português de voleibol em <EM ID="dav-844651-40000" CATEG="TEMPO"> 1995</EM>? E quem venceu a  <EM ID="dav-844651-70000" CATEG="ACONTECIMENTO">Taça de Portugal</EM> nesse ano? .
+Que clube foi campeão português de voleibol em 1995? E quem venceu a  <EM ID="dav-844651-70000" CATEG="ACONTECIMENTO">Taça de Portugal</EM> nesse ano? .
 Quais são os signos do Zodíaco? .
 Quantas ilhas tem Cabo Verde? Quantas são habitadas? Em qual delas nasceu Eugénio Tavares? E em qual deles fica a Praia?.

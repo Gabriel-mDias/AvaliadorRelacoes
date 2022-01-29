@@ -1,10 +1,10 @@
 Que percentagem do orçamento da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> União Europeia</EM> se destina à agricultura? .
 Quantos países são oficialmente candidatos à adesão à Otan? .
-Que sinfonia compôs <EM ID="dav-833351-10000" CATEG="PESSOA"> Beethoven</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1824</EM>? .
+Que sinfonia compôs <EM ID="dav-833351-10000" CATEG="PESSOA"> Beethoven</EM> em 1824? .
 Que país não é membro da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> ONU</EM>? .
-Quem se pensa ter participado na tentativa de assassínio de  <EM ID="dav-833351-10000" CATEG="PESSOA">Juan Carlos</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1995</EM>? .
+Quem se pensa ter participado na tentativa de assassínio de  <EM ID="dav-833351-10000" CATEG="PESSOA">Juan Carlos</EM> em 1995? .
 Quem era o pai de  <EM ID="dav-833351-10000" CATEG="PESSOA">Isabel II</EM>? .
-Quem foi chanceler da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Alemanha</EM> de  <EM ID="dav-833351-40000" CATEG="TEMPO">1974</EM> a  <EM ID="dav-833351-40001" CATEG="TEMPO">1982</EM>? .
+Quem foi chanceler da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Alemanha</EM> de 1974 a 1982? .
 Quando ocorreu a coroação oficial de  <EM ID="dav-833351-10000" CATEG="PESSOA">Isabel II</EM>? .
 Em que ano foi proposta pela primeira vez a Parceria para a Paz? .
 Quem comandou a Insurreição de Varsóvia? .
@@ -18,7 +18,7 @@ Quantos estados tem a Alemanha? .
 Quem é <EM ID="dav-833351-10000" CATEG="PESSOA"> Stephen Hawking</EM>? .
 O que é o hapkido? .
 Quem se tornou chanceler após ter sido ministro-presidente da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Renânia-Palatinado</EM> ? .
-Que rei morreu em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1718</EM>? .
+Que rei morreu em 1718? .
 Em que ano morreu  <EM ID="dav-833351-10000" CATEG="PESSOA">Charles de Gaulle</EM>? .
 Qual é a altura da  <EM ID="dav-833351-20000" CATEG="LOCAL">Torre Eiffel</EM>? .
 O que é o top quark? .
@@ -30,7 +30,7 @@ A que se refere o termo <EM ID="dav-833351-10000" CATEG="PESSOA"> Les Six</EM> e
 A quem pertencia <EM ID="dav-833351-10000" CATEG="PESSOA"> Nice</EM> de 1814 a 1860? .
 Qual é a sigla da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Administração Federal de Aviação</EM>? .
 O que é o  <EM ID="dav-833351-30000" CATEG="ORGANIZACAO">GI</EM> Joe? .
-Qual a estrutura cujo afundamento causou controvérsia na cimeira dos G7 em <EM ID="dav-833351-20000" CATEG="LOCAL"> Halifax</EM>? .
+Qual a estrutura cujo afundamento causou controvérsia na cimeira dos  <EM ID="dav-833351-90000" CATEG="COISA">G7</EM> em <EM ID="dav-833351-20000" CATEG="LOCAL"> Halifax</EM>? .
 Quem foi <EM ID="dav-833351-10000" CATEG="PESSOA">  Alexander Graham Bell </EM>? .
 Quem é <EM ID="dav-833351-10000" CATEG="PESSOA"> Danuta Walesa</EM>? .
 Quem é <EM ID="dav-833351-10000" CATEG="PESSOA"> Vigdís Finnbogadóttir</EM>? .
@@ -41,7 +41,7 @@ Quem preside à RAI? .
 Quem é o director de operações da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> NASA</EM>? .
 Em que ano se afundou o Titanic? .
 Em que data é que os Estados Unidos invadiram o Haiti? .
-Em que ano foi a  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Revolução</EM> de  <EM ID="dav-833351-40000" CATEG="TEMPO">Outubro</EM>? .
+Em que ano foi a  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Revolução de Outubro</EM>? .
 Em que ano ocorreu a retirada de Dunquerque? .
 Onde é a sede da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Interpol</EM>? .
 Onde é que  <EM ID="dav-833351-10000" CATEG="PESSOA">Braque</EM> e <EM ID="dav-833351-10001" CATEG="PESSOA"> Picasso</EM> trabalharam juntos? .
@@ -50,9 +50,9 @@ De que estúdio cinematográfico foi Cedric Gibbons director artístico? .
 Quantos habitantes tem Longyearbyen? .
 Qual o principal componente da aspirina? .
 Com que bicicleta bateu  <EM ID="dav-833351-10000" CATEG="PESSOA">Miguel Induráin</EM> o recorde da hora? .
-Quem venceu a Volta a França em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1988</EM>? .
-A que organização aderiu a Grécia em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1952</EM>? .
-Quantos países visitou <EM ID="dav-833351-10000" CATEG="PESSOA"> Nixon</EM> entre <EM ID="dav-833351-40000" CATEG="TEMPO"> 1953</EM> e <EM ID="dav-833351-40001" CATEG="TEMPO"> 1959</EM>? .
+Quem venceu a Volta a França em 1988? .
+A que organização aderiu a Grécia em 1952? .
+Quantos países visitou <EM ID="dav-833351-10000" CATEG="PESSOA"> Nixon</EM> entre 1953 e 1959? .
 Que cargo ocupava  <EM ID="dav-833351-10000" CATEG="PESSOA">François Mitterrand</EM> ao ingressar no hospital de Cochin ? .
 Quais são as três repúblicas bálticas? .
 Quais são as três repúblicas soviéticas eslavas? .
@@ -61,15 +61,15 @@ Quem é <EM ID="dav-833351-10000" CATEG="PESSOA">  Ernesto Zedillo Ponce de Leó
 Quem era primeiro-ministro britânico antes de  <EM ID="dav-833351-10000" CATEG="PESSOA">John Major</EM>? .
 Quem é <EM ID="dav-833351-10000" CATEG="PESSOA">  Boris Becker </EM>? .
 Em que filme de  <EM ID="dav-833351-10000" CATEG="PESSOA">Kevin Reynolds</EM> actuou  <EM ID="dav-833351-10001" CATEG="PESSOA">Kevin Costner</EM>? .
-Onde se realizaram os Jogos Olímpicos de  <EM ID="dav-833351-40000" CATEG="TEMPO">1993</EM> ? .
-Que tipo de bombas foram usadas pelo IRA no ataque a Heathrow em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1994</EM>? .
+Onde se realizaram os Jogos Olímpicos de 1993 ? .
+Que tipo de bombas foram usadas pelo IRA no ataque a Heathrow em 1994? .
 O que é um Chinook? .
 Quem é o presidente do Egipto ? .
 Onde morreu Kurt Cobain? .
-Quantos telespectadores seguiram a final do  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo de Futebol</EM> de  <EM ID="dav-833351-40000" CATEG="TEMPO">1994</EM> ? .
+Quantos telespectadores seguiram a final do  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo de Futebol</EM> de 1994 ? .
 O que é o  <EM ID="dav-833351-30000" CATEG="ORGANIZACAO">KMT</EM>? .
 Que cromossoma está na origem do mongolismo? .
-Quem era presidente da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Chechénia</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1994</EM>? .
+Quem era presidente da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Chechénia</EM> em 1994? .
 Quem foi o primeiro homem na <EM ID="dav-833351-20000" CATEG="LOCAL">  Lua </EM>? .
 A que partido pertence Mahfoudh Nahnah? .
 Diga o nome de um filme realizado por  <EM ID="dav-833351-10000" CATEG="PESSOA">Claude Lanzmann</EM>? .
@@ -89,14 +89,14 @@ Onde ocorreram casos de febre aftosa? .
 Quando aderirão à União Europeia a Áustria, a Suécia e a Finlândia? .
 Que estúdio produziu o filme <EM ID="dav-833351-80000" CATEG="OBRA"> Toy Story</EM>? .
 Qual é a terceira maior cidade da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Baviera</EM>? .
-Quem era o capitão do Ajax em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1994</EM>? .
+Quem era o capitão do Ajax em 1994? .
 O que são os otakus? .
 O que é o  <EM ID="dav-833351-30000" CATEG="ORGANIZACAO">CD</EM>-i? .
 Em que cidade é que <EM ID="dav-833351-10000" CATEG="PESSOA"> Nietzsche</EM> escreveu Ecce Homo? .
 Quando viveu  <EM ID="dav-833351-10000" CATEG="PESSOA">Ludwig Wittgenstein</EM>? .
-Quem foi votado o futebolista do ano na <EM ID="dav-833351-20000" CATEG="LOCAL"> Bélgica</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1995</EM>? .
+Quem foi votado o futebolista do ano na <EM ID="dav-833351-20000" CATEG="LOCAL"> Bélgica</EM> em 1995? .
 Onde é a nova sede da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Nederlandse Gasunie</EM>? .
-Em que museu foi exibida em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1994</EM> uma exposição sobre Mondriaan? .
+Em que museu foi exibida em 1994 uma exposição sobre Mondriaan? .
 Quando foram as  <EM ID="dav-833351-10000" CATEG="PESSOA">Antilhas Holandesas</EM> legalmente equiparadas aos Países Baixos? .
 Descreva o World Trade Center. .
 O que é um samovar? .
@@ -123,7 +123,7 @@ O que é um sátrapa? .
 Que sabe sobre o aikido? .
 Quem foi <EM ID="dav-833351-10000" CATEG="PESSOA">  Amílcar Cabral </EM>? .
 Quem foi <EM ID="dav-833351-10000" CATEG="PESSOA"> Qin Shi Huang</EM>? .
-Que país foi abalado por um terramoto em <EM ID="dav-833351-40000" CATEG="TEMPO"> Agosto de 94</EM>? .
+Que país foi abalado por um terramoto em <EM ID="dav-833351-20000" CATEG="LOCAL"> Agosto</EM> de 94? .
 O que é que foi anexado após a  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Guerra dos Seis Dias</EM>? .
 Em que cidade é que fica o Roque Santeiro? .
 Em que estado fica Porto Alegre? .
@@ -151,24 +151,24 @@ Que percentagem da população do <EM ID="dav-833351-10000" CATEG="PESSOA"> Qué
 Que população tem Amiens? .
 A que dinastia pertencia Gengis Khan? .
 Como se chama a companhia ferroviária francesa? .
-A quem foi conquistada <EM ID="dav-833351-10000" CATEG="PESSOA"> Lisboa</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1147</EM>? .
-Contra que clube jogou o Marítimo a 2 de  <EM ID="dav-833351-40000" CATEG="TEMPO">Abril de 1995</EM>? .
+A quem foi conquistada <EM ID="dav-833351-10000" CATEG="PESSOA"> Lisboa</EM> em 1147? .
+Contra que clube jogou o Marítimo a 2 de Abril de 1995? .
 De que equipa é treinador Johann Cruyff? .
 De que selecção é <EM ID="dav-833351-10000" CATEG="PESSOA"> Ravelli</EM> é o guarda-redes? .
-Quem foram os adversários do Boavista na  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Taça UEFA</EM> de  <EM ID="dav-833351-40000" CATEG="TEMPO">1994</EM>? .
+Quem foram os adversários do Boavista na  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Taça UEFA</EM> de 1994? .
 Diga um jornal norueguês. .
-Onde trabalha  <EM ID="dav-833351-10000" CATEG="PESSOA">José Rodrigues</EM> Filho? .
+Onde trabalha  <EM ID="dav-833351-10000" CATEG="PESSOA">José Rodrigues Filho</EM>? .
 Que povo foi convertido  <EM ID="dav-833351-30000" CATEG="ORGANIZACAO">Ã</EM> ortodoxia durante a Idade Média? .
 Que hospital fica em <EM ID="dav-833351-20000" CATEG="LOCAL"> Matosinhos</EM>? .
 S <EM ID="dav-833351-10000" CATEG="PESSOA">Ravelli</EM> é o goleiro de que seleção? .
 Qual o actual nome do Ceilão? .
-Que competição se realizou pela primeira vez em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1896</EM>? .
-Qual foi o resultado do Itália-Nigéria no  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo</EM> de  <EM ID="dav-833351-40000" CATEG="TEMPO">1994</EM> ? .
+Que competição se realizou pela primeira vez em 1896? .
+Qual foi o resultado do Itália-Nigéria no  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Campeonato do Mundo</EM> de 1994 ? .
 Em que desporto é Torneio das Cinco Nações? .
 Em que língua está escrito o Alcorão? .
 Em que telenovela aparece o prefeito <EM ID="dav-833351-10000" CATEG="PESSOA"> Odorico</EM>? .
 Diga um livro de  <EM ID="dav-833351-10000" CATEG="PESSOA">Júlio Verne</EM>. .
-Que edifício foi erigido no  <EM ID="dav-833351-40000" CATEG="TEMPO">século 12</EM>? .
+Que edifício foi erigido no século 12? .
 Que guerra durou de 1865 a 1870? .
 Para que instrumento são os concertos de Chopin? .
 Qual a língua mais falada no <EM ID="dav-833351-20000" CATEG="LOCAL"> Québec</EM>? .
@@ -177,14 +177,14 @@ Qual a religião oficial da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Tail�
 Qual é o planeta vermelho? .
 Que corpo celeste é Toutatis? .
 Que ensina Vital do Rego? .
-Quem venceu o open da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Austrália</EM> em <EM ID="dav-833351-40000" CATEG="TEMPO"> 1995</EM>? .
+Quem venceu o open da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Austrália</EM> em 1995? .
 De quem é <EM ID="dav-833351-10000" CATEG="PESSOA"> O Capital</EM>? .
 Diga um jogador francês do  <EM ID="dav-833351-10000" CATEG="PESSOA">Manchester United</EM>. .
 Quem salvou judeus durante a  <EM ID="dav-833351-70000" CATEG="ACONTECIMENTO">Segunda Guerra Mundial</EM>? .
 Diga um escritor chinês. .
 Diga um Herói da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> União Soviética</EM>. .
 Mencione um membro da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Academia Francesa</EM>. .
-Quem foi presidente da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Suíça</EM> no ano de <EM ID="dav-833351-40000" CATEG="TEMPO"> 1995</EM>? .
+Quem foi presidente da <EM ID="dav-833351-30000" CATEG="ORGANIZACAO"> Suíça</EM> no ano de 1995? .
 Quem criou Spirou? .
 Quem escreveu A Capital? .
 Quem escreveu O Idiota? .
