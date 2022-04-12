@@ -1,0 +1,47 @@
+#Unigraph
+SIZE 1887 919
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME y
+DDATE y
+DFILE y
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+27
+"<E>" 63 241 2 3 10 
+"" 1412 373 0 
+"<ORGANIZACAO>" 295 114 1 4 
+"<E>/{" 248 114 1 2 
+"<E>/,.ORGANIZACAO-SEDE_DE}" 431 114 5 8 15 25 24 26 
+"<LOCAL>" 1273 172 1 6 
+"<E>/,.LOCAL-SEDE_DE}" 1414 172 1 1 
+"<E>/{" 1222 172 1 5 
+"," 802 17 4 25 24 26 7 
+"<ACONTECIMENTO>" 138 562 1 11 
+"<E>/{" 91 562 1 9 
+"<E>/,.ACONTECIMENTO-SEDE_DE}" 305 562 5 12 13 14 15 20 
+"<realizado.>+<ocorre.>+<acontece.>" 729 630 1 20 
+"que+que <ser.>+que <ir.>" 617 677 1 12 
+"," 680 465 4 13 12 20 23 
+"(" 411 371 1 18 
+"<LOCAL>" 499 371 1 17 
+"<E>/,.LOCAL-SEDE_DE}" 606 371 1 19 
+"<E>/{" 448 371 1 16 
+")" 731 371 1 1 
+"em+na+no" 852 587 1 23 
+"<LOCAL>" 1016 549 1 22 
+"<E>/,.LOCAL-SEDE_DE}" 1157 549 1 1 
+"<E>/{" 965 549 1 21 
+"<realizado.>+<ocorre.>+<acontece.>" 910 208 1 26 
+"que+que <ser.>+que <ir.>" 798 255 1 24 
+"em+na+no" 1030 152 1 7 

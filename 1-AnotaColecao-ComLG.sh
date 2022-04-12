@@ -40,7 +40,7 @@ if [ -n "$2" ]; then
 
 	avaliacao=5
 
-    avaliacaoRelRelem=1
+    avaliacaoRelRelem=5
     #Para cenários mais específicos na avaliação de relação, modifique o parâmetro
         #1 - Genérico
         #2 - ident;inclui;incluido;sede_de;ocorre_em;
@@ -90,8 +90,8 @@ if [ -n "$2" ]; then
     rm Resultado_$2_ReRelEM.txt
 
     #TODO: Remover comentário	
-    rm Experimentos/$2/Participacao*
-    rm Experimentos/$2/*_t1.xml
+    #rm Experimentos/$2/Participacao*
+    #rm Experimentos/$2/*_t1.xml
 
 fi
 

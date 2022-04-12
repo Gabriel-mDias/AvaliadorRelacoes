@@ -1,0 +1,41 @@
+0000000001
+-1 Relacao-Sede_Em
+: 2 1 
+: 7 3 1 2 
+: 3 4 
+: 8 4 
+: 19 9 18 9 17 9 15 8 12 7 11 6 10 6 9 6 6 5 
+: 19 9 18 9 17 9 12 7 11 6 10 6 9 6 2 10 
+: 19 9 18 9 17 9 
+: 14 11 13 11 11 6 10 6 9 6 
+: 2 12 
+: 2 10 
+: 4 13 
+: 11 6 10 6 9 6 
+: 4 14 
+: 5 15 
+: 5 16 
+t 
+: 16 15 
+f 
+%<E>
+%<ORGANIZACAO>
+%<E>/{
+%<E>/,.ORGANIZACAO-SEDE_DE}
+%<LOCAL>
+%<E>/,.LOCAL-SEDE_DE}
+%,
+%<ACONTECIMENTO>
+%<E>/,.ACONTECIMENTO-SEDE_DE}
+%<realizado.>
+%<ocorre.>
+%<acontece.>
+%que
+%<ser.>
+%<ir.>
+%(
+%)
+%em
+%na
+%no
+f

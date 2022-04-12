@@ -1,5 +1,5 @@
 Tratado de Lisboa (2007) .
-O Tratado de <EM ID="hub-15425-10000" CATEG="PESSOA"> Lisboa</EM> ou <EM ID="hub-15425-10001" CATEG="PESSOA"> Tratado de Reforma</EM>, é o acordo ratificado pelo  <EM ID="hub-15425-30000" CATEG="ORGANIZACAO">Conselho da União Europeia</EM> em <EM ID="hub-15425-20000" CATEG="LOCAL"> Lisboa</EM>, a 19 de Outubro de 2007, e que substitui a
+O Tratado de <EM ID="hub-15425-10000" CATEG="PESSOA"> Lisboa</EM> ou <EM ID="hub-15425-10001" CATEG="PESSOA"> Tratado de Reforma</EM>, é o acordo ratificado pelo  <EM ID="hub-15425-26000" CATEG="ORGANIZACAO"> Conselho da União Europeia </EM> em<EM ID="hub-15425-26001" CATEG="LOCAL" TIPOREL="sede_de" COREL="hub-15425-26000" FACS_ORIGEM="ORGANIZACAO" FACS_ALVO="LOCAL">  Lisboa </EM>, a 19 de Outubro de 2007, e que substitui a
  <EM ID="hub-15425-80000" CATEG="OBRA">Constituição</EM> europeia de 2004.[1] .
 O Tratado de <EM ID="hub-15425-10000" CATEG="PESSOA"> Lisboa</EM> confere à União Europeia, personalidade jurídica própria para assinar acordos internacionais a nível comunitário. O termo Comunidade » será substituído por União », nomeia o Alto Representante para a Política Exterior e de Segurança Comum da <EM ID="hub-15425-30000" CATEG="ORGANIZACAO"> União Europeia</EM> e estabelece a aplicação formal da dupla maioria a partir de 2014. .
 História.

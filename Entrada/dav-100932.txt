@@ -2,7 +2,7 @@ Onde ficam as  <EM ID="dav-100932-20000" CATEG="LOCAL">Ilhas Marquesas</EM>? .
 De que organização é que Javier Solana era secretário-geral? .
 O que é a  <EM ID="dav-100932-30000" CATEG="ORGANIZACAO">EFTA</EM>? Quando é que foi criada? Que cinco países da <EM ID="dav-100932-30001" CATEG="ORGANIZACAO"> EFTA</EM> se juntaram ao  <EM ID="dav-100932-30002" CATEG="ORGANIZACAO">EEEEEE</EM> quando este entrou em vigor? .
 Qual é o maior banco do <EM ID="dav-100932-30000" CATEG="ORGANIZACAO"> Japão</EM>? .
-A que companhia pertencia o Airbus atacado pelo  <EM ID="dav-100932-30000" CATEG="ORGANIZACAO">GIA</EM> em <EM ID="dav-100932-20000" CATEG="LOCAL"> Dezembro</EM> de 1994? .
+A que companhia pertencia o Airbus atacado pelo  <EM ID="dav-100932-26000" CATEG="ORGANIZACAO"> GIA </EM> em<EM ID="dav-100932-26001" CATEG="LOCAL" TIPOREL="sede_de" COREL="dav-100932-26000" FACS_ORIGEM="ORGANIZACAO" FACS_ALVO="LOCAL">  Dezembro </EM> de 1994? .
 Quem é <EM ID="dav-100932-10000" CATEG="PESSOA">  Michael Jackson </EM>? Diga um dos grandes sucessos de  <EM ID="dav-100932-10001" CATEG="PESSOA">Michael Jackson</EM>? Com quem é que ele se casou em <EM ID="dav-100932-20000" CATEG="LOCAL"> Maio</EM> de 1994? .
 Qual era a nacionalidade de  <EM ID="dav-100932-10000" CATEG="PESSOA">Ayrton Senna</EM>? Quantas vezes é que ele foi campeão do mundo? Quando é que ele morreu? Em que circuito de  <EM ID="dav-100932-90000" CATEG="COISA">F1</EM> é que ele morreu? .
 Quando é que caiu o regime comunista do Afeganistão? Quem era o presidente do regime comunista do <EM ID="dav-100932-10000" CATEG="PESSOA"> Afeganistão</EM> antes dessa queda? .
@@ -33,7 +33,7 @@ Quantos habitantes tem Catmandu? .
 A que partido político pertence Thérèse Aillaud? Ela é deputada por que região? .
 Quem foi eleito presidente da <EM ID="dav-100932-30000" CATEG="ORGANIZACAO">  África do Sul </EM> a 9 de Maio de 1994? .
 Quem se tornou líder do Partido Trabalhista britânico a 21 de Julho de 1994? .
-Quais as cinco praias do desembarque das quais um industrial comprou 200 toneladas de areia para comemorar o 50º aniversário do Dia-D? .
+Quais as cinco praias do desembarque das quais um industrial comprou 200 toneladas de areia para comemorar o 50º aniversário do  <EM ID="dav-100932-70000" CATEG="ACONTECIMENTO">Dia</EM>-D? .
 Quem era presidente da <EM ID="dav-100932-30000" CATEG="ORGANIZACAO"> Comissão Europeia</EM> em 1995? .
 Onde é que  <EM ID="dav-100932-14000" CATEG="PESSOA"> Stephanie do Mónaco </EM> e<EM ID="dav-100932-14001" CATEG="PESSOA" TIPOREL="relacao_familiar" COREL="dav-100932-14000">   Daniel Ducruet  </EM> se casaram? .
 Quantas pessoas estavam presentes na cerimónia em memória do escritor  <EM ID="dav-100932-10000" CATEG="PESSOA">Elias Canetti</EM>? .

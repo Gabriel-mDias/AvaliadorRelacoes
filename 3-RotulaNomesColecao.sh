@@ -32,35 +32,58 @@ do
 	
 	#PARA ANOTAR TODAS AS ENTIDADES
 
+        #Categoria PESSOA
 	perl -pe 'my $numId=10000; s/<PESSOA>(.*?)<\/PESSOA>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>"/eg' $arqSemExt"1.txt" > $arqSemExt"_anotado1.txt"
 
-    perl -pe 'my $numId=14000; s/<PESSOA-RELACAO_FAMILIAR>(.*?)<\/PESSOA-RELACAO_FAMILIAR>(.*?)<PESSOA-RELACAO_FAMILIAR>(.*?)<\/PESSOA-RELACAO_FAMILIAR>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\" TIPOREL=\"relacao_familiar\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado1.txt" > $arqSemExt"_anotado2.txt"
+    perl -pe 'my $numId=14000; s/<PESSOA-RELACAO_FAMILIAR>(.*?)<\/PESSOA-RELACAO_FAMILIAR>(.*?)<PESSOA-RELACAO_FAMILIAR>(.*?)<\/PESSOA-RELACAO_FAMILIAR>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\" TIPOREL=\"relacao_familiar\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado1.txt" > $arqSemExt"_anotado1-1.txt"
 
-    perl -pe 'my $numId=18000; s/<PESSOA-IDENT>(.*?)<\/PESSOA-IDENT>(.*?)<PESSOA-IDENT>(.*?)<\/PESSOA-IDENT>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\" TIPOREL=\"ident\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado2.txt" > $arqSemExt"_anotado3.txt"
+    perl -pe 'my $numId=18000; s/<PESSOA-IDENT>(.*?)<\/PESSOA-IDENT>(.*?)<PESSOA-IDENT>(.*?)<\/PESSOA-IDENT>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\" TIPOREL=\"ident\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado1-1.txt" > $arqSemExt"_anotado1-2.txt"
     
-    perl -pe 'my $numId=19000; s/<PESSOA-LOCAL_NASCIMENTO>(.*?)<\/PESSOA-LOCAL_NASCIMENTO>(.*?)<LOCAL-LOCAL_NASCIMENTO>(.*?)<\/LOCAL-LOCAL_NASCIMENTO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"local_nascimento_de\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado3.txt" > $arqSemExt"_anotado4.txt"
+    perl -pe 'my $numId=19000; s/<PESSOA-LOCAL_NASCIMENTO>(.*?)<\/PESSOA-LOCAL_NASCIMENTO>(.*?)<LOCAL-LOCAL_NASCIMENTO>(.*?)<\/LOCAL-LOCAL_NASCIMENTO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"local_nascimento_de\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado1-2.txt" > $arqSemExt"_anotado1-3.txt"
 
-	perl -pe 'my $numId=20000; s/<LOCAL>(.*?)<\/LOCAL>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>"/eg' $arqSemExt"_anotado4.txt" > $arqSemExt"_anotado5.txt"
 
-    perl -pe 'my $numId=28000; s/<LOCAL-OCORRE_EM>(.*?)<\/LOCAL-OCORRE_EM>(.*?)<ORGANIZACAO-OCORRE_EM>(.*?)<\/ORGANIZACAO-OCORRE_EM>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ORGANIZACAO\" TIPOREL=\"ocorre_em\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado5.txt" > $arqSemExt"_anotado6.txt"
+        #Categoria LOCAL
+	perl -pe 'my $numId=20000; s/<LOCAL>(.*?)<\/LOCAL>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>"/eg' $arqSemExt"_anotado1-3.txt" > $arqSemExt"_anotado2.txt"
 
-    perl -pe 'my $numId=29000; s/<LOCAL-INCLUI>(.*?)<\/LOCAL-INCLUI>(.*?)<LOCAL-INCLUI>(.*?)<\/LOCAL-INCLUI>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"inclui\" COREL=\"'$arqSemExt'-".($numId - 2)."\" FACS_ORIGEM=\"LOCAL\" FACS_ALVO=\"LOCAL\">$3<\/EM>"/eg' $arqSemExt"_anotado6.txt" > $arqSemExt"_anotado7.txt"
+    perl -pe 'my $numId=22000; s/<LOCAL-OCORRE_EM>(.*?)<\/LOCAL-OCORRE_EM>(.*?)<ORGANIZACAO-OCORRE_EM>(.*?)<\/ORGANIZACAO-OCORRE_EM>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ORGANIZACAO\" TIPOREL=\"ocorre_em\" COREL=\"'$arqSemExt'-".($numId - 2)."\">$3<\/EM>"/eg' $arqSemExt"_anotado2.txt" > $arqSemExt"_anotado2-1.txt"
 
-	perl -pe 'my $numId=30000; s/<ORGANIZACAO>(.*?)<\/ORGANIZACAO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ORGANIZACAO\">$1<\/EM>"/eg' $arqSemExt"_anotado7.txt" > $arqSemExt"_anotado8.txt"
+    perl -pe 'my $numId=24000; s/<LOCAL-INCLUI>(.*?)<\/LOCAL-INCLUI>(.*?)<LOCAL-INCLUI>(.*?)<\/LOCAL-INCLUI>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"inclui\" COREL=\"'$arqSemExt'-".($numId - 2)."\" FACS_ORIGEM=\"LOCAL\" FACS_ALVO=\"LOCAL\">$3<\/EM>"/eg' $arqSemExt"_anotado2-1.txt" > $arqSemExt"_anotado2-2.txt"
 
-	perl -pe 'my $numId=40000; s/<TEMPO>(.*?)<\/TEMPO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"TEMPO\">$1<\/EM>"/eg' $arqSemExt"_anotado8.txt" > $arqSemExt"_anotado9.txt"
+    perl -pe 'my $numId=26000; s/<ORGANIZACAO-SEDE_DE>(.*?)<\/ORGANIZACAO-SEDE_DE>(.*?)<LOCAL-SEDE_DE>(.*?)<\/LOCAL-SEDE_DE>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ORGANIZACAO\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"sede_de\" COREL=\"'$arqSemExt'-".($numId - 2)."\" FACS_ORIGEM=\"ORGANIZACAO\" FACS_ALVO=\"LOCAL\">$3<\/EM>"/eg' $arqSemExt"_anotado2-2.txt" > $arqSemExt"_anotado2-3.txt"
 
-	perl -pe 'my $numId=50000; s/<VALOR>(.*?)<\/VALOR>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"VALOR\">$1<\/EM>"/eg' $arqSemExt"_anotado9.txt" > $arqSemExt"_anotado10.txt"
+    perl -pe 'my $numId=26000; s/<ACONTECIMENTO-SEDE_DE>(.*?)<\/ACONTECIMENTO-SEDE_DE>(.*?)<LOCAL-SEDE_DE>(.*?)<\/LOCAL-SEDE_DE>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ACONTECIMENTO\">$1<\/EM>$2<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"LOCAL\" TIPOREL=\"sede_de\" COREL=\"'$arqSemExt'-".($numId - 2)."\" FACS_ORIGEM=\"ACONTECIMENTO\" FACS_ALVO=\"LOCAL\">$3<\/EM>"/eg' $arqSemExt"_anotado2-3.txt" > $arqSemExt"_anotado2-4.txt"
 
-	perl -pe 'my $numId=60000; s/<ABSTRACCAO>(.*?)<\/ABSTRACCAO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ABSTRACCAO\">$1<\/EM>"/eg' $arqSemExt"_anotado10.txt" > $arqSemExt"_anotado11.txt"
 
-	perl -pe 'my $numId=70000; s/<ACONTECIMENTO>(.*?)<\/ACONTECIMENTO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ACONTECIMENTO\">$1<\/EM>"/eg' $arqSemExt"_anotado11.txt" > $arqSemExt"_anotado12.txt"
+        #Categoria ORGANIZACAO
+	perl -pe 'my $numId=30000; s/<ORGANIZACAO>(.*?)<\/ORGANIZACAO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ORGANIZACAO\">$1<\/EM>"/eg' $arqSemExt"_anotado2-4.txt" > $arqSemExt"_anotado3.txt"
 
-	perl -pe 'my $numId=80000; s/<OBRA>(.*?)<\/OBRA>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"OBRA\">$1<\/EM>"/eg' $arqSemExt"_anotado12.txt" > $arqSemExt"_anotado13.txt"
 
-	perl -pe 'my $numId=90000; s/<COISA>(.*?)<\/COISA>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"COISA\">$1<\/EM>"/eg' $arqSemExt"_anotado13.txt" > $arqSemExt"_anotado14.txt"
+        #Categoria TEMPO
+	perl -pe 'my $numId=40000; s/<TEMPO>(.*?)<\/TEMPO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"TEMPO\">$1<\/EM>"/eg' $arqSemExt"_anotado3.txt" > $arqSemExt"_anotado4.txt"
 
-	perl -pe 'my $numId=100000; s/<OUTRO>(.*?)<\/OUTRO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"OUTRO\">$1<\/EM>"/eg' $arqSemExt"_anotado14.txt" > $arqSemExt"_anotado.txt"
+
+        #Categoria VALOR
+	perl -pe 'my $numId=50000; s/<VALOR>(.*?)<\/VALOR>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"VALOR\">$1<\/EM>"/eg' $arqSemExt"_anotado4.txt" > $arqSemExt"_anotado5.txt"
+
+
+        #Categoria ABSTRACCAO
+	perl -pe 'my $numId=60000; s/<ABSTRACCAO>(.*?)<\/ABSTRACCAO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ABSTRACCAO\">$1<\/EM>"/eg' $arqSemExt"_anotado5.txt" > $arqSemExt"_anotado6.txt"
+
+
+        #Categoria ACONTECIMENTO
+	perl -pe 'my $numId=70000; s/<ACONTECIMENTO>(.*?)<\/ACONTECIMENTO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"ACONTECIMENTO\">$1<\/EM>"/eg' $arqSemExt"_anotado6.txt" > $arqSemExt"_anotado7.txt"
+
+
+        #Categoria OBRA    
+	perl -pe 'my $numId=80000; s/<OBRA>(.*?)<\/OBRA>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"OBRA\">$1<\/EM>"/eg' $arqSemExt"_anotado7.txt" > $arqSemExt"_anotado8.txt"
+
+
+        #Categoria COISA
+	perl -pe 'my $numId=90000; s/<COISA>(.*?)<\/COISA>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"COISA\">$1<\/EM>"/eg' $arqSemExt"_anotado8.txt" > $arqSemExt"_anotado9.txt"
+
+
+        #Categoria OUTRO
+	perl -pe 'my $numId=100000; s/<OUTRO>(.*?)<\/OUTRO>/" <EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"OUTRO\">$1<\/EM>"/eg' $arqSemExt"_anotado9.txt" > $arqSemExt"_anotado.txt"
 
 	#PARA ANOTAR AS ENTIDADES DO SIGARRA
 	#perl -pe 's/<Pessoa>(.*?)<\/Pessoa>/"<EM ID=\"'$arqSemExt'-".($numId++)."\" CATEG=\"PESSOA\">$1<\/EM>"/eg' $arqSemExt"1.txt" > $arqSemExt"_anotado1.txt"

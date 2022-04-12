@@ -88,7 +88,7 @@ Quem era a locomotiva humana? .
 Em que concelho fica Loivos do Monte? .
 Quem abriu os Jogos Olímpicos de 1948 ? .
 O que é  <EM ID="dav-844651-90000" CATEG="COISA">M31</EM>? .
- <EM ID="dav-844651-10000" CATEG="PESSOA">Quando</EM> nasceu <EM ID="dav-844651-10001" CATEG="PESSOA"> Machado de Assis</EM>? .
+ <EM ID="dav-844651-14000" CATEG="PESSOA">Quando</EM> nasceu<EM ID="dav-844651-14001" CATEG="PESSOA" TIPOREL="relacao_familiar" COREL="dav-844651-14000"> Machado de Assis</EM>? .
 O que é a  <EM ID="dav-844651-30000" CATEG="ORGANIZACAO">Igreja Maronita</EM>? .
 Quanto custou a Mars Observer? .
 O que é o mascarpone? De que região provêm? Em que sobremesa se usa? .

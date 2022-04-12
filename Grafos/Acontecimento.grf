@@ -22,9 +22,9 @@ PORIENT L
 "" 995 210 0 
 "<E>/{" 61 205 3 8 10 12 
 "<E>/,.ACONTECIMENTO}" 887 208 1 1 
-"campeonato+simpósio+excursões+cerimônia+seminário+congresso+workshop+jornada+jornadas+semana+guerra+copa+encontro+festa+congresso+taça+revolução+feira+festival+liga" 530 208 3 5 6 3 
+"campeonato+simpósio+excursões+cerimônia+seminário+congresso+workshop+jornada+jornadas+semana+dia+guerra+copa+encontro+festa+congresso+taça+revolução+feira+festival+liga" 530 208 3 5 6 3 
 "<FIRST>" 741 178 3 6 3 5 
-"<PREPOSICAO>" 729 103 1 5 
+"<PREPOSICAO>+<ABREVIACAO>" 729 103 1 5 
 "<FIRST>" 356 202 1 9 
 "$[" 290 205 1 7 
 "$]" 472 205 1 4 

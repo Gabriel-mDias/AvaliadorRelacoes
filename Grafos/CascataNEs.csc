@@ -33,6 +33,7 @@
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Enumeracao.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Paralelismo.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacoes-Paternidade-Biblia.fst2" Merge Enabled 1 0
+"../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacao-Sede_Em.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Relacao-Ocorre_Em.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoEstavaCom.fst2" Merge Enabled 1 0
 "../../../../../Documentos/UFES/TCC/TCC-2/AvaliadorRelacoes/Grafos/Familia-ReconheceRelacaoCasamento.fst2" Merge Enabled 1 0

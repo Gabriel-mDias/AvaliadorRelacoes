@@ -1,6 +1,6 @@
 Em que escola estuda o Harry Potter? Qual a divisa da escola? Em quantas casas está dividida? Quem é o director da escola? .
 Como são os peixes-espada? Qual é o recorde da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> IGFA</EM> para este tipo de peixe? .
- <EM ID="dav-52390-10000" CATEG="PESSOA">Quando</EM> nasceu <EM ID="dav-52390-10001" CATEG="PESSOA"> Amintore</EM> Fanfani? E aonde nasceu? .
+ <EM ID="dav-52390-14000" CATEG="PESSOA">Quando</EM> nasceu<EM ID="dav-52390-14001" CATEG="PESSOA" TIPOREL="relacao_familiar" COREL="dav-52390-14000"> Amintore</EM> Fanfani? E aonde nasceu? .
 Quem foi <EM ID="dav-52390-10000" CATEG="PESSOA"> Le Corbusier</EM>? Qual era o seu verdadeiro nome? .
 Quem era <EM ID="dav-52390-10000" CATEG="PESSOA"> Flaubert</EM>? Em que ano publicou <EM ID="dav-52390-10001" CATEG="PESSOA"> Bouvard</EM> e <EM ID="dav-52390-10002" CATEG="PESSOA"> Pécuchet</EM>»? Lista todas as suas obras. .
 O que foi a  <EM ID="dav-52390-70000" CATEG="ACONTECIMENTO">Revolução de Veludo</EM>? .
@@ -105,7 +105,7 @@ Quais são os membros fundadores da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"
 Em que país se fala náhuatl? .
 Quantas curvas tem o Circuito do Mónaco? .
 Quem foi a primeira mulher a viajar no espaço? .
-Quem realizou O Dia da <EM ID="dav-52390-30000" CATEG="ORGANIZACAO"> Besta</EM>»? .
+Quem realizou O  <EM ID="dav-52390-70000" CATEG="ACONTECIMENTO">Dia da Besta</EM>»? .
 Quem inaugurou o Templo de Debod em <EM ID="dav-52390-20000" CATEG="LOCAL"> Madrid</EM>? .
 Em que ano é que Torquemada foi nomeado Inquisidor Geral? .
 Em que ano foi publicada a Gramática de Nebrija? .

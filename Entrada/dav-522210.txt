@@ -65,7 +65,7 @@ Quanto dinheiro ganhou Parque Jurássico» de Steven Spielberg? .
 Quem escreveu Mein Kampf? .
 Quem é <EM ID="dav-522210-10000" CATEG="PESSOA"> Helmut Newton</EM>? .
 Quando é que os japoneses atacaram Pearl Harbor? Quantos americanos morreram no ataque a Pearl Harbor a 7 de dezembro de 1941? .
-Que grupo ganhou o  <EM ID="dav-522210-70000" CATEG="ACONTECIMENTO">Festival da Eurovisão</EM> em <EM ID="dav-522210-20000" CATEG="LOCAL"> Brighton</EM> em 1974? Quando é que teve lugar o  <EM ID="dav-522210-70001" CATEG="ACONTECIMENTO">primeiro Festival da Eurovisão</EM>? Onde é que teve lugar o  <EM ID="dav-522210-70002" CATEG="ACONTECIMENTO">primeiro Festival da Eurovisão</EM>? .
+Que grupo ganhou o  <EM ID="dav-522210-26000" CATEG="ACONTECIMENTO"> Festival da Eurovisão </EM> em<EM ID="dav-522210-26001" CATEG="LOCAL" TIPOREL="sede_de" COREL="dav-522210-26000" FACS_ORIGEM="ACONTECIMENTO" FACS_ALVO="LOCAL">  Brighton </EM> em 1974? Quando é que teve lugar o  <EM ID="dav-522210-70000" CATEG="ACONTECIMENTO">primeiro Festival da Eurovisão</EM>? Onde é que teve lugar o  <EM ID="dav-522210-70001" CATEG="ACONTECIMENTO">primeiro Festival da Eurovisão</EM>? .
 Qual o significado da sigla  <EM ID="dav-522210-30000" CATEG="ORGANIZACAO">UNICEF</EM>? Quando é que foi criada a  <EM ID="dav-522210-30001" CATEG="ORGANIZACAO">UNICEF</EM>? Onde é que é a sede da <EM ID="dav-522210-30002" CATEG="ORGANIZACAO"> UNICEF</EM>? .
 De que banda rock é vocalista  <EM ID="dav-522210-10000" CATEG="PESSOA">Anthony Kiedis</EM>? O que é Stadium Arcadium? Diga três albuns da banda. .
 Quando é que teve lugar a primeira <EM ID="dav-522210-10000" CATEG="PESSOA"> Love Parade</EM>? .
@@ -111,6 +111,6 @@ O que é o Santo Ofício? Até quando existiu a Inquisição em <EM ID="dav-5222
 Como se chamava a mãe de Nero? .
  <EM ID="dav-522210-10000" CATEG="PESSOA">Isabel Allende</EM> é parente de que antigo presidente do Chile ? .
 Onde ficam as universidades de Yale e Harvard ? Qual é o maior estado da <EM ID="dav-522210-30000" CATEG="ORGANIZACAO"> Nova Inglaterra</EM>? .
-Porque é que foi construída a Coluna da <EM ID="dav-522210-30000" CATEG="ORGANIZACAO"> Vitória</EM> em <EM ID="dav-522210-20000" CATEG="LOCAL"> Berlim</EM>? Como se chama a escultura de bronze que existe na <EM ID="dav-522210-20001" CATEG="LOCAL"> Coluna da Vitória</EM>? .
+Porque é que foi construída a Coluna da <EM ID="dav-522210-26000" CATEG="ORGANIZACAO">  Vitória </EM> em<EM ID="dav-522210-26001" CATEG="LOCAL" TIPOREL="sede_de" COREL="dav-522210-26000" FACS_ORIGEM="ORGANIZACAO" FACS_ALVO="LOCAL">  Berlim </EM>? Como se chama a escultura de bronze que existe na <EM ID="dav-522210-20000" CATEG="LOCAL"> Coluna da Vitória</EM>? .
 Quando é que morreu  <EM ID="dav-522210-10000" CATEG="PESSOA">Alfred Hitchcock</EM>? Para onde é que ele emigrou em 1939? Como é que se chamava o seu primeiro filme americano? .
 Quem organiza o Carnaval do Rio? Qual é o comprimento da arena do Sambódromo?.

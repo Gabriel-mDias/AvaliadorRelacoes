@@ -1,0 +1,29 @@
+Descrição do cenário avaliado:
+	#ABSTRACCAO:ACONTECIMENTO:COISA:LOCAL:OBRA:ORGANIZACAO:OUTRO:PESSOA:TEMPO:VALOR
+
+Avaliação Global - Identificação
+Total de EMs identificadas na CD: 7285.0
+Total de EMs identificadas pelo sistema: 3227.0
+Total correctamente identificadas: 2820.0
+Espúrios: 407.0
+Em Falta: 4465.0
+Precisão: 0.8738766656337156
+Abrangência: 0.3870967741935484
+Medida F: 0.5365296803652968
+Sobre-geração: 0.12612333436628448
+Sub-geração: 0.6129032258064516
+
+
+
+
+Avaliação Global - Classificação
+Valor máximo possível para a Classificação na CD: 14310.399999998283
+Valor máximo possível para a Classificação do sistema: 6131.299999999748
+Valor da Classificação do sistema: 4665.000000000023
+Precisão Máxima do Sistema: 0.7608500644235666
+Abrangência Máxima na CD: 0.32598669499109617
+Medida F: 0.45641996507144433
+
+
+
+
