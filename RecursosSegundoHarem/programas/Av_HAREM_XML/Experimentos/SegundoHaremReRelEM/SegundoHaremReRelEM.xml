@@ -6739,7 +6739,7 @@ Os peritos consideram provável que, com uma taxa de ataque de <EM ID="hub-28874-
       , em
       <EM ID="hub-56266-104" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="DIVISAO">São Francisco</EM>
       , nos
-      <EM ID="hub-56266-105" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="hub-56266-105" TIPOREL="inclui">EUA</EM>
+      <EM ID="hub-56266-105" CATEG="LOCAL" TIPO="HUMANO" SUBTIPO="PAIS" COREL="hub-56266-104" TIPOREL="inclui">EUA</EM>
       , onde decorre a
       <EM ID="hub-56266-106" CATEG="ACONTECIMENTO" TIPO="ORGANIZADO" COREL="hub-56266-21 hub-56266-104" TIPOREL="inclui ocorre_em">Macworld</EM>
       , feira que a

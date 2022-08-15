@@ -1,5 +1,5 @@
 #Unigraph
-SIZE 1188 840
+SIZE 1872 840
 FONT Times New Roman:  10
 OFONT Arial Unicode MS:B 12
 BCOLOR 16777215
@@ -17,15 +17,20 @@ DRST n
 FITS 100
 PORIENT L
 #
-11
-"<E>" 70 200 1 3 
+16
+"<E>" 70 200 2 3 12 
 "" 1123 292 0 
-"<LOCAL>" 139 497 1 4 
-"<E>/{" 108 497 1 2 
-"<E>/,.LOCAL-INCLUI}" 227 497 1 5 
-"na região de+no norte de+no norte do+no norte da+ao noroeste de+ao noroeste da+ao noroeste do+ao nordeste de+no sul de+ao sudoeste de+ao suldoeste de+ao leste de+ao oeste de" 381 497 1 6 
-"<E>/{" 568 497 2 8 7 
-"<LOCAL>" 668 433 1 10 
-"<FIRST>" 669 582 3 8 9 10 
-"<PREPOSICAO>+<ABREVIACOES>+-" 649 671 1 8 
-"<E>/,.LOCAL-INCLUI}" 804 513 1 1 
+"<LOCAL>+<PESSOA>" 107 497 1 4 
+"<E>/{" 76 497 1 2 
+"<E>/,.LOCAL-INCLUI}" 214 497 1 5 
+"na região de+no norte de+no norte do+no norte da+ao noroeste de+ao noroeste da+ao noroeste do+ao nordeste de+no sul de+ao sudoeste de+ao suldoeste de+ao leste de+ao oeste de+, cidade do estado do+, municipio do estado do+, capital do+, capital do estado do" 381 497 1 6 
+"<E>/{" 751 276 2 8 7 
+"<LOCAL>+<PESSOA>+<ORGANIZACAO>" 830 217 1 10 
+"<FIRST>" 852 361 3 8 9 10 
+"<PREPOSICAO>+<ABREVIACOES>+-" 832 450 1 8 
+"<E>/,.LOCAL-INCLUI}" 987 292 1 1 
+"<LOCAL>" 206 119 1 13 
+"<E>/{" 151 119 1 11 
+"<E>/,.LOCAL-INCLUI}" 321 119 2 14 15 
+"na+nas+no+nos" 640 119 1 6 
+"," 427 60 1 14 

@@ -24,7 +24,7 @@ PORIENT L
 "<PESSOA>" 309 561 1 11 
 "foi com+iria com+fez com+faria com+fez ao lado+estava ao lado+estava com+estaria com+estaria com+estará com+estaria com" 614 185 1 5 
 "sua+seu+de sua+de seu+<PREPOSICAO>+<ABREVIACOES>" 753 185 1 2 
-"<PESSOA>" 1430 565 1 10 
+"<PESSOA>" 1430 565 2 10 7 
 "<FIRST>" 1431 478 3 8 7 10 
 "<PREPOSICAO>+<ABREVIACOES>" 1397 362 1 7 
 "<E>/{" 1327 523 2 7 6 

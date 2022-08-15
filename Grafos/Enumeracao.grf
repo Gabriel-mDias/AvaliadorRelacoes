@@ -23,7 +23,7 @@ PORIENT L
 "/Com Cascata deve ter um jeito muito mais fácil para fazer isso" 24 84 0 
 "," 353 270 1 9 
 "<FIRST>" 535 269 3 5 10 4 
-"<PREPOSICAO>+<ABREVIACOES>+-" 516 359 1 4 
+"<PREPOSICAO>+<ABREVIACOES>+-" 501 345 1 4 
 "(" 502 114 1 7 
 "<WORD>" 533 114 2 8 7 
 ")" 629 114 1 9 
@@ -35,7 +35,7 @@ PORIENT L
 "$|entidade)" 292 278 2 3 17 
 "," 580 498 2 9 16 
 "<PESSOA>+<LOCAL>" 363 506 2 16 9 
-"ou+e" 259 699 1 20 
+"ou+ou também+e+e de+e também" 259 699 1 20 
 "<FIRST>" 561 698 3 19 21 18 
 "<PREPOSICAO>+<ABREVIACOES>+-" 544 783 1 18 
 "<E>/{" 457 699 1 18 

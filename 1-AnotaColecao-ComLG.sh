@@ -40,7 +40,7 @@ if [ -n "$2" ]; then
 
 	avaliacao=5
 
-    avaliacaoRelRelem=5
+    avaliacaoRelRelem=1
     #Para cenários mais específicos na avaliação de relação, modifique o parâmetro
         #1 - Genérico
         #2 - ident;inclui;incluido;sede_de;ocorre_em;

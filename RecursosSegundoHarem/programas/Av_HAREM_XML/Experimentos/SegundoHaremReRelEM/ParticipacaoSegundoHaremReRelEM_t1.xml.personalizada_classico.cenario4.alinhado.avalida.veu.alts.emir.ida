@@ -3,26 +3,26 @@ Descrição do cenário avaliado:
 
 Avaliação Global - Identificação
 Total de EMs identificadas na CD: 7258.999999999996
-Total de EMs identificadas pelo sistema: 3157.5000000000005
-Total correctamente identificadas: 2715.5000000000005
-Espúrios: 442.0
-Em Falta: 4543.499999999999
-Precisão: 0.8600158353127475
-Abrangência: 0.37408733985397463
-Medida F: 0.5213843421494746
-Sobre-geração: 0.13998416468725255
-Sub-geração: 0.6259126601460258
+Total de EMs identificadas pelo sistema: 3159.5000000000005
+Total correctamente identificadas: 2716.5000000000005
+Espúrios: 443.0
+Em Falta: 4542.499999999999
+Precisão: 0.8597879411299256
+Abrangência: 0.3742250998760162
+Medida F: 0.5214762201852476
+Sobre-geração: 0.14021205887007435
+Sub-geração: 0.6257749001239842
 
 
 
 
 Avaliação Global - Classificação
 Valor máximo possível para a Classificação na CD: 14248.099999998558
-Valor máximo possível para a Classificação do sistema: 5999.249999999761
-Valor da Classificação do sistema: 4494.950000000038
-Precisão Máxima do Sistema: 0.7492519898320985
-Abrangência Máxima na CD: 0.31547715133951143
-Medida F: 0.44400378321117684
+Valor máximo possível para a Classificação do sistema: 6003.04999999976
+Valor da Classificação do sistema: 4499.5500000000375
+Precisão Máxima do Sistema: 0.7495439818092832
+Abrangência Máxima na CD: 0.31580000140373055
+Medida F: 0.4443747639023376
 
 
 
